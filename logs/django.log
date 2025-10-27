@@ -1,0 +1,125 @@
+INFO 2025-10-27 13:53:19,769 autoreload 33276 7692 Watching for file changes with StatReloader
+WARNING 2025-10-27 13:53:59,525 log 33276 14088 Not Found: /
+WARNING 2025-10-27 13:53:59,526 basehttp 33276 14088 "GET / HTTP/1.1" 404 3629
+WARNING 2025-10-27 13:53:59,648 log 33276 14088 Not Found: /favicon.ico
+WARNING 2025-10-27 13:53:59,649 basehttp 33276 14088 "GET /favicon.ico HTTP/1.1" 404 3680
+INFO 2025-10-27 13:55:27,264 autoreload 33276 7692 C:\Users\USER\Desktop\projects\sat_data_automation_4\server\pipeline_monitoring\settings.py changed, reloading.
+INFO 2025-10-27 13:55:28,096 autoreload 24284 6072 Watching for file changes with StatReloader
+INFO 2025-10-27 13:55:30,847 autoreload 24284 6072 C:\Users\USER\Desktop\projects\sat_data_automation_4\server\monitoring\models.py changed, reloading.
+INFO 2025-10-27 13:55:31,606 autoreload 30616 31740 Watching for file changes with StatReloader
+INFO 2025-10-27 13:55:33,226 autoreload 30616 31740 C:\Users\USER\Desktop\projects\sat_data_automation_4\server\monitoring\models.py changed, reloading.
+INFO 2025-10-27 13:55:33,949 autoreload 19964 7856 Watching for file changes with StatReloader
+INFO 2025-10-27 13:55:36,736 autoreload 19964 7856 C:\Users\USER\Desktop\projects\sat_data_automation_4\server\monitoring\filters.py changed, reloading.
+INFO 2025-10-27 13:55:37,435 autoreload 32564 32572 Watching for file changes with StatReloader
+INFO 2025-10-27 13:55:40,186 autoreload 32564 32572 C:\Users\USER\Desktop\projects\sat_data_automation_4\server\user\models.py changed, reloading.
+INFO 2025-10-27 13:55:41,038 autoreload 36080 32168 Watching for file changes with StatReloader
+INFO 2025-10-27 13:55:42,690 autoreload 36080 32168 C:\Users\USER\Desktop\projects\sat_data_automation_4\server\monitoring\admin.py changed, reloading.
+INFO 2025-10-27 13:55:43,462 autoreload 16248 23796 Watching for file changes with StatReloader
+INFO 2025-10-27 13:55:45,097 autoreload 16248 23796 C:\Users\USER\Desktop\projects\sat_data_automation_4\server\pipeline_monitoring\settings.py changed, reloading.
+INFO 2025-10-27 13:55:45,816 autoreload 27656 33240 Watching for file changes with StatReloader
+WARNING 2025-10-27 18:36:45,596 log 27656 34104 Unauthorized: /api/dashboard/stats/
+WARNING 2025-10-27 18:36:45,596 log 27656 35672 Unauthorized: /api/pipelines/
+WARNING 2025-10-27 18:36:45,611 log 27656 30856 Unauthorized: /api/alerts/active/
+WARNING 2025-10-27 18:36:45,611 log 27656 33548 Not Found: /api/dashboard/recent-activity/
+WARNING 2025-10-27 18:36:45,611 basehttp 27656 35672 "GET /api/pipelines/ HTTP/1.1" 401 58
+WARNING 2025-10-27 18:36:45,611 basehttp 27656 34104 "GET /api/dashboard/stats/ HTTP/1.1" 401 58
+WARNING 2025-10-27 18:36:45,611 log 27656 5676 Not Found: /api/dashboard/pipeline-health/
+WARNING 2025-10-27 18:36:45,611 basehttp 27656 30856 "GET /api/alerts/active/ HTTP/1.1" 401 58
+WARNING 2025-10-27 18:36:45,611 basehttp 27656 33548 "GET /api/dashboard/recent-activity/ HTTP/1.1" 404 35433
+WARNING 2025-10-27 18:36:45,611 basehttp 27656 5676 "GET /api/dashboard/pipeline-health/ HTTP/1.1" 404 35433
+WARNING 2025-10-27 18:36:46,629 log 27656 5676 Unauthorized: /api/pipelines/
+WARNING 2025-10-27 18:36:46,629 log 27656 33548 Unauthorized: /api/dashboard/stats/
+WARNING 2025-10-27 18:36:46,629 log 27656 30856 Unauthorized: /api/alerts/active/
+WARNING 2025-10-27 18:36:46,629 log 27656 35672 Not Found: /api/dashboard/pipeline-health/
+WARNING 2025-10-27 18:36:46,654 log 27656 34104 Not Found: /api/dashboard/recent-activity/
+WARNING 2025-10-27 18:36:46,654 basehttp 27656 30856 "GET /api/alerts/active/ HTTP/1.1" 401 58
+WARNING 2025-10-27 18:36:46,654 basehttp 27656 33548 "GET /api/dashboard/stats/ HTTP/1.1" 401 58
+WARNING 2025-10-27 18:36:46,654 basehttp 27656 5676 "GET /api/pipelines/ HTTP/1.1" 401 58
+WARNING 2025-10-27 18:36:46,654 basehttp 27656 34104 "GET /api/dashboard/recent-activity/ HTTP/1.1" 404 35433
+WARNING 2025-10-27 18:36:46,654 basehttp 27656 35672 "GET /api/dashboard/pipeline-health/ HTTP/1.1" 404 35433
+WARNING 2025-10-27 18:36:49,690 log 27656 35672 Unauthorized: /api/pipelines/
+WARNING 2025-10-27 18:36:49,690 basehttp 27656 35672 "GET /api/pipelines/?search=&status=&material=&ordering=-created_at HTTP/1.1" 401 58
+WARNING 2025-10-27 18:36:50,696 log 27656 35672 Unauthorized: /api/pipelines/
+WARNING 2025-10-27 18:36:50,696 basehttp 27656 35672 "GET /api/pipelines/?search=&status=&material=&ordering=-created_at HTTP/1.1" 401 58
+WARNING 2025-10-27 18:36:51,861 log 27656 35672 Unauthorized: /api/satellite-images/
+WARNING 2025-10-27 18:36:51,862 basehttp 27656 35672 "GET /api/satellite-images/?search=&pipeline=&satellite_name=&processing_status=&source_api=&ordering=-image_date HTTP/1.1" 401 58
+WARNING 2025-10-27 18:36:52,879 log 27656 35672 Unauthorized: /api/satellite-images/
+WARNING 2025-10-27 18:36:52,879 basehttp 27656 35672 "GET /api/satellite-images/?search=&pipeline=&satellite_name=&processing_status=&source_api=&ordering=-image_date HTTP/1.1" 401 58
+WARNING 2025-10-27 18:36:53,779 log 27656 35672 Unauthorized: /api/analysis-results/
+WARNING 2025-10-27 18:36:53,780 basehttp 27656 35672 "GET /api/analysis-results/?confidence_min=0&confidence_max=100&verified=false&ordering=-created_at HTTP/1.1" 401 58
+WARNING 2025-10-27 18:36:54,796 log 27656 35672 Unauthorized: /api/analysis-results/
+WARNING 2025-10-27 18:36:54,796 basehttp 27656 35672 "GET /api/analysis-results/?confidence_min=0&confidence_max=100&verified=false&ordering=-created_at HTTP/1.1" 401 58
+WARNING 2025-10-27 18:36:55,816 log 27656 35672 Unauthorized: /api/alerts/
+WARNING 2025-10-27 18:36:55,816 log 27656 34104 Unauthorized: /api/alerts/active/
+WARNING 2025-10-27 18:36:55,816 basehttp 27656 35672 "GET /api/alerts/?is_resolved=false&ordering=-created_at HTTP/1.1" 401 58
+WARNING 2025-10-27 18:36:55,816 basehttp 27656 34104 "GET /api/alerts/active/ HTTP/1.1" 401 58
+WARNING 2025-10-27 18:36:56,829 log 27656 34104 Unauthorized: /api/alerts/
+WARNING 2025-10-27 18:36:56,829 log 27656 35672 Unauthorized: /api/alerts/active/
+WARNING 2025-10-27 18:36:56,829 basehttp 27656 34104 "GET /api/alerts/?is_resolved=false&ordering=-created_at HTTP/1.1" 401 58
+WARNING 2025-10-27 18:36:56,829 basehttp 27656 35672 "GET /api/alerts/active/ HTTP/1.1" 401 58
+WARNING 2025-10-27 18:36:58,285 log 27656 35672 Unauthorized: /api/pipelines/
+WARNING 2025-10-27 18:36:58,285 log 27656 34104 Unauthorized: /api/satellite-images/
+WARNING 2025-10-27 18:36:58,285 log 27656 5676 Unauthorized: /api/analysis-results/
+WARNING 2025-10-27 18:36:58,285 log 27656 30856 Unauthorized: /api/alerts/
+WARNING 2025-10-27 18:36:58,285 basehttp 27656 35672 "GET /api/pipelines/ HTTP/1.1" 401 58
+WARNING 2025-10-27 18:36:58,285 basehttp 27656 34104 "GET /api/satellite-images/ HTTP/1.1" 401 58
+WARNING 2025-10-27 18:36:58,296 basehttp 27656 5676 "GET /api/analysis-results/ HTTP/1.1" 401 58
+WARNING 2025-10-27 18:36:58,298 basehttp 27656 30856 "GET /api/alerts/ HTTP/1.1" 401 58
+WARNING 2025-10-27 18:36:59,298 log 27656 30856 Unauthorized: /api/pipelines/
+WARNING 2025-10-27 18:36:59,300 log 27656 5676 Unauthorized: /api/satellite-images/
+WARNING 2025-10-27 18:36:59,301 log 27656 34104 Unauthorized: /api/analysis-results/
+WARNING 2025-10-27 18:36:59,302 log 27656 35672 Unauthorized: /api/alerts/
+WARNING 2025-10-27 18:36:59,307 basehttp 27656 30856 "GET /api/pipelines/ HTTP/1.1" 401 58
+WARNING 2025-10-27 18:36:59,307 basehttp 27656 5676 "GET /api/satellite-images/ HTTP/1.1" 401 58
+WARNING 2025-10-27 18:36:59,307 basehttp 27656 34104 "GET /api/analysis-results/ HTTP/1.1" 401 58
+WARNING 2025-10-27 18:36:59,308 basehttp 27656 35672 "GET /api/alerts/ HTTP/1.1" 401 58
+WARNING 2025-10-27 18:37:00,348 log 27656 35672 Unauthorized: /api/activity-logs/
+WARNING 2025-10-27 18:37:00,348 basehttp 27656 35672 "GET /api/activity-logs/?ordering=-timestamp HTTP/1.1" 401 58
+WARNING 2025-10-27 18:37:01,362 log 27656 35672 Unauthorized: /api/activity-logs/
+WARNING 2025-10-27 18:37:01,362 basehttp 27656 35672 "GET /api/activity-logs/?ordering=-timestamp HTTP/1.1" 401 58
+WARNING 2025-10-27 18:37:02,262 log 27656 35672 Unauthorized: /api/satellite-images/
+WARNING 2025-10-27 18:37:02,263 basehttp 27656 35672 "GET /api/satellite-images/?search=&pipeline=&satellite_name=&processing_status=&source_api=&ordering=-image_date HTTP/1.1" 401 58
+WARNING 2025-10-27 18:37:03,263 log 27656 35672 Unauthorized: /api/satellite-images/
+WARNING 2025-10-27 18:37:03,263 basehttp 27656 35672 "GET /api/satellite-images/?search=&pipeline=&satellite_name=&processing_status=&source_api=&ordering=-image_date HTTP/1.1" 401 58
+WARNING 2025-10-27 18:37:29,356 log 27656 35672 Unauthorized: /api/settings/current/
+WARNING 2025-10-27 18:37:29,356 basehttp 27656 35672 "GET /api/settings/current/ HTTP/1.1" 401 58
+WARNING 2025-10-27 18:37:36,442 log 27656 35672 Unauthorized: /api/dashboard/stats/
+WARNING 2025-10-27 18:37:36,443 basehttp 27656 35672 "GET /api/dashboard/stats/ HTTP/1.1" 401 58
+WARNING 2025-10-27 18:37:37,446 log 27656 35672 Unauthorized: /api/dashboard/stats/
+WARNING 2025-10-27 18:37:37,446 basehttp 27656 35672 "GET /api/dashboard/stats/ HTTP/1.1" 401 58
+WARNING 2025-10-27 18:37:44,456 log 27656 35672 Unauthorized: /api/users/
+WARNING 2025-10-27 18:37:44,457 basehttp 27656 35672 "GET /api/users/?ordering=-date_joined HTTP/1.1" 401 58
+WARNING 2025-10-27 18:37:45,462 log 27656 35672 Unauthorized: /api/users/
+WARNING 2025-10-27 18:37:45,462 basehttp 27656 35672 "GET /api/users/?ordering=-date_joined HTTP/1.1" 401 58
+WARNING 2025-10-27 18:37:47,414 log 27656 35672 Unauthorized: /api/activity-logs/
+WARNING 2025-10-27 18:37:47,415 basehttp 27656 35672 "GET /api/activity-logs/?ordering=-timestamp HTTP/1.1" 401 58
+WARNING 2025-10-27 18:37:48,428 log 27656 35672 Unauthorized: /api/activity-logs/
+WARNING 2025-10-27 18:37:48,428 basehttp 27656 35672 "GET /api/activity-logs/?ordering=-timestamp HTTP/1.1" 401 58
+WARNING 2025-10-27 18:38:06,086 log 27656 35672 Unauthorized: /api/pipelines/
+WARNING 2025-10-27 18:38:06,086 log 27656 34104 Unauthorized: /api/satellite-images/
+WARNING 2025-10-27 18:38:06,086 log 27656 30856 Unauthorized: /api/alerts/
+WARNING 2025-10-27 18:38:06,086 log 27656 5676 Unauthorized: /api/analysis-results/
+WARNING 2025-10-27 18:38:06,086 basehttp 27656 34104 "GET /api/satellite-images/ HTTP/1.1" 401 58
+WARNING 2025-10-27 18:38:06,086 basehttp 27656 30856 "GET /api/alerts/ HTTP/1.1" 401 58
+WARNING 2025-10-27 18:38:06,086 basehttp 27656 35672 "GET /api/pipelines/ HTTP/1.1" 401 58
+WARNING 2025-10-27 18:38:06,086 basehttp 27656 5676 "GET /api/analysis-results/ HTTP/1.1" 401 58
+WARNING 2025-10-27 18:38:07,095 log 27656 5676 Unauthorized: /api/pipelines/
+WARNING 2025-10-27 18:38:07,095 log 27656 30856 Unauthorized: /api/satellite-images/
+WARNING 2025-10-27 18:38:07,095 log 27656 35672 Unauthorized: /api/analysis-results/
+WARNING 2025-10-27 18:38:07,095 log 27656 34104 Unauthorized: /api/alerts/
+WARNING 2025-10-27 18:38:07,095 basehttp 27656 5676 "GET /api/pipelines/ HTTP/1.1" 401 58
+WARNING 2025-10-27 18:38:07,095 basehttp 27656 30856 "GET /api/satellite-images/ HTTP/1.1" 401 58
+WARNING 2025-10-27 18:38:07,095 basehttp 27656 34104 "GET /api/alerts/ HTTP/1.1" 401 58
+WARNING 2025-10-27 18:38:07,095 basehttp 27656 35672 "GET /api/analysis-results/ HTTP/1.1" 401 58
+WARNING 2025-10-27 18:38:22,278 log 27656 35672 Unauthorized: /api/activity-logs/
+WARNING 2025-10-27 18:38:22,278 basehttp 27656 35672 "GET /api/activity-logs/?ordering=-timestamp HTTP/1.1" 401 58
+WARNING 2025-10-27 18:38:23,294 log 27656 35672 Unauthorized: /api/activity-logs/
+WARNING 2025-10-27 18:38:23,294 basehttp 27656 35672 "GET /api/activity-logs/?ordering=-timestamp HTTP/1.1" 401 58
+WARNING 2025-10-27 18:38:24,305 log 27656 35672 Unauthorized: /api/users/
+WARNING 2025-10-27 18:38:24,306 basehttp 27656 35672 "GET /api/users/?ordering=-date_joined HTTP/1.1" 401 58
+WARNING 2025-10-27 18:38:25,310 log 27656 35672 Unauthorized: /api/users/
+WARNING 2025-10-27 18:38:25,310 basehttp 27656 35672 "GET /api/users/?ordering=-date_joined HTTP/1.1" 401 58
+WARNING 2025-10-27 18:38:26,361 log 27656 35672 Unauthorized: /api/dashboard/stats/
+WARNING 2025-10-27 18:38:26,361 basehttp 27656 35672 "GET /api/dashboard/stats/ HTTP/1.1" 401 58
+WARNING 2025-10-27 18:38:27,395 log 27656 35672 Unauthorized: /api/dashboard/stats/
+WARNING 2025-10-27 18:38:27,395 basehttp 27656 35672 "GET /api/dashboard/stats/ HTTP/1.1" 401 58

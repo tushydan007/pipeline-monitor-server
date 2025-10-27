@@ -10,33 +10,37 @@ from datetime import timedelta
 import random
 
 from monitoring.models import (
-    Pipeline, SatelliteImage, AnalysisResult, MonitoringAlert,
-    PipelineSegment, MonitoringConfiguration
+    Pipeline,
+    SatelliteImage,
+    AnalysisResult,
+    MonitoringAlert,
+    PipelineSegment,
+    MonitoringConfiguration,
 )
 
 
 class Command(BaseCommand):
-    help = 'Seed sample data for pipeline monitoring system'
+    help = "Seed sample data for pipeline monitoring system"
 
     def add_arguments(self, parser):
         parser.add_argument(
-            '--clear',
-            action='store_true',
-            help='Clear existing data before seeding',
+            "--clear",
+            action="store_true",
+            help="Clear existing data before seeding",
         )
 
     def handle(self, *args, **options):
-        if options['clear']:
-            self.stdout.write('Clearing existing data...')
+        if options["clear"]:
+            self.stdout.write("Clearing existing data...")
             MonitoringAlert.objects.all().delete()
             AnalysisResult.objects.all().delete()
             SatelliteImage.objects.all().delete()
             PipelineSegment.objects.all().delete()
             MonitoringConfiguration.objects.all().delete()
             Pipeline.objects.all().delete()
-            User.objects.filter(username='admin').delete()
+            User.objects.filter(username="admin").delete()
 
-        self.stdout.write('Starting data seeding...')
+        self.stdout.write("Starting data seeding...")
 
         # Create sample user
         user = self.create_sample_user()
@@ -61,33 +65,33 @@ class Command(BaseCommand):
 
         self.stdout.write(
             self.style.SUCCESS(
-                f'\nData seeding completed!\n'
-                f'Summary:\n'
-                f'- 1 pipeline created\n'
-                f'- {len(segments)} segments created\n'
-                f'- {len(images)} satellite images created\n'
-                f'- {len(results)} analysis results created\n'
-                f'- {len(alerts)} alerts created\n'
-                f'- 1 monitoring configuration created\n'
-                f'- 1 admin user created (username: admin, password: admin123)'
+                f"\nData seeding completed!\n"
+                f"Summary:\n"
+                f"- 1 pipeline created\n"
+                f"- {len(segments)} segments created\n"
+                f"- {len(images)} satellite images created\n"
+                f"- {len(results)} analysis results created\n"
+                f"- {len(alerts)} alerts created\n"
+                f"- 1 monitoring configuration created\n"
+                f"- 1 admin user created (username: admin, password: admin123)"
             )
         )
 
     def create_sample_user(self):
         """Create a sample user for testing"""
         user, created = User.objects.get_or_create(
-            username='admin',
+            username="admin",
             defaults={
-                'email': 'admin@pipeline-monitoring.com',
-                'first_name': 'Admin',
-                'last_name': 'User',
-                'is_staff': True,
-                'is_superuser': True
-            }
+                "email": "admin@pipeline-monitoring.com",
+                "first_name": "Admin",
+                "last_name": "User",
+                "is_staff": True,
+                "is_superuser": True,
+            },
         )
 
         if created:
-            user.set_password('admin123')
+            user.set_password("admin123")
             user.save()
             self.stdout.write("Created admin user: admin/admin123")
         else:
@@ -99,7 +103,7 @@ class Command(BaseCommand):
         """Create a sample pipeline in South-South Nigeria"""
         # South-South Nigeria coordinates (Port Harcourt area)
         start_point = Point(6.9981, 4.8156)  # Port Harcourt
-        end_point = Point(7.1981, 4.9156)    # 30km northeast
+        end_point = Point(7.1981, 4.9156)  # 30km northeast
 
         # Create pipeline route
         route = LineString([start_point, end_point])
@@ -113,7 +117,7 @@ class Command(BaseCommand):
             status="active",
             start_point=start_point,
             end_point=end_point,
-            route=route
+            route=route,
         )
 
         self.stdout.write(f"Created pipeline: {pipeline.name}")
@@ -138,11 +142,11 @@ class Command(BaseCommand):
             segment_geometry = LineString([segment_start, segment_end])
 
             # Determine terrain type based on segment
-            terrain_types = ['urban', 'rural', 'forest', 'water', 'mountain']
+            terrain_types = ["urban", "rural", "forest", "water", "mountain"]
             terrain_type = terrain_types[i % len(terrain_types)]
 
             # Determine risk level
-            risk_levels = ['low', 'medium', 'high', 'critical']
+            risk_levels = ["low", "medium", "high", "critical"]
             risk_level = risk_levels[i % len(risk_levels)]
 
             segment = PipelineSegment.objects.create(
@@ -155,7 +159,7 @@ class Command(BaseCommand):
                 geometry=segment_geometry,
                 risk_level=risk_level,
                 terrain_type=terrain_type,
-                monitoring_frequency_hours=24
+                monitoring_frequency_hours=24,
             )
 
             segments.append(segment)
@@ -177,10 +181,14 @@ class Command(BaseCommand):
             center_lat = (pipeline.start_point.y + pipeline.end_point.y) / 2
 
             # Create bounds (0.1 degree buffer)
-            bounds = Polygon.from_bbox((
-                center_lon - 0.05, center_lat - 0.05,
-                center_lon + 0.05, center_lat + 0.05
-            ))
+            bounds = Polygon.from_bbox(
+                (
+                    center_lon - 0.05,
+                    center_lat - 0.05,
+                    center_lon + 0.05,
+                    center_lat + 0.05,
+                )
+            )
 
             center_point = Point(center_lon, center_lat)
 
@@ -194,7 +202,7 @@ class Command(BaseCommand):
                 center_point=center_point,
                 source_api="nasa",
                 api_image_id=f"landsat8_{i:03d}",
-                processing_status="completed"
+                processing_status="completed",
             )
 
             images.append(image)
@@ -205,8 +213,13 @@ class Command(BaseCommand):
     def create_sample_analysis_results(self, images):
         """Create sample analysis results"""
         results = []
-        analysis_types = ['leak_detection', 'oil_spill', 'vandalism', 'vegetation_change']
-        severities = ['low', 'medium', 'high', 'critical']
+        analysis_types = [
+            "leak_detection",
+            "oil_spill",
+            "vandalism",
+            "vegetation_change",
+        ]
+        severities = ["low", "medium", "high", "critical"]
 
         for image in images:
             # Create 1-3 analysis results per image
@@ -224,10 +237,9 @@ class Command(BaseCommand):
                 detected_location = Point(lon, lat)
 
                 # Create affected area (small polygon around detected location)
-                affected_area = Polygon.from_bbox((
-                    lon - 0.001, lat - 0.001,
-                    lon + 0.001, lat + 0.001
-                ))
+                affected_area = Polygon.from_bbox(
+                    (lon - 0.001, lat - 0.001, lon + 0.001, lat + 0.001)
+                )
 
                 result = AnalysisResult.objects.create(
                     satellite_image=image,
@@ -238,11 +250,11 @@ class Command(BaseCommand):
                     affected_area=affected_area,
                     description=f"Sample {analysis_type.replace('_', ' ')} detection",
                     raw_data={
-                        'area': random.uniform(100, 1000),
-                        'confidence': confidence,
-                        'severity': severity
+                        "area": random.uniform(100, 1000),
+                        "confidence": confidence,
+                        "severity": severity,
                     },
-                    status='pending'
+                    status="pending",
                 )
 
                 results.append(result)
@@ -255,15 +267,15 @@ class Command(BaseCommand):
         alerts = []
 
         for result in results:
-            if result.severity in ['high', 'critical']:
-                priority = 'urgent' if result.severity == 'critical' else 'high'
+            if result.severity in ["high", "critical"]:
+                priority = "urgent" if result.severity == "critical" else "high"
 
                 alert = MonitoringAlert.objects.create(
                     analysis_result=result,
                     alert_type=f"{result.analysis_type}_alert",
                     priority=priority,
                     message=f"Alert: {result.analysis_type.replace('_', ' ')} detected with {result.confidence_score:.1%} confidence",
-                    is_resolved=False
+                    is_resolved=False,
                 )
 
                 alerts.append(alert)
@@ -284,7 +296,7 @@ class Command(BaseCommand):
             email_notifications=True,
             sms_notifications=False,
             monitoring_frequency_hours=24,
-            analysis_frequency_hours=6
+            analysis_frequency_hours=6,
         )
 
         self.stdout.write(f"Created monitoring configuration for {pipeline.name}")

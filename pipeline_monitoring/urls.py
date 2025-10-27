@@ -14,7 +14,7 @@ from drf_yasg import openapi
 schema_view = get_schema_view(
     openapi.Info(
         title="Pipeline Monitoring API",
-        default_version='v1',
+        default_version="v1",
         description="API for monitoring pipeline infrastructure using satellite imagery",
         terms_of_service="https://www.pipeline-monitoring.com/terms/",
         contact=openapi.Contact(email="contact@pipeline-monitoring.com"),
@@ -26,22 +26,22 @@ schema_view = get_schema_view(
 
 urlpatterns = [
     # Admin
-    path('admin/', admin.site.urls),
-    
+    path("admin/", admin.site.urls),
     # API Documentation
-    path('swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
-    path('redoc/', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
-    path('swagger.json', schema_view.without_ui(cache_timeout=0), name='schema-json'),
-    
+    path(
+        "swagger/",
+        schema_view.with_ui("swagger", cache_timeout=0),
+        name="schema-swagger-ui",
+    ),
+    path("redoc/", schema_view.with_ui("redoc", cache_timeout=0), name="schema-redoc"),
+    path("swagger.json", schema_view.without_ui(cache_timeout=0), name="schema-json"),
     # Authentication (Djoser)
-    path('api/auth/', include('djoser.urls')),
-    path('api/auth/', include('djoser.urls.jwt')),
-    
+    path("api/auth/", include("djoser.urls")),
+    path("api/auth/", include("djoser.urls.jwt")),
     # Users API
-    path('api/', include('user.urls')),
-    
+    path("api/", include("user.urls")),
     # Monitoring API
-    path('api/', include('monitoring.urls')),
+    path("api/", include("monitoring.urls")),
 ]
 
 # Serve media files in development

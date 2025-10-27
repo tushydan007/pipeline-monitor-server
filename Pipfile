@@ -1,0 +1,31 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+djangorestframework = "*"
+django = "*"
+requests = "*"
+djoser = "*"
+django-cors-headers = "*"
+psycopg2-binary = "*"
+pillow = "*"
+numpy = "*"
+scikit-learn = "*"
+opencv-python = "*"
+rasterio = "*"
+geopandas = "*"
+folium = "*"
+python-dotenv = "*"
+celery = "*"
+redis = "*"
+django-filter = "*"
+django-extensions = "*"
+gunicorn = "*"
+drf-yasg = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"

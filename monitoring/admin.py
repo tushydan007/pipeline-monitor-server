@@ -104,7 +104,6 @@ class AnalysisResultAdmin(GISModelAdmin):
                 "fields": (
                     "id",
                     "satellite_image",
-                    "analysis_type",
                     "confidence_score",
                     "severity",
                 )

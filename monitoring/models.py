@@ -5,6 +5,9 @@ from django.contrib.gis.geos import Point, LineString
 from django.core.validators import MinValueValidator, MaxValueValidator
 import uuid
 
+# Import custom validators for file uploads
+from .validators import validate_tiff_file, validate_thumbnail_file
+
 # Get the custom User model
 User = get_user_model()
 
@@ -68,9 +71,20 @@ class SatelliteImage(models.Model):
     bounds = gis_models.PolygonField(help_text="Image coverage area")
     center_point = gis_models.PointField()
 
-    # Image files
-    image_file = models.ImageField(upload_to="satellite_images/")
-    thumbnail = models.ImageField(upload_to="thumbnails/", blank=True, null=True)
+    # Image files - TIFF format only
+    image_file = models.FileField(
+        upload_to='satellite_images/', 
+        validators=[validate_tiff_file],
+        help_text="Satellite image file in TIFF format (.tif, .tiff). Maximum size: 100 MB"
+    )
+    thumbnail = models.ImageField(
+        upload_to='thumbnails/', 
+        blank=True, 
+        null=True,
+        validators=[validate_thumbnail_file],
+        help_text="Thumbnail image (JPG, PNG, or TIFF). Maximum size: 5 MB"
+    )
+    
 
     # Processing status
     processing_status = models.CharField(
@@ -102,10 +116,6 @@ class SatelliteImage(models.Model):
 class AnalysisResult(models.Model):
     """Model for storing analysis results from satellite imagery"""
 
-    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
-    satellite_image = models.ForeignKey(
-        SatelliteImage, on_delete=models.CASCADE, related_name="analysis_results"
-    )
 
     # Analysis metadata
     ANALYSIS_TYPE_CHOICES = [
@@ -135,6 +145,10 @@ class AnalysisResult(models.Model):
         ("dismissed", "Dismissed"),  # NEW
     ]
 
+    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+    satellite_image = models.ForeignKey(
+        SatelliteImage, on_delete=models.CASCADE, related_name="analysis_results"
+    )
     # Results
     confidence_score = models.FloatField(
         validators=[MinValueValidator(0.0), MaxValueValidator(1.0)],

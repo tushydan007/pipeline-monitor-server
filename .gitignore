@@ -1,0 +1,94 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ========================
+# Django
+# ========================
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+static/
+local_settings.py
+
+# If you’re using Django’s default SECRET_KEY in a settings file:
+.env
+*.env
+.env.*
+config/settings/local.py
+config/settings/dev.py
+
+# ========================
+# Environments
+# ========================
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ========================
+# IDEs and Editors
+# ========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ========================
+# OS files
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# pytest / Coverage / mypy
+# ========================
+.pytest_cache/
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# ========================
+# Docker
+# ========================
+*.pid
+*.seed
+*.pid.lock
+docker-compose.override.yml

@@ -1,10 +1,7 @@
-"""
-Django settings for pipeline_monitoring project.
-"""
-
 import os
 from pathlib import Path
 from dotenv import load_dotenv
+from datetime import timedelta
 
 # Load environment variables
 load_dotenv()
@@ -39,6 +36,7 @@ THIRD_PARTY_APPS = [
     "corsheaders",
     "django_filters",
     "django_extensions",
+    'drf_yasg',
 ]
 
 LOCAL_APPS = [
@@ -48,12 +46,11 @@ LOCAL_APPS = [
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
 
-# Custom User Model
-AUTH_USER_MODEL = "user.User"
 
 MIDDLEWARE = [
     "corsheaders.middleware.CorsMiddleware",
     "django.middleware.security.SecurityMiddleware",
+    "whitenoise.middleware.WhiteNoiseMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
@@ -112,8 +109,11 @@ AUTH_PASSWORD_VALIDATORS = [
 
 # Internationalization
 LANGUAGE_CODE = "en-us"
+
 TIME_ZONE = "UTC"
+
 USE_I18N = True
+
 USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
@@ -138,9 +138,9 @@ REST_FRAMEWORK = {
     "DEFAULT_AUTHENTICATION_CLASSES": [
         "rest_framework_simplejwt.authentication.JWTAuthentication",
     ],
-    # "DEFAULT_PERMISSION_CLASSES": [
-    #     "rest_framework.permissions.IsAuthenticated",
-    # ],
+    "DEFAULT_PERMISSION_CLASSES": [
+        "rest_framework.permissions.IsAuthenticated",
+    ],
     "DEFAULT_PAGINATION_CLASS": "rest_framework.pagination.PageNumberPagination",
     "PAGE_SIZE": 20,
     "DEFAULT_FILTER_BACKENDS": [
@@ -159,11 +159,9 @@ REST_FRAMEWORK = {
 }
 
 # JWT Configuration
-from datetime import timedelta
-
 SIMPLE_JWT = {
     "ACCESS_TOKEN_LIFETIME": timedelta(minutes=60),
-    "REFRESH_TOKEN_LIFETIME": timedelta(days=7),
+    "REFRESH_TOKEN_LIFETIME": timedelta(days=5),
     "ROTATE_REFRESH_TOKENS": True,
     "BLACKLIST_AFTER_ROTATION": True,
     "UPDATE_LAST_LOGIN": True,
@@ -206,15 +204,16 @@ DJOSER = {
     "PERMISSIONS": {
         "user": ["rest_framework.permissions.IsAuthenticated"],
         "user_list": ["rest_framework.permissions.IsAdminUser"],
+        "user_create": ["rest_framework.permissions.AllowAny"],
     },
 }
 
 # CORS configuration
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
-    "http://127.0.0.1:3000",
-    "http://localhost:3001",
-    "http://127.0.0.1:3001",
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
 ]
 
 CORS_ALLOW_CREDENTIALS = True
@@ -230,11 +229,11 @@ CELERY_RESULT_SERIALIZER = "json"
 CELERY_TIMEZONE = TIME_ZONE
 
 # NASA API configuration
-NASA_API_KEY = os.getenv("NASA_API_KEY", "")
+NASA_API_KEY = os.getenv("NASA_API_KEY", "uyUhVFrvpT6pn60J6jFcEUaA5TmE6zeA5HHDs7tM")
 
 # GDAL configuration
-GDAL_LIBRARY_PATH = os.getenv("GDAL_LIBRARY_PATH", "")
-GEOS_LIBRARY_PATH = os.getenv("GEOS_LIBRARY_PATH", "")
+# GDAL_LIBRARY_PATH = os.getenv("GDAL_LIBRARY_PATH", "")
+# GEOS_LIBRARY_PATH = os.getenv("GEOS_LIBRARY_PATH", "")
 
 # Logging configuration
 LOGGING = {
@@ -291,6 +290,7 @@ CACHES = {
 
 # Session configuration
 SESSION_ENGINE = "django.contrib.sessions.backends.cache"
+
 SESSION_CACHE_ALIAS = "default"
 
 # Email configuration
@@ -324,6 +324,9 @@ os.makedirs(BASE_DIR / "logs", exist_ok=True)
 
 GDAL_LIBRARY_PATH = r"C:\Users\USER\anaconda3\envs\gdal_1\Library\bin\gdal.dll"
 GEOS_LIBRARY_PATH = r"C:\Users\USER\anaconda3\envs\gdal_1\Library\bin\geos_c.dll"
+
+# Custom User Model
+AUTH_USER_MODEL = "user.User"
 
 
 # """

@@ -1380,3 +1380,2089 @@ django.contrib.gis.gdal.error.GDALException: OGR failure.
 ERROR 2025-10-28 13:27:36,439 basehttp 25196 32512 "POST /admin/monitoring/pipeline/add/ HTTP/1.1" 500 189830
 INFO 2025-10-28 13:28:53,670 basehttp 25196 30536 "POST /admin/monitoring/pipeline/add/ HTTP/1.1" 200 25055
 INFO 2025-10-28 13:28:53,740 basehttp 25196 30536 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 13:33:46,804 autoreload 32496 25700 Watching for file changes with StatReloader
+INFO 2025-10-28 13:40:47,455 autoreload 32496 25700 C:\Users\USER\Desktop\projects\sat_data_automation_4\server\monitoring\admin.py changed, reloading.
+INFO 2025-10-28 13:40:48,140 autoreload 26964 21432 Watching for file changes with StatReloader
+INFO 2025-10-28 13:46:54,577 autoreload 26964 21432 C:\Users\USER\Desktop\projects\sat_data_automation_4\server\monitoring\admin.py changed, reloading.
+INFO 2025-10-28 13:46:55,295 autoreload 5924 4796 Watching for file changes with StatReloader
+INFO 2025-10-28 13:47:56,632 autoreload 22296 10360 Watching for file changes with StatReloader
+INFO 2025-10-28 13:48:01,386 basehttp 22296 25740 "POST /admin/monitoring/pipeline/add/ HTTP/1.1" 200 25194
+INFO 2025-10-28 13:48:01,460 basehttp 22296 25740 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 200 2633
+INFO 2025-10-28 13:48:01,467 basehttp 22296 9800 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 13:48:01,485 basehttp 22296 25260 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 200 4991
+INFO 2025-10-28 13:48:45,278 autoreload 22296 10360 C:\Users\USER\Desktop\projects\sat_data_automation_4\server\monitoring\admin.py changed, reloading.
+INFO 2025-10-28 13:48:45,999 autoreload 6052 33468 Watching for file changes with StatReloader
+INFO 2025-10-28 13:49:51,948 autoreload 11384 24688 Watching for file changes with StatReloader
+WARNING 2025-10-28 13:50:00,983 log 11384 23820 Not Found: /
+WARNING 2025-10-28 13:50:00,984 basehttp 11384 23820 "GET / HTTP/1.1" 404 3629
+INFO 2025-10-28 13:50:06,645 basehttp 11384 23820 "GET /admin/ HTTP/1.1" 200 14235
+INFO 2025-10-28 13:50:09,473 basehttp 11384 23820 "GET /admin/monitoring/satelliteimage/ HTTP/1.1" 200 15942
+INFO 2025-10-28 13:50:09,527 basehttp 11384 23820 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 13:50:10,990 basehttp 11384 23820 "GET /admin/monitoring/satelliteimage/add/ HTTP/1.1" 200 28827
+INFO 2025-10-28 13:50:11,036 basehttp 11384 23820 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 13:50:43,956 basehttp 11384 23820 "GET /admin/monitoring/pipeline/ HTTP/1.1" 200 15984
+INFO 2025-10-28 13:50:43,984 basehttp 11384 25904 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 304 0
+INFO 2025-10-28 13:50:43,984 basehttp 11384 25028 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 304 0
+INFO 2025-10-28 13:50:44,011 basehttp 11384 23820 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 13:50:45,887 basehttp 11384 23820 "GET /admin/monitoring/pipeline/add/ HTTP/1.1" 200 24710
+INFO 2025-10-28 13:50:45,931 basehttp 11384 23820 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 13:52:55,908 autoreload 8724 1864 Watching for file changes with StatReloader
+INFO 2025-10-28 13:53:02,124 basehttp 8724 29920 "GET /admin/monitoring/activitylog/ HTTP/1.1" 200 16838
+INFO 2025-10-28 13:53:02,196 basehttp 8724 29920 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 13:53:40,846 autoreload 8724 1864 C:\Users\USER\Desktop\projects\sat_data_automation_4\server\monitoring\admin.py changed, reloading.
+INFO 2025-10-28 13:53:41,585 autoreload 24160 33788 Watching for file changes with StatReloader
+INFO 2025-10-28 13:53:44,275 autoreload 24160 33788 C:\Users\USER\Desktop\projects\sat_data_automation_4\server\monitoring\admin.py changed, reloading.
+INFO 2025-10-28 13:53:44,945 autoreload 24992 11800 Watching for file changes with StatReloader
+INFO 2025-10-28 13:53:48,634 autoreload 24992 11800 C:\Users\USER\Desktop\projects\sat_data_automation_4\server\monitoring\admin.py changed, reloading.
+INFO 2025-10-28 13:53:49,247 autoreload 2240 33476 Watching for file changes with StatReloader
+INFO 2025-10-28 13:53:52,924 autoreload 2240 33476 C:\Users\USER\Desktop\projects\sat_data_automation_4\server\monitoring\admin.py changed, reloading.
+INFO 2025-10-28 13:53:53,560 autoreload 29440 24696 Watching for file changes with StatReloader
+INFO 2025-10-28 13:54:51,246 basehttp 29440 34164 "GET /admin/monitoring/pipeline/ HTTP/1.1" 200 15846
+INFO 2025-10-28 13:54:51,305 basehttp 29440 34164 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 13:54:52,416 basehttp 29440 34164 "GET /admin/monitoring/pipeline/add/ HTTP/1.1" 200 24571
+INFO 2025-10-28 13:54:52,564 basehttp 29440 34164 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 13:55:48,422 autoreload 29440 24696 C:\Users\USER\Desktop\projects\sat_data_automation_4\server\monitoring\admin.py changed, reloading.
+INFO 2025-10-28 13:55:49,154 autoreload 31992 6472 Watching for file changes with StatReloader
+INFO 2025-10-28 13:55:50,744 autoreload 31992 6472 C:\Users\USER\Desktop\projects\sat_data_automation_4\server\monitoring\admin.py changed, reloading.
+INFO 2025-10-28 13:55:51,378 autoreload 33952 27056 Watching for file changes with StatReloader
+INFO 2025-10-28 13:55:56,183 autoreload 33952 27056 C:\Users\USER\Desktop\projects\sat_data_automation_4\server\monitoring\admin.py changed, reloading.
+INFO 2025-10-28 13:55:56,802 autoreload 3764 28224 Watching for file changes with StatReloader
+INFO 2025-10-28 15:28:32,327 autoreload 23212 22744 Watching for file changes with StatReloader
+WARNING 2025-10-28 15:28:39,423 log 23212 23136 Not Found: /
+WARNING 2025-10-28 15:28:39,423 basehttp 23212 23136 "GET / HTTP/1.1" 404 3629
+WARNING 2025-10-28 15:28:39,516 log 23212 23136 Not Found: /favicon.ico
+WARNING 2025-10-28 15:28:39,516 basehttp 23212 23136 "GET /favicon.ico HTTP/1.1" 404 3680
+INFO 2025-10-28 15:28:50,606 basehttp 23212 23136 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-10-28 15:28:50,704 basehttp 23212 23136 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4183
+INFO 2025-10-28 15:29:05,187 basehttp 23212 23136 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4360
+INFO 2025-10-28 15:29:16,305 basehttp 23212 23136 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4360
+INFO 2025-10-28 15:32:22,914 basehttp 23212 25152 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4360
+INFO 2025-10-28 15:32:50,121 autoreload 25812 26036 Watching for file changes with StatReloader
+WARNING 2025-10-28 15:32:53,861 log 25812 23724 Not Found: /
+WARNING 2025-10-28 15:32:53,861 basehttp 25812 23724 "GET / HTTP/1.1" 404 3629
+INFO 2025-10-28 15:32:59,633 basehttp 25812 23724 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-10-28 15:32:59,668 basehttp 25812 23724 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4183
+INFO 2025-10-28 15:33:15,333 basehttp 25812 23724 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4360
+INFO 2025-10-28 15:33:26,634 basehttp 25812 23724 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4360
+INFO 2025-10-28 15:33:44,237 basehttp 25812 23724 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-10-28 15:33:44,306 basehttp 25812 23724 "GET /admin/ HTTP/1.1" 200 14235
+INFO 2025-10-28 15:33:55,165 basehttp 25812 23724 "GET /admin/monitoring/satelliteimage/ HTTP/1.1" 200 15942
+INFO 2025-10-28 15:33:55,235 basehttp 25812 23724 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 15:33:56,859 basehttp 25812 23724 "GET /admin/monitoring/satelliteimage/add/ HTTP/1.1" 200 28827
+INFO 2025-10-28 15:33:56,909 basehttp 25812 23724 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 15:34:01,611 basehttp 25812 23724 "GET /admin/monitoring/pipelinesegment/ HTTP/1.1" 200 15346
+INFO 2025-10-28 15:34:01,657 basehttp 25812 23724 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 15:34:04,115 basehttp 25812 23724 "GET /admin/monitoring/pipelinesegment/add/ HTTP/1.1" 200 27806
+INFO 2025-10-28 15:34:04,169 basehttp 25812 23724 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 15:34:14,909 basehttp 25812 23724 "GET /admin/monitoring/pipeline/ HTTP/1.1" 200 15846
+INFO 2025-10-28 15:34:15,052 basehttp 25812 23724 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 15:34:17,474 basehttp 25812 23724 "GET /admin/monitoring/pipeline/add/ HTTP/1.1" 200 24571
+INFO 2025-10-28 15:34:17,521 basehttp 25812 23724 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+ERROR 2025-10-28 15:36:06,684 libgdal 25812 23724 GDAL_ERROR 1: b'PROJ: proj_create_from_database: C:\\Program Files\\PostgreSQL\\17\\share\\contrib\\postgis-3.5\\proj\\proj.db contains DATABASE.LAYOUT.VERSION.MINOR = 2 whereas a number >= 6 is expected. It comes from another PROJ installation.'
+ERROR 2025-10-28 15:36:06,818 log 25812 23724 Internal Server Error: /admin/monitoring/pipeline/add/
+Traceback (most recent call last):
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\options.py", line 719, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\sites.py", line 246, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\options.py", line 1984, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\options.py", line 1843, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\options.py", line 1888, in _changeform_view
+    form_validated = form.is_valid()
+                     ^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\forms\forms.py", line 206, in is_valid
+    return self.is_bound and not self.errors
+                                 ^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\forms\forms.py", line 201, in errors
+    self.full_clean()
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\forms\forms.py", line 337, in full_clean
+    self._clean_fields()
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\forms\forms.py", line 345, in _clean_fields
+    self.cleaned_data[name] = field._clean_bound_field(bf)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\forms\fields.py", line 273, in _clean_bound_field
+    return self.clean(value)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\gis\forms\fields.py", line 90, in clean
+    geom.transform(self.srid)
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\gis\geos\geometry.py", line 505, in transform
+    g = gdal.OGRGeometry(self._ogr_ptr(), srid)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\gis\gdal\geometries.py", line 127, in __init__
+    self.srs = srs
+    ^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\gis\gdal\geometries.py", line 341, in _set_srs
+    sr = SpatialReference(srs)
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\gis\gdal\srs.py", line 111, in __init__
+    self.import_epsg(srs_input)
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\gis\gdal\srs.py", line 301, in import_epsg
+    capi.from_epsg(self.ptr, epsg)
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\gis\gdal\prototypes\errcheck.py", line 121, in check_errcode
+    check_err(result, cpl=cpl)
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\gis\gdal\error.py", line 59, in check_err
+    raise e(msg)
+django.contrib.gis.gdal.error.GDALException: OGR failure.
+ERROR 2025-10-28 15:36:06,829 basehttp 25812 23724 "POST /admin/monitoring/pipeline/add/ HTTP/1.1" 500 188271
+INFO 2025-10-28 15:52:51,916 autoreload 25812 26036 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\models.py changed, reloading.
+INFO 2025-10-28 15:52:52,633 autoreload 26792 9756 Watching for file changes with StatReloader
+INFO 2025-10-28 15:52:55,012 autoreload 26792 9756 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\models.py changed, reloading.
+INFO 2025-10-28 15:52:55,639 autoreload 24220 27468 Watching for file changes with StatReloader
+INFO 2025-10-28 15:53:13,121 autoreload 24220 27468 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\models.py changed, reloading.
+INFO 2025-10-28 15:53:13,889 autoreload 27176 4236 Watching for file changes with StatReloader
+INFO 2025-10-28 15:53:31,523 autoreload 27176 4236 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\models.py changed, reloading.
+INFO 2025-10-28 15:53:32,279 autoreload 24872 2956 Watching for file changes with StatReloader
+INFO 2025-10-28 15:53:34,785 autoreload 24872 2956 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\models.py changed, reloading.
+INFO 2025-10-28 15:53:35,395 autoreload 10360 3672 Watching for file changes with StatReloader
+INFO 2025-10-28 15:53:37,880 autoreload 10360 3672 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\models.py changed, reloading.
+INFO 2025-10-28 15:53:38,523 autoreload 6324 26304 Watching for file changes with StatReloader
+INFO 2025-10-28 15:53:43,142 autoreload 6324 26304 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\models.py changed, reloading.
+INFO 2025-10-28 15:53:43,756 autoreload 26524 27196 Watching for file changes with StatReloader
+INFO 2025-10-28 15:53:45,215 autoreload 26524 27196 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\models.py changed, reloading.
+INFO 2025-10-28 15:53:45,815 autoreload 11724 18952 Watching for file changes with StatReloader
+INFO 2025-10-28 15:53:52,520 autoreload 11724 18952 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\models.py changed, reloading.
+INFO 2025-10-28 15:53:53,141 autoreload 22136 27256 Watching for file changes with StatReloader
+INFO 2025-10-28 15:53:55,643 autoreload 22136 27256 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\models.py changed, reloading.
+INFO 2025-10-28 15:53:56,255 autoreload 8276 14408 Watching for file changes with StatReloader
+INFO 2025-10-28 15:57:35,241 autoreload 21832 25356 Watching for file changes with StatReloader
+INFO 2025-10-28 15:57:57,202 autoreload 21832 25356 C:\Users\USER\Desktop\projects\pipeline_monit\server\manage.py changed, reloading.
+INFO 2025-10-28 15:57:57,918 autoreload 27336 19468 Watching for file changes with StatReloader
+INFO 2025-10-28 16:06:46,782 autoreload 25520 14128 Watching for file changes with StatReloader
+INFO 2025-10-28 16:07:00,799 basehttp 25520 26044 "GET /admin/ HTTP/1.1" 200 14235
+INFO 2025-10-28 16:07:03,964 basehttp 25520 26044 "GET /admin/monitoring/pipeline/ HTTP/1.1" 200 15846
+INFO 2025-10-28 16:07:04,026 basehttp 25520 26044 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 16:07:05,591 basehttp 25520 26044 "GET /admin/monitoring/pipeline/add/ HTTP/1.1" 200 24520
+INFO 2025-10-28 16:07:05,638 basehttp 25520 26044 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+ERROR 2025-10-28 16:07:45,973 log 25520 26044 Internal Server Error: /admin/monitoring/pipeline/add/
+Traceback (most recent call last):
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.NotNullViolation: null value in column "start_point" of relation "monitoring_pipeline" violates not-null constraint
+DETAIL:  Failing row contains (2c7fbbf0-0733-451d-b0cc-ffb72b008de7, Ogoni Pipeline, jgv absnlslkwjHGavghcabnjKLD hgdsbnklcvbexcn, 200, 6000, composite, active, 2025-10-28 15:07:45.901401+00, 2025-10-28 15:07:45.901401+00, null, null, null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\options.py", line 719, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\sites.py", line 246, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\options.py", line 1984, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\options.py", line 1843, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\options.py", line 1894, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\options.py", line 1314, in save_model
+    obj.save()
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\base.py", line 902, in save
+    self.save_base(
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\base.py", line 1008, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\base.py", line 1169, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\base.py", line 1210, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\query.py", line 1868, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\sql\compiler.py", line 1882, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: null value in column "start_point" of relation "monitoring_pipeline" violates not-null constraint
+DETAIL:  Failing row contains (2c7fbbf0-0733-451d-b0cc-ffb72b008de7, Ogoni Pipeline, jgv absnlslkwjHGavghcabnjKLD hgdsbnklcvbexcn, 200, 6000, composite, active, 2025-10-28 15:07:45.901401+00, 2025-10-28 15:07:45.901401+00, null, null, null).
+
+ERROR 2025-10-28 16:07:45,983 basehttp 25520 26044 "POST /admin/monitoring/pipeline/add/ HTTP/1.1" 500 218567
+INFO 2025-10-28 16:08:06,094 basehttp 25520 26044 "GET /admin/monitoring/pipeline/add/ HTTP/1.1" 200 24520
+ERROR 2025-10-28 16:08:23,638 libgdal 25520 26044 GDAL_ERROR 1: b'PROJ: proj_create_from_database: C:\\Program Files\\PostgreSQL\\17\\share\\contrib\\postgis-3.5\\proj\\proj.db contains DATABASE.LAYOUT.VERSION.MINOR = 2 whereas a number >= 6 is expected. It comes from another PROJ installation.'
+ERROR 2025-10-28 16:08:23,718 log 25520 26044 Internal Server Error: /admin/monitoring/pipeline/add/
+Traceback (most recent call last):
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\options.py", line 719, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\sites.py", line 246, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\options.py", line 1984, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\options.py", line 1843, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\options.py", line 1888, in _changeform_view
+    form_validated = form.is_valid()
+                     ^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\forms\forms.py", line 206, in is_valid
+    return self.is_bound and not self.errors
+                                 ^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\forms\forms.py", line 201, in errors
+    self.full_clean()
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\forms\forms.py", line 337, in full_clean
+    self._clean_fields()
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\forms\forms.py", line 345, in _clean_fields
+    self.cleaned_data[name] = field._clean_bound_field(bf)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\forms\fields.py", line 273, in _clean_bound_field
+    return self.clean(value)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\gis\forms\fields.py", line 90, in clean
+    geom.transform(self.srid)
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\gis\geos\geometry.py", line 505, in transform
+    g = gdal.OGRGeometry(self._ogr_ptr(), srid)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\gis\gdal\geometries.py", line 127, in __init__
+    self.srs = srs
+    ^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\gis\gdal\geometries.py", line 341, in _set_srs
+    sr = SpatialReference(srs)
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\gis\gdal\srs.py", line 111, in __init__
+    self.import_epsg(srs_input)
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\gis\gdal\srs.py", line 301, in import_epsg
+    capi.from_epsg(self.ptr, epsg)
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\gis\gdal\prototypes\errcheck.py", line 121, in check_errcode
+    check_err(result, cpl=cpl)
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\gis\gdal\error.py", line 59, in check_err
+    raise e(msg)
+django.contrib.gis.gdal.error.GDALException: OGR failure.
+ERROR 2025-10-28 16:08:23,728 basehttp 25520 26044 "POST /admin/monitoring/pipeline/add/ HTTP/1.1" 500 188113
+INFO 2025-10-28 16:13:19,163 basehttp 25520 26044 "GET /admin/monitoring/pipeline/add/ HTTP/1.1" 200 24520
+INFO 2025-10-28 16:13:42,008 autoreload 25520 14128 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\models.py changed, reloading.
+INFO 2025-10-28 16:13:42,802 autoreload 22904 26396 Watching for file changes with StatReloader
+INFO 2025-10-28 16:13:59,102 autoreload 22904 26396 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\models.py changed, reloading.
+INFO 2025-10-28 16:13:59,826 autoreload 20980 24512 Watching for file changes with StatReloader
+INFO 2025-10-28 16:14:46,915 autoreload 18820 19588 Watching for file changes with StatReloader
+INFO 2025-10-28 16:14:54,812 basehttp 18820 23428 "GET /admin/monitoring/pipeline/add/ HTTP/1.1" 200 24520
+INFO 2025-10-28 16:14:54,878 basehttp 18820 23428 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 16:15:00,195 basehttp 18820 23428 "POST /admin/monitoring/pipeline/add/ HTTP/1.1" 200 25189
+INFO 2025-10-28 16:15:00,256 basehttp 18820 23428 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+ERROR 2025-10-28 16:15:29,425 log 18820 23428 Internal Server Error: /admin/monitoring/pipeline/add/
+Traceback (most recent call last):
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.NotNullViolation: null value in column "start_point" of relation "monitoring_pipeline" violates not-null constraint
+DETAIL:  Failing row contains (3a0a0055-7b32-439c-8020-3fb833b968fd, sssssss, ssssssssss, 20, 20, steel, active, 2025-10-28 15:15:29.353985+00, 2025-10-28 15:15:29.353985+00, null, null, null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\options.py", line 719, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\sites.py", line 246, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\options.py", line 1984, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\options.py", line 1843, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\options.py", line 1894, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\options.py", line 1314, in save_model
+    obj.save()
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\base.py", line 902, in save
+    self.save_base(
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\base.py", line 1008, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\base.py", line 1169, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\base.py", line 1210, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\query.py", line 1868, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\sql\compiler.py", line 1882, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: null value in column "start_point" of relation "monitoring_pipeline" violates not-null constraint
+DETAIL:  Failing row contains (3a0a0055-7b32-439c-8020-3fb833b968fd, sssssss, ssssssssss, 20, 20, steel, active, 2025-10-28 15:15:29.353985+00, 2025-10-28 15:15:29.353985+00, null, null, null).
+
+ERROR 2025-10-28 16:15:29,440 basehttp 18820 23428 "POST /admin/monitoring/pipeline/add/ HTTP/1.1" 500 217749
+INFO 2025-10-28 16:16:38,191 autoreload 18820 19588 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\admin.py changed, reloading.
+INFO 2025-10-28 16:16:38,960 autoreload 22136 26888 Watching for file changes with StatReloader
+ERROR 2025-10-28 16:16:46,641 log 22136 15264 Internal Server Error: /admin/monitoring/pipeline/add/
+Traceback (most recent call last):
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.NotNullViolation: null value in column "start_point" of relation "monitoring_pipeline" violates not-null constraint
+DETAIL:  Failing row contains (efa40f5c-e157-482a-a81e-db27370fd81a, sssssss, ssssssssss, 20, 20, steel, active, 2025-10-28 15:16:46.606731+00, 2025-10-28 15:16:46.606731+00, null, null, null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\options.py", line 719, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\sites.py", line 246, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\options.py", line 1984, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\options.py", line 1843, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\options.py", line 1894, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\options.py", line 1314, in save_model
+    obj.save()
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\base.py", line 902, in save
+    self.save_base(
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\base.py", line 1008, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\base.py", line 1169, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\base.py", line 1210, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\query.py", line 1868, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\sql\compiler.py", line 1882, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: null value in column "start_point" of relation "monitoring_pipeline" violates not-null constraint
+DETAIL:  Failing row contains (efa40f5c-e157-482a-a81e-db27370fd81a, sssssss, ssssssssss, 20, 20, steel, active, 2025-10-28 15:16:46.606731+00, 2025-10-28 15:16:46.606731+00, null, null, null).
+
+ERROR 2025-10-28 16:16:46,642 basehttp 22136 15264 "POST /admin/monitoring/pipeline/add/ HTTP/1.1" 500 217563
+INFO 2025-10-28 16:16:55,905 autoreload 22136 26888 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\admin.py changed, reloading.
+INFO 2025-10-28 16:16:56,662 autoreload 18076 17320 Watching for file changes with StatReloader
+INFO 2025-10-28 16:17:15,445 autoreload 18076 17320 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\models.py changed, reloading.
+INFO 2025-10-28 16:17:16,167 autoreload 26368 24876 Watching for file changes with StatReloader
+INFO 2025-10-28 16:18:45,509 autoreload 26368 24876 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\admin.py changed, reloading.
+INFO 2025-10-28 16:18:46,231 autoreload 11524 12184 Watching for file changes with StatReloader
+INFO 2025-10-28 16:19:40,992 autoreload 18284 14128 Watching for file changes with StatReloader
+INFO 2025-10-28 16:19:49,588 basehttp 18284 25484 "GET /admin/ HTTP/1.1" 200 14235
+INFO 2025-10-28 16:19:52,635 basehttp 18284 25484 "GET /admin/monitoring/pipeline/ HTTP/1.1" 200 15846
+INFO 2025-10-28 16:19:52,687 basehttp 18284 25484 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 16:19:54,221 basehttp 18284 25484 "GET /admin/monitoring/pipeline/add/ HTTP/1.1" 200 19792
+INFO 2025-10-28 16:19:54,277 basehttp 18284 25484 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+ERROR 2025-10-28 16:20:17,156 log 18284 25484 Internal Server Error: /admin/monitoring/pipeline/add/
+Traceback (most recent call last):
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.NotNullViolation: null value in column "start_point" of relation "monitoring_pipeline" violates not-null constraint
+DETAIL:  Failing row contains (061df08a-ae5f-4141-b98b-67d677f061f9, sde, ddddddddddd, 38, 444444, plastic, active, 2025-10-28 15:20:17.067255+00, 2025-10-28 15:20:17.067255+00, null, null, null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\options.py", line 719, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\sites.py", line 246, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\options.py", line 1984, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\options.py", line 1843, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\options.py", line 1894, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\options.py", line 1314, in save_model
+    obj.save()
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\base.py", line 902, in save
+    self.save_base(
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\base.py", line 1008, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\base.py", line 1169, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\base.py", line 1210, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\query.py", line 1868, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\sql\compiler.py", line 1882, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: null value in column "start_point" of relation "monitoring_pipeline" violates not-null constraint
+DETAIL:  Failing row contains (061df08a-ae5f-4141-b98b-67d677f061f9, sde, ddddddddddd, 38, 444444, plastic, active, 2025-10-28 15:20:17.067255+00, 2025-10-28 15:20:17.067255+00, null, null, null).
+
+ERROR 2025-10-28 16:20:17,166 basehttp 18284 25484 "POST /admin/monitoring/pipeline/add/ HTTP/1.1" 500 217180
+INFO 2025-10-28 16:20:40,910 autoreload 18284 14128 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\admin.py changed, reloading.
+INFO 2025-10-28 16:20:41,721 autoreload 13412 10640 Watching for file changes with StatReloader
+INFO 2025-10-28 16:20:47,451 basehttp 13412 16896 "GET /admin/monitoring/pipeline/add/ HTTP/1.1" 200 24520
+INFO 2025-10-28 16:20:47,507 basehttp 13412 16896 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 16:21:20,572 autoreload 13412 10640 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\admin.py changed, reloading.
+INFO 2025-10-28 16:21:21,354 autoreload 11724 27132 Watching for file changes with StatReloader
+INFO 2025-10-28 16:21:31,548 autoreload 11724 27132 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\admin.py changed, reloading.
+INFO 2025-10-28 16:21:32,277 autoreload 24988 7404 Watching for file changes with StatReloader
+INFO 2025-10-28 16:22:55,408 basehttp 24988 10640 "GET /admin/monitoring/pipeline/add/ HTTP/1.1" 200 24520
+INFO 2025-10-28 16:22:55,475 basehttp 24988 10640 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 16:23:01,076 basehttp 24988 10640 "GET /admin/user/user/ HTTP/1.1" 200 20056
+INFO 2025-10-28 16:23:01,213 basehttp 24988 26512 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2025-10-28 16:23:01,213 basehttp 24988 916 "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2025-10-28 16:23:01,233 basehttp 24988 10640 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 16:23:30,810 basehttp 24988 10640 "POST /admin/user/user/ HTTP/1.1" 200 13564
+INFO 2025-10-28 16:23:30,845 basehttp 24988 10640 "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+INFO 2025-10-28 16:23:31,943 basehttp 24988 10640 "POST /admin/user/user/ HTTP/1.1" 302 0
+INFO 2025-10-28 16:23:32,093 basehttp 24988 10640 "GET /admin/user/user/ HTTP/1.1" 200 19505
+INFO 2025-10-28 16:23:32,139 basehttp 24988 10640 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 16:24:03,754 basehttp 24988 10640 "GET /admin/monitoring/satelliteimage/ HTTP/1.1" 200 15942
+INFO 2025-10-28 16:24:03,813 basehttp 24988 10640 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 16:24:06,460 basehttp 24988 10640 "GET /admin/monitoring/satelliteimage/add/ HTTP/1.1" 200 28793
+INFO 2025-10-28 16:24:06,512 basehttp 24988 10640 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 16:29:04,282 basehttp 24988 10640 "GET /static/admin/img/calendar-icons.svg HTTP/1.1" 200 2455
+INFO 2025-10-28 16:30:10,187 basehttp 24988 10640 "POST /admin/monitoring/satelliteimage/add/ HTTP/1.1" 200 29368
+WARNING 2025-10-28 16:30:10,232 log 24988 28020 Not Found: /media/satellite-image.tif
+WARNING 2025-10-28 16:30:10,232 basehttp 24988 28020 "GET /media/satellite-image.tif HTTP/1.1" 404 3792
+INFO 2025-10-28 16:30:10,443 basehttp 24988 10640 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:00:09,848 autoreload 24988 7404 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\validators.py changed, reloading.
+INFO 2025-10-28 17:00:10,677 autoreload 28772 31264 Watching for file changes with StatReloader
+INFO 2025-10-28 17:00:28,137 autoreload 28772 31264 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\validators.py changed, reloading.
+INFO 2025-10-28 17:00:28,889 autoreload 18832 18392 Watching for file changes with StatReloader
+INFO 2025-10-28 17:00:35,580 autoreload 18832 18392 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\validators.py changed, reloading.
+INFO 2025-10-28 17:00:36,209 autoreload 30752 4916 Watching for file changes with StatReloader
+INFO 2025-10-28 17:00:38,755 autoreload 30752 4916 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\validators.py changed, reloading.
+INFO 2025-10-28 17:00:39,417 autoreload 18108 5300 Watching for file changes with StatReloader
+INFO 2025-10-28 17:01:51,125 autoreload 18108 5300 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\validators.py changed, reloading.
+INFO 2025-10-28 17:01:51,881 autoreload 12388 26660 Watching for file changes with StatReloader
+INFO 2025-10-28 17:02:12,402 basehttp 12388 3020 "POST /admin/monitoring/satelliteimage/add/ HTTP/1.1" 200 29193
+INFO 2025-10-28 17:02:12,490 basehttp 12388 28476 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+WARNING 2025-10-28 17:02:12,504 log 12388 28476 Not Found: /media/satellite-image.tif
+WARNING 2025-10-28 17:02:12,508 basehttp 12388 28476 "GET /media/satellite-image.tif HTTP/1.1" 404 3792
+INFO 2025-10-28 17:02:12,656 basehttp 12388 23088 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2025-10-28 17:02:12,656 basehttp 12388 4176 "GET /static/admin/css/responsive.css HTTP/1.1" 200 16565
+INFO 2025-10-28 17:02:12,662 basehttp 12388 23132 "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2025-10-28 17:02:12,665 basehttp 12388 30340 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2808
+INFO 2025-10-28 17:02:12,682 basehttp 12388 30340 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2025-10-28 17:02:12,705 basehttp 12388 3020 "GET /static/admin/css/base.css HTTP/1.1" 200 22120
+INFO 2025-10-28 17:02:48,170 basehttp 12388 3020 "GET /admin/monitoring/pipelinesegment/ HTTP/1.1" 200 15346
+INFO 2025-10-28 17:02:48,335 basehttp 12388 3020 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:02:55,206 autoreload 12388 26660 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\validators.py changed, reloading.
+INFO 2025-10-28 17:02:55,969 autoreload 12356 27140 Watching for file changes with StatReloader
+WARNING 2025-10-28 17:07:21,658 log 12356 28368 Not Found: /pipelines/{id}/recent-images/
+WARNING 2025-10-28 17:07:21,658 basehttp 12356 28368 "GET /pipelines/%7Bid%7D/recent-images/ HTTP/1.1" 404 3738
+WARNING 2025-10-28 17:07:51,768 log 12356 28368 Not Found: /api/pipelines/1/recent-images/
+WARNING 2025-10-28 17:07:51,769 basehttp 12356 28368 "GET /api/pipelines/1/recent-images/ HTTP/1.1" 404 35433
+INFO 2025-10-28 17:08:39,048 basehttp 12356 28368 "GET /admin/ HTTP/1.1" 200 14584
+INFO 2025-10-28 17:08:44,477 basehttp 12356 28368 "GET /admin/user/user/ HTTP/1.1" 200 19371
+INFO 2025-10-28 17:08:44,506 basehttp 12356 25556 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2025-10-28 17:08:44,534 basehttp 12356 28368 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+ERROR 2025-10-28 17:08:47,896 log 12356 28368 Internal Server Error: /admin/monitoring/analysisresult/
+Traceback (most recent call last):
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedColumn: column monitoring_analysisresult.analysis_type does not exist
+LINE 1: ..."monitoring_analysisresult"."satellite_image_id", "monitorin...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\options.py", line 719, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\sites.py", line 246, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\options.py", line 2163, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+                                                           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\query.py", line 366, in __len__
+    self._fetch_all()
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\query.py", line 1949, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\sql\compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: column monitoring_analysisresult.analysis_type does not exist
+LINE 1: ..."monitoring_analysisresult"."satellite_image_id", "monitorin...
+                                                             ^
+
+ERROR 2025-10-28 17:08:47,896 basehttp 12356 28368 "GET /admin/monitoring/analysisresult/ HTTP/1.1" 500 183905
+INFO 2025-10-28 17:09:03,242 basehttp 12356 28368 "GET /admin/user/user/ HTTP/1.1" 200 19371
+INFO 2025-10-28 17:09:04,804 basehttp 12356 28368 "GET /admin/monitoring/systemsettings/ HTTP/1.1" 200 14032
+INFO 2025-10-28 17:09:11,281 basehttp 12356 28368 "GET /admin/monitoring/systemsettings/4944c992-1f08-4bcc-b4fb-2061bd422972/change/ HTTP/1.1" 200 30930
+INFO 2025-10-28 17:09:11,332 basehttp 12356 28368 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:09:22,757 basehttp 12356 28368 "GET /admin/monitoring/satelliteimage/ HTTP/1.1" 200 15942
+INFO 2025-10-28 17:09:22,806 basehttp 12356 28368 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:09:24,330 basehttp 12356 28368 "GET /admin/monitoring/satelliteimage/add/ HTTP/1.1" 200 28793
+INFO 2025-10-28 17:09:24,381 basehttp 12356 28368 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:09:25,889 basehttp 12356 28368 "GET /admin/monitoring/pipeline/ HTTP/1.1" 200 15846
+INFO 2025-10-28 17:09:25,936 basehttp 12356 28368 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:09:27,097 basehttp 12356 28368 "GET /admin/monitoring/pipeline/add/ HTTP/1.1" 200 24520
+INFO 2025-10-28 17:09:27,254 basehttp 12356 28368 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:09:28,863 basehttp 12356 28368 "GET /admin/monitoring/pipelinesegment/ HTTP/1.1" 200 15346
+INFO 2025-10-28 17:09:28,912 basehttp 12356 28368 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:09:30,228 basehttp 12356 28368 "GET /admin/monitoring/pipelinesegment/add/ HTTP/1.1" 200 27755
+INFO 2025-10-28 17:09:30,284 basehttp 12356 28368 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:09:32,194 basehttp 12356 28368 "GET /admin/monitoring/monitoringconfiguration/ HTTP/1.1" 200 15309
+INFO 2025-10-28 17:09:32,243 basehttp 12356 28368 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:09:35,138 basehttp 12356 28368 "GET /admin/monitoring/monitoringconfiguration/add/ HTTP/1.1" 200 24545
+INFO 2025-10-28 17:09:35,184 basehttp 12356 28368 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+ERROR 2025-10-28 17:10:00,538 log 12356 28368 Internal Server Error: /admin/monitoring/monitoringalert/
+Traceback (most recent call last):
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedColumn: column monitoring_monitoringalert.alert_type does not exist
+LINE 1: ...monitoring_monitoringalert"."analysis_result_id", "monitorin...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\options.py", line 719, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\sites.py", line 246, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\options.py", line 2163, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+                                                           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\query.py", line 366, in __len__
+    self._fetch_all()
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\query.py", line 1949, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\sql\compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: column monitoring_monitoringalert.alert_type does not exist
+LINE 1: ...monitoring_monitoringalert"."analysis_result_id", "monitorin...
+                                                             ^
+
+ERROR 2025-10-28 17:10:00,538 basehttp 12356 28368 "GET /admin/monitoring/monitoringalert/ HTTP/1.1" 500 180463
+INFO 2025-10-28 17:11:09,945 autoreload 12356 27140 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\admin.py changed, reloading.
+INFO 2025-10-28 17:11:10,673 autoreload 29284 28808 Watching for file changes with StatReloader
+INFO 2025-10-28 17:11:13,200 autoreload 29284 28808 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\admin.py changed, reloading.
+INFO 2025-10-28 17:11:13,874 autoreload 29488 20768 Watching for file changes with StatReloader
+INFO 2025-10-28 17:14:29,904 basehttp 29488 26636 "GET /admin/monitoring/monitoringconfiguration/add/ HTTP/1.1" 200 24545
+ERROR 2025-10-28 17:14:32,431 log 29488 26636 Internal Server Error: /admin/monitoring/monitoringalert/
+Traceback (most recent call last):
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedColumn: column monitoring_monitoringalert.alert_type does not exist
+LINE 1: ...monitoring_monitoringalert"."analysis_result_id", "monitorin...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\options.py", line 719, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\sites.py", line 246, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\options.py", line 2163, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+                                                           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\query.py", line 366, in __len__
+    self._fetch_all()
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\query.py", line 1949, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\sql\compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: column monitoring_monitoringalert.alert_type does not exist
+LINE 1: ...monitoring_monitoringalert"."analysis_result_id", "monitorin...
+                                                             ^
+
+ERROR 2025-10-28 17:14:32,442 basehttp 29488 26636 "GET /admin/monitoring/monitoringalert/ HTTP/1.1" 500 180463
+INFO 2025-10-28 17:14:34,350 basehttp 29488 26636 "GET /admin/monitoring/monitoringconfiguration/add/ HTTP/1.1" 200 24545
+INFO 2025-10-28 17:14:35,883 basehttp 29488 26636 "GET /admin/monitoring/monitoringconfiguration/ HTTP/1.1" 200 15309
+INFO 2025-10-28 17:14:35,912 basehttp 29488 26636 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-10-28 17:14:35,914 basehttp 29488 22824 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-10-28 17:14:35,916 basehttp 29488 23332 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-10-28 17:14:35,919 basehttp 29488 26720 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-10-28 17:14:35,919 basehttp 29488 28916 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-10-28 17:14:35,922 basehttp 29488 28916 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-10-28 17:14:35,955 basehttp 29488 29532 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:14:37,654 basehttp 29488 29532 "GET /admin/monitoring/monitoringconfiguration/add/ HTTP/1.1" 200 24545
+ERROR 2025-10-28 17:14:38,717 log 29488 29532 Internal Server Error: /admin/monitoring/monitoringalert/
+Traceback (most recent call last):
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedColumn: column monitoring_monitoringalert.alert_type does not exist
+LINE 1: ...monitoring_monitoringalert"."analysis_result_id", "monitorin...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\options.py", line 719, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\sites.py", line 246, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\options.py", line 2163, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+                                                           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\query.py", line 366, in __len__
+    self._fetch_all()
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\query.py", line 1949, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\sql\compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: column monitoring_monitoringalert.alert_type does not exist
+LINE 1: ...monitoring_monitoringalert"."analysis_result_id", "monitorin...
+                                                             ^
+
+ERROR 2025-10-28 17:14:38,720 basehttp 29488 29532 "GET /admin/monitoring/monitoringalert/ HTTP/1.1" 500 180463
+INFO 2025-10-28 17:14:40,393 basehttp 29488 29532 "GET /admin/monitoring/monitoringconfiguration/add/ HTTP/1.1" 200 24545
+ERROR 2025-10-28 17:14:41,907 log 29488 29532 Internal Server Error: /admin/monitoring/analysisresult/
+Traceback (most recent call last):
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedColumn: column monitoring_analysisresult.analysis_type does not exist
+LINE 1: ..."monitoring_analysisresult"."satellite_image_id", "monitorin...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\options.py", line 719, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\sites.py", line 246, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\options.py", line 2163, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+                                                           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\query.py", line 366, in __len__
+    self._fetch_all()
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\query.py", line 1949, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\sql\compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: column monitoring_analysisresult.analysis_type does not exist
+LINE 1: ..."monitoring_analysisresult"."satellite_image_id", "monitorin...
+                                                             ^
+
+ERROR 2025-10-28 17:14:41,916 basehttp 29488 29532 "GET /admin/monitoring/analysisresult/ HTTP/1.1" 500 183934
+ERROR 2025-10-28 17:19:28,544 log 29488 29532 Internal Server Error: /admin/monitoring/analysisresult/
+Traceback (most recent call last):
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\base\base.py", line 279, in ensure_connection
+    self.connect()
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\base\base.py", line 256, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\gis\db\backends\postgis\base.py", line 126, in get_new_connection
+    connection = super().get_new_connection(conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\postgresql\base.py", line 332, in get_new_connection
+    connection = self.Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "pipeline_monitoring" does not exist
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\options.py", line 719, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\sites.py", line 234, in inner
+    if not self.has_permission(request):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\sites.py", line 207, in has_permission
+    return request.user.is_active and request.user.is_staff
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\functional.py", line 251, in inner
+    self._setup()
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\functional.py", line 404, in _setup
+    self._wrapped = self._setupfunc()
+                    ^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\auth\middleware.py", line 40, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+                                            ^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\auth\middleware.py", line 20, in get_user
+    request._cached_user = auth.get_user(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\auth\__init__.py", line 311, in get_user
+    user = backend.get_user(user_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\auth\backends.py", line 232, in get_user
+    user = UserModel._default_manager.get(pk=user_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\query.py", line 629, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\query.py", line 366, in __len__
+    self._fetch_all()
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\query.py", line 1949, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\models\sql\compiler.py", line 1621, in execute_sql
+    cursor = self.connection.cursor()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\base\base.py", line 320, in cursor
+    return self._cursor()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\base\base.py", line 296, in _cursor
+    self.ensure_connection()
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\base\base.py", line 278, in ensure_connection
+    with self.wrap_database_errors:
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\base\base.py", line 279, in ensure_connection
+    self.connect()
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\base\base.py", line 256, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\gis\db\backends\postgis\base.py", line 126, in get_new_connection
+    connection = super().get_new_connection(conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\db\backends\postgresql\base.py", line 332, in get_new_connection
+    connection = self.Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "pipeline_monitoring" does not exist
+
+ERROR 2025-10-28 17:19:28,555 basehttp 29488 29532 "GET /admin/monitoring/analysisresult/ HTTP/1.1" 500 243399
+INFO 2025-10-28 17:31:41,969 autoreload 28420 30760 Watching for file changes with StatReloader
+WARNING 2025-10-28 17:31:44,226 log 28420 24632 Not Found: /
+WARNING 2025-10-28 17:31:44,226 basehttp 28420 24632 "GET / HTTP/1.1" 404 3629
+INFO 2025-10-28 17:31:49,763 basehttp 28420 24632 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-10-28 17:31:49,804 basehttp 28420 24632 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4183
+INFO 2025-10-28 17:31:49,823 basehttp 28420 24632 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-10-28 17:31:49,827 basehttp 28420 26012 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-10-28 17:31:49,827 basehttp 28420 31544 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-10-28 17:31:49,828 basehttp 28420 26776 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-10-28 17:31:49,829 basehttp 28420 31184 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-10-28 17:31:49,836 basehttp 28420 31184 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-10-28 17:31:49,860 basehttp 28420 24632 "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2025-10-28 17:32:44,303 autoreload 26320 30308 Watching for file changes with StatReloader
+INFO 2025-10-28 17:32:55,177 basehttp 26320 25804 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-10-28 17:32:55,297 basehttp 26320 25804 "GET /admin/ HTTP/1.1" 200 14354
+INFO 2025-10-28 17:32:58,059 basehttp 26320 25804 "GET /admin/monitoring/monitoringalert/ HTTP/1.1" 200 15928
+INFO 2025-10-28 17:32:58,116 basehttp 26320 25804 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:32:59,760 basehttp 26320 25804 "GET /admin/monitoring/monitoringconfiguration/ HTTP/1.1" 200 15428
+INFO 2025-10-28 17:32:59,815 basehttp 26320 25804 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:33:00,679 basehttp 26320 25804 "GET /admin/monitoring/monitoringalert/ HTTP/1.1" 200 15928
+INFO 2025-10-28 17:33:00,841 basehttp 26320 25804 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:33:02,585 basehttp 26320 25804 "GET /admin/monitoring/analysisresult/ HTTP/1.1" 200 16227
+INFO 2025-10-28 17:33:02,631 basehttp 26320 25804 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:33:03,742 basehttp 26320 25804 "GET /admin/monitoring/activitylog/ HTTP/1.1" 200 16957
+INFO 2025-10-28 17:33:03,895 basehttp 26320 25804 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:33:06,526 basehttp 26320 25804 "GET /admin/monitoring/systemsettings/ HTTP/1.1" 200 13645
+INFO 2025-10-28 17:33:08,033 basehttp 26320 25804 "GET /admin/monitoring/satelliteimage/ HTTP/1.1" 200 16061
+INFO 2025-10-28 17:33:08,083 basehttp 26320 25804 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:33:09,303 basehttp 26320 25804 "GET /admin/monitoring/pipeline/ HTTP/1.1" 200 15965
+INFO 2025-10-28 17:33:09,350 basehttp 26320 25804 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:33:10,708 basehttp 26320 25804 "GET /admin/monitoring/pipelinesegment/ HTTP/1.1" 200 15465
+INFO 2025-10-28 17:33:10,756 basehttp 26320 25804 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:33:12,077 basehttp 26320 25804 "GET /admin/monitoring/monitoringconfiguration/ HTTP/1.1" 200 15428
+INFO 2025-10-28 17:33:12,126 basehttp 26320 25804 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:33:12,658 basehttp 26320 25804 "GET /admin/monitoring/monitoringalert/ HTTP/1.1" 200 15928
+INFO 2025-10-28 17:33:12,711 basehttp 26320 25804 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:33:13,370 basehttp 26320 25804 "GET /admin/monitoring/analysisresult/ HTTP/1.1" 200 16227
+INFO 2025-10-28 17:33:13,418 basehttp 26320 25804 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:33:13,925 basehttp 26320 25804 "GET /admin/monitoring/activitylog/ HTTP/1.1" 200 16957
+INFO 2025-10-28 17:33:13,975 basehttp 26320 25804 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:33:14,768 basehttp 26320 25804 "GET /admin/monitoring/systemsettings/ HTTP/1.1" 200 13645
+INFO 2025-10-28 17:33:16,360 basehttp 26320 25804 "GET /admin/monitoring/systemsettings/add/ HTTP/1.1" 200 30891
+INFO 2025-10-28 17:33:16,418 basehttp 26320 25804 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:33:18,307 basehttp 26320 25804 "GET /admin/monitoring/satelliteimage/ HTTP/1.1" 200 16061
+INFO 2025-10-28 17:33:18,352 basehttp 26320 25804 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:33:19,600 basehttp 26320 25804 "GET /admin/monitoring/satelliteimage/add/ HTTP/1.1" 200 28912
+INFO 2025-10-28 17:33:19,655 basehttp 26320 25804 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:33:25,195 basehttp 26320 25804 "GET /admin/monitoring/pipeline/ HTTP/1.1" 200 15965
+INFO 2025-10-28 17:33:25,245 basehttp 26320 25804 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:33:30,255 basehttp 26320 25804 "GET /admin/monitoring/pipeline/add/ HTTP/1.1" 200 24639
+INFO 2025-10-28 17:33:30,305 basehttp 26320 25804 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:33:34,384 basehttp 26320 25804 "GET /admin/monitoring/pipelinesegment/ HTTP/1.1" 200 15465
+INFO 2025-10-28 17:33:34,439 basehttp 26320 25804 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:33:35,939 basehttp 26320 25804 "GET /admin/monitoring/pipelinesegment/add/ HTTP/1.1" 200 27874
+INFO 2025-10-28 17:33:35,990 basehttp 26320 25804 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:33:37,929 basehttp 26320 25804 "GET /admin/monitoring/monitoringconfiguration/ HTTP/1.1" 200 15428
+INFO 2025-10-28 17:33:37,985 basehttp 26320 25804 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:33:39,496 basehttp 26320 25804 "GET /admin/monitoring/monitoringconfiguration/add/ HTTP/1.1" 200 24664
+INFO 2025-10-28 17:33:39,548 basehttp 26320 25804 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:33:41,101 basehttp 26320 25804 "GET /admin/monitoring/monitoringalert/ HTTP/1.1" 200 15928
+INFO 2025-10-28 17:33:41,149 basehttp 26320 25804 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:33:42,481 basehttp 26320 25804 "GET /admin/monitoring/monitoringalert/add/ HTTP/1.1" 200 23308
+INFO 2025-10-28 17:33:42,531 basehttp 26320 25804 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:33:46,842 basehttp 26320 25804 "GET /admin/monitoring/analysisresult/ HTTP/1.1" 200 16227
+INFO 2025-10-28 17:33:46,886 basehttp 26320 25804 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:33:48,172 basehttp 26320 25804 "GET /admin/monitoring/analysisresult/add/ HTTP/1.1" 200 29475
+INFO 2025-10-28 17:33:48,220 basehttp 26320 25804 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:33:50,262 basehttp 26320 25804 "GET /admin/monitoring/activitylog/ HTTP/1.1" 200 16957
+INFO 2025-10-28 17:33:50,312 basehttp 26320 25804 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:33:51,668 basehttp 26320 25804 "GET /admin/monitoring/activitylog/add/ HTTP/1.1" 200 23359
+INFO 2025-10-28 17:33:51,716 basehttp 26320 25804 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:33:53,506 basehttp 26320 25804 "GET /admin/token_blacklist/blacklistedtoken/ HTTP/1.1" 200 14052
+INFO 2025-10-28 17:33:53,555 basehttp 26320 25804 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:33:54,917 basehttp 26320 25804 "GET /admin/token_blacklist/outstandingtoken/ HTTP/1.1" 200 13870
+INFO 2025-10-28 17:33:57,638 basehttp 26320 25804 "GET /admin/user/user/ HTTP/1.1" 200 18819
+INFO 2025-10-28 17:33:57,660 basehttp 26320 30144 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2025-10-28 17:33:57,688 basehttp 26320 25804 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:34:25,853 basehttp 26320 25804 "GET /admin/monitoring/pipeline/ HTTP/1.1" 200 15965
+INFO 2025-10-28 17:34:25,902 basehttp 26320 25804 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:34:27,874 basehttp 26320 25804 "GET /admin/monitoring/pipeline/add/ HTTP/1.1" 200 24639
+INFO 2025-10-28 17:34:27,919 basehttp 26320 25804 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+ERROR 2025-10-28 17:36:28,936 libgdal 26320 25804 GDAL_ERROR 1: b'PROJ: proj_create_from_database: C:\\Program Files\\PostgreSQL\\17\\share\\contrib\\postgis-3.5\\proj\\proj.db contains DATABASE.LAYOUT.VERSION.MINOR = 2 whereas a number >= 6 is expected. It comes from another PROJ installation.'
+ERROR 2025-10-28 17:36:29,005 log 26320 25804 Internal Server Error: /admin/monitoring/pipeline/add/
+Traceback (most recent call last):
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\options.py", line 719, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\sites.py", line 246, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\options.py", line 1984, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\options.py", line 1843, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\options.py", line 1888, in _changeform_view
+    form_validated = form.is_valid()
+                     ^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\forms\forms.py", line 206, in is_valid
+    return self.is_bound and not self.errors
+                                 ^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\forms\forms.py", line 201, in errors
+    self.full_clean()
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\forms\forms.py", line 337, in full_clean
+    self._clean_fields()
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\forms\forms.py", line 345, in _clean_fields
+    self.cleaned_data[name] = field._clean_bound_field(bf)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\forms\fields.py", line 273, in _clean_bound_field
+    return self.clean(value)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\gis\forms\fields.py", line 90, in clean
+    geom.transform(self.srid)
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\gis\geos\geometry.py", line 505, in transform
+    g = gdal.OGRGeometry(self._ogr_ptr(), srid)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\gis\gdal\geometries.py", line 127, in __init__
+    self.srs = srs
+    ^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\gis\gdal\geometries.py", line 341, in _set_srs
+    sr = SpatialReference(srs)
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\gis\gdal\srs.py", line 111, in __init__
+    self.import_epsg(srs_input)
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\gis\gdal\srs.py", line 301, in import_epsg
+    capi.from_epsg(self.ptr, epsg)
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\gis\gdal\prototypes\errcheck.py", line 121, in check_errcode
+    check_err(result, cpl=cpl)
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\gis\gdal\error.py", line 59, in check_err
+    raise e(msg)
+django.contrib.gis.gdal.error.GDALException: OGR failure.
+ERROR 2025-10-28 17:36:29,008 basehttp 26320 25804 "POST /admin/monitoring/pipeline/add/ HTTP/1.1" 500 188354
+INFO 2025-10-28 17:48:41,178 autoreload 2856 15232 Watching for file changes with StatReloader
+WARNING 2025-10-28 17:48:46,819 log 2856 14224 Not Found: /
+WARNING 2025-10-28 17:48:46,819 basehttp 2856 14224 "GET / HTTP/1.1" 404 3629
+INFO 2025-10-28 17:48:56,562 basehttp 2856 14224 "GET /admin/ HTTP/1.1" 200 14354
+INFO 2025-10-28 17:48:56,588 basehttp 2856 14224 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-10-28 17:48:56,590 basehttp 2856 20768 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-10-28 17:48:56,590 basehttp 2856 29556 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-10-28 17:48:56,592 basehttp 2856 10432 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-10-28 17:48:56,593 basehttp 2856 1740 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-10-28 17:48:56,595 basehttp 2856 10432 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-10-28 17:49:01,179 basehttp 2856 10432 "GET /admin/monitoring/pipeline/ HTTP/1.1" 200 15965
+INFO 2025-10-28 17:49:01,235 basehttp 2856 10432 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:49:03,077 basehttp 2856 10432 "GET /admin/monitoring/pipeline/add/ HTTP/1.1" 200 24639
+INFO 2025-10-28 17:49:03,127 basehttp 2856 10432 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:49:27,909 basehttp 2856 10432 "POST /admin/monitoring/pipeline/add/ HTTP/1.1" 302 0
+INFO 2025-10-28 17:49:27,971 basehttp 2856 10432 "GET /admin/monitoring/pipeline/ HTTP/1.1" 200 18590
+INFO 2025-10-28 17:49:28,014 basehttp 2856 10432 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:49:28,026 basehttp 2856 10432 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2025-10-28 17:49:43,411 basehttp 2856 10432 "GET /admin/monitoring/satelliteimage/ HTTP/1.1" 200 16061
+INFO 2025-10-28 17:49:43,565 basehttp 2856 10432 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:49:45,728 basehttp 2856 10432 "GET /admin/monitoring/satelliteimage/add/ HTTP/1.1" 200 29001
+INFO 2025-10-28 17:49:45,780 basehttp 2856 10432 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:51:02,220 basehttp 2856 10432 "POST /admin/monitoring/satelliteimage/add/ HTTP/1.1" 302 0
+INFO 2025-10-28 17:51:02,568 basehttp 2856 10432 "GET /admin/monitoring/satelliteimage/ HTTP/1.1" 200 18926
+INFO 2025-10-28 17:51:02,631 basehttp 2856 10432 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:51:11,638 basehttp 2856 10432 "GET /admin/monitoring/satelliteimage/ HTTP/1.1" 200 18657
+INFO 2025-10-28 17:51:11,683 basehttp 2856 10432 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:51:24,158 basehttp 2856 10432 "GET /admin/monitoring/analysisresult/ HTTP/1.1" 200 16227
+INFO 2025-10-28 17:51:24,208 basehttp 2856 10432 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:51:25,754 basehttp 2856 10432 "GET /admin/monitoring/analysisresult/add/ HTTP/1.1" 200 29562
+INFO 2025-10-28 17:51:25,802 basehttp 2856 10432 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:52:11,325 basehttp 2856 10432 "POST /admin/monitoring/analysisresult/add/ HTTP/1.1" 302 0
+INFO 2025-10-28 17:52:11,388 basehttp 2856 10432 "GET /admin/monitoring/analysisresult/ HTTP/1.1" 200 18716
+INFO 2025-10-28 17:52:11,452 basehttp 2856 10432 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:52:31,793 basehttp 2856 10432 "GET /admin/monitoring/analysisresult/ HTTP/1.1" 200 18450
+INFO 2025-10-28 17:52:31,851 basehttp 2856 10432 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:52:43,888 basehttp 2856 10432 "GET /admin/monitoring/pipelinesegment/ HTTP/1.1" 200 15465
+INFO 2025-10-28 17:52:43,943 basehttp 2856 10432 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:52:45,738 basehttp 2856 10432 "GET /admin/monitoring/pipelinesegment/add/ HTTP/1.1" 200 27963
+INFO 2025-10-28 17:52:45,902 basehttp 2856 10432 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:53:22,755 basehttp 2856 10432 "POST /admin/monitoring/pipelinesegment/add/ HTTP/1.1" 302 0
+INFO 2025-10-28 17:53:22,818 basehttp 2856 10432 "GET /admin/monitoring/pipelinesegment/ HTTP/1.1" 200 18549
+INFO 2025-10-28 17:53:22,879 basehttp 2856 10432 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-28 17:53:50,617 basehttp 2856 7868 "OPTIONS /api/auth/jwt/create/ HTTP/1.1" 200 0
+INFO 2025-10-28 17:53:51,868 basehttp 2856 7868 "POST /api/auth/jwt/create/ HTTP/1.1" 200 489
+INFO 2025-10-28 17:53:51,873 basehttp 2856 7868 "OPTIONS /api/auth/users/me/ HTTP/1.1" 200 0
+INFO 2025-10-28 17:53:51,905 basehttp 2856 7868 "GET /api/auth/users/me/ HTTP/1.1" 200 207
+INFO 2025-10-28 17:53:51,943 basehttp 2856 7868 "OPTIONS /api/dashboard/stats/ HTTP/1.1" 200 0
+INFO 2025-10-28 17:53:51,943 basehttp 2856 27124 "OPTIONS /api/dashboard/recent-activity/ HTTP/1.1" 200 0
+INFO 2025-10-28 17:53:51,945 basehttp 2856 27124 "OPTIONS /api/dashboard/pipeline-health/ HTTP/1.1" 200 0
+INFO 2025-10-28 17:53:51,945 basehttp 2856 7868 "OPTIONS /api/alerts/active/ HTTP/1.1" 200 0
+INFO 2025-10-28 17:53:51,947 basehttp 2856 7868 "OPTIONS /api/pipelines/ HTTP/1.1" 200 0
+WARNING 2025-10-28 17:53:51,957 log 2856 27124 Not Found: /api/dashboard/recent-activity/
+WARNING 2025-10-28 17:53:51,957 basehttp 2856 27124 "GET /api/dashboard/recent-activity/ HTTP/1.1" 404 35433
+INFO 2025-10-28 17:53:51,987 basehttp 2856 27124 "GET /api/alerts/active/ HTTP/1.1" 200 2
+WARNING 2025-10-28 17:53:52,008 log 2856 27124 Not Found: /api/dashboard/pipeline-health/
+INFO 2025-10-28 17:53:52,008 basehttp 2856 7868 "GET /api/dashboard/stats/ HTTP/1.1" 200 190
+WARNING 2025-10-28 17:53:52,008 basehttp 2856 27124 "GET /api/dashboard/pipeline-health/ HTTP/1.1" 404 35433
+INFO 2025-10-28 17:53:52,049 basehttp 2856 7868 "GET /api/pipelines/ HTTP/1.1" 200 409
+WARNING 2025-10-28 17:53:52,982 log 2856 7868 Not Found: /api/dashboard/recent-activity/
+WARNING 2025-10-28 17:53:52,982 basehttp 2856 7868 "GET /api/dashboard/recent-activity/ HTTP/1.1" 404 35433
+WARNING 2025-10-28 17:53:53,032 log 2856 7868 Not Found: /api/dashboard/pipeline-health/
+WARNING 2025-10-28 17:53:53,033 basehttp 2856 7868 "GET /api/dashboard/pipeline-health/ HTTP/1.1" 404 35433
+INFO 2025-10-28 17:54:48,332 basehttp 2856 7868 "GET /api/auth/users/me/ HTTP/1.1" 200 207
+WARNING 2025-10-28 17:54:48,392 log 2856 18856 Not Found: /api/dashboard/pipeline-health/
+WARNING 2025-10-28 17:54:48,398 log 2856 21480 Not Found: /api/dashboard/recent-activity/
+INFO 2025-10-28 17:54:48,398 basehttp 2856 27124 "GET /api/auth/users/me/ HTTP/1.1" 200 207
+WARNING 2025-10-28 17:54:48,398 basehttp 2856 18856 "GET /api/dashboard/pipeline-health/ HTTP/1.1" 404 35433
+WARNING 2025-10-28 17:54:48,398 basehttp 2856 21480 "GET /api/dashboard/recent-activity/ HTTP/1.1" 404 35433
+INFO 2025-10-28 17:54:48,415 basehttp 2856 18140 "GET /api/alerts/active/ HTTP/1.1" 200 2
+INFO 2025-10-28 17:54:48,425 basehttp 2856 16320 "GET /api/pipelines/ HTTP/1.1" 200 409
+INFO 2025-10-28 17:54:48,427 basehttp 2856 7868 "GET /api/dashboard/stats/ HTTP/1.1" 200 190
+INFO 2025-10-28 17:54:48,632 basehttp 2856 7868 "GET /api/auth/users/me/ HTTP/1.1" 200 207
+INFO 2025-10-28 17:54:48,664 basehttp 2856 16320 "GET /api/auth/users/me/ HTTP/1.1" 200 207
+WARNING 2025-10-28 17:54:48,872 log 2856 7868 Not Found: /api/dashboard/recent-activity/
+WARNING 2025-10-28 17:54:48,882 log 2856 18140 Not Found: /api/dashboard/pipeline-health/
+WARNING 2025-10-28 17:54:48,882 basehttp 2856 7868 "GET /api/dashboard/recent-activity/ HTTP/1.1" 404 35433
+WARNING 2025-10-28 17:54:48,882 basehttp 2856 18140 "GET /api/dashboard/pipeline-health/ HTTP/1.1" 404 35433
+INFO 2025-10-28 17:54:48,899 basehttp 2856 16320 "GET /api/dashboard/stats/ HTTP/1.1" 200 190
+INFO 2025-10-28 17:54:48,899 basehttp 2856 21480 "GET /api/alerts/active/ HTTP/1.1" 200 2
+INFO 2025-10-28 17:54:48,903 basehttp 2856 18856 "GET /api/pipelines/ HTTP/1.1" 200 409
+WARNING 2025-10-28 17:54:49,442 log 2856 18856 Not Found: /api/dashboard/pipeline-health/
+WARNING 2025-10-28 17:54:49,452 log 2856 21480 Not Found: /api/dashboard/recent-activity/
+WARNING 2025-10-28 17:54:49,452 basehttp 2856 21480 "GET /api/dashboard/recent-activity/ HTTP/1.1" 404 35433
+WARNING 2025-10-28 17:54:49,452 basehttp 2856 18856 "GET /api/dashboard/pipeline-health/ HTTP/1.1" 404 35433
+INFO 2025-10-28 17:55:21,452 basehttp 2856 18856 "POST /api/auth/jwt/create/ HTTP/1.1" 200 489
+INFO 2025-10-28 17:55:21,488 basehttp 2856 18856 "GET /api/auth/users/me/ HTTP/1.1" 200 207
+WARNING 2025-10-28 17:55:21,553 log 2856 21480 Not Found: /api/dashboard/recent-activity/
+WARNING 2025-10-28 17:55:21,564 log 2856 16320 Not Found: /api/dashboard/pipeline-health/
+WARNING 2025-10-28 17:55:21,564 basehttp 2856 16320 "GET /api/dashboard/pipeline-health/ HTTP/1.1" 404 35433
+WARNING 2025-10-28 17:55:21,564 basehttp 2856 21480 "GET /api/dashboard/recent-activity/ HTTP/1.1" 404 35433
+INFO 2025-10-28 17:55:21,564 basehttp 2856 18140 "GET /api/alerts/active/ HTTP/1.1" 200 2
+INFO 2025-10-28 17:55:21,579 basehttp 2856 18856 "GET /api/dashboard/stats/ HTTP/1.1" 200 190
+INFO 2025-10-28 17:55:21,678 basehttp 2856 7868 "GET /api/pipelines/ HTTP/1.1" 200 409
+WARNING 2025-10-28 17:55:22,613 log 2856 7868 Not Found: /api/dashboard/recent-activity/
+WARNING 2025-10-28 17:55:22,630 log 2856 18856 Not Found: /api/dashboard/pipeline-health/
+WARNING 2025-10-28 17:55:22,630 basehttp 2856 7868 "GET /api/dashboard/recent-activity/ HTTP/1.1" 404 35433
+WARNING 2025-10-28 17:55:22,630 basehttp 2856 18856 "GET /api/dashboard/pipeline-health/ HTTP/1.1" 404 35433
+INFO 2025-10-28 17:59:28,354 autoreload 2856 15232 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\admin.py changed, reloading.
+INFO 2025-10-28 17:59:29,178 autoreload 29068 11624 Watching for file changes with StatReloader
+INFO 2025-10-29 09:25:43,036 autoreload 23340 12036 Watching for file changes with StatReloader
+WARNING 2025-10-29 09:25:47,651 log 23340 27656 Not Found: /
+WARNING 2025-10-29 09:25:47,651 basehttp 23340 27656 "GET / HTTP/1.1" 404 3629
+WARNING 2025-10-29 09:25:48,021 log 23340 24268 Not Found: /favicon.ico
+WARNING 2025-10-29 09:25:48,021 basehttp 23340 24268 "GET /favicon.ico HTTP/1.1" 404 3680
+INFO 2025-10-29 09:25:48,704 basehttp 23340 25396 "OPTIONS /api/auth/users/me/ HTTP/1.1" 200 0
+INFO 2025-10-29 09:25:48,704 basehttp 23340 10956 "OPTIONS /api/auth/users/me/ HTTP/1.1" 200 0
+INFO 2025-10-29 09:25:48,706 basehttp 23340 25396 "OPTIONS /api/auth/users/me/ HTTP/1.1" 200 0
+INFO 2025-10-29 09:25:48,706 basehttp 23340 10956 "OPTIONS /api/auth/users/me/ HTTP/1.1" 200 0
+INFO 2025-10-29 09:25:48,787 basehttp 23340 25396 "OPTIONS /api/dashboard/recent-activity/ HTTP/1.1" 200 0
+INFO 2025-10-29 09:25:48,787 basehttp 23340 1876 "OPTIONS /api/dashboard/pipeline-health/ HTTP/1.1" 200 0
+INFO 2025-10-29 09:25:48,787 basehttp 23340 10956 "OPTIONS /api/dashboard/stats/ HTTP/1.1" 200 0
+INFO 2025-10-29 09:25:48,787 basehttp 23340 10700 "OPTIONS /api/dashboard/stats/ HTTP/1.1" 200 0
+INFO 2025-10-29 09:25:48,787 basehttp 23340 25396 "OPTIONS /api/alerts/active/ HTTP/1.1" 200 0
+INFO 2025-10-29 09:25:48,787 basehttp 23340 1876 "OPTIONS /api/pipelines/ HTTP/1.1" 200 0
+INFO 2025-10-29 09:25:48,787 basehttp 23340 10956 "OPTIONS /api/dashboard/recent-activity/ HTTP/1.1" 200 0
+INFO 2025-10-29 09:25:48,787 basehttp 23340 10700 "OPTIONS /api/dashboard/pipeline-health/ HTTP/1.1" 200 0
+INFO 2025-10-29 09:25:48,787 basehttp 23340 25396 "OPTIONS /api/alerts/active/ HTTP/1.1" 200 0
+INFO 2025-10-29 09:25:48,803 basehttp 23340 10956 "OPTIONS /api/pipelines/ HTTP/1.1" 200 0
+WARNING 2025-10-29 09:25:48,819 log 23340 10700 Not Found: /api/dashboard/pipeline-health/
+WARNING 2025-10-29 09:25:48,819 log 23340 10956 Not Found: /api/dashboard/recent-activity/
+WARNING 2025-10-29 09:25:48,819 basehttp 23340 10700 "GET /api/dashboard/pipeline-health/ HTTP/1.1" 404 35433
+WARNING 2025-10-29 09:25:48,819 basehttp 23340 10956 "GET /api/dashboard/recent-activity/ HTTP/1.1" 404 35433
+WARNING 2025-10-29 09:25:48,819 log 23340 10956 Not Found: /api/dashboard/pipeline-health/
+WARNING 2025-10-29 09:25:48,819 basehttp 23340 10956 "GET /api/dashboard/pipeline-health/ HTTP/1.1" 404 35433
+WARNING 2025-10-29 09:25:48,835 log 23340 10956 Not Found: /api/dashboard/recent-activity/
+WARNING 2025-10-29 09:25:48,835 basehttp 23340 10956 "GET /api/dashboard/recent-activity/ HTTP/1.1" 404 35433
+WARNING 2025-10-29 09:25:49,081 log 23340 1876 Unauthorized: /api/pipelines/
+WARNING 2025-10-29 09:25:49,082 log 23340 25396 Unauthorized: /api/alerts/active/
+WARNING 2025-10-29 09:25:49,082 log 23340 10700 Unauthorized: /api/dashboard/stats/
+WARNING 2025-10-29 09:25:49,082 basehttp 23340 1876 "GET /api/pipelines/ HTTP/1.1" 401 172
+WARNING 2025-10-29 09:25:49,084 log 23340 1876 Unauthorized: /api/pipelines/
+WARNING 2025-10-29 09:25:49,084 basehttp 23340 10700 "GET /api/dashboard/stats/ HTTP/1.1" 401 172
+WARNING 2025-10-29 09:25:49,085 basehttp 23340 25396 "GET /api/alerts/active/ HTTP/1.1" 401 172
+WARNING 2025-10-29 09:25:49,086 log 23340 10700 Unauthorized: /api/dashboard/stats/
+WARNING 2025-10-29 09:25:49,087 log 23340 25396 Unauthorized: /api/alerts/active/
+WARNING 2025-10-29 09:25:49,087 basehttp 23340 1876 "GET /api/pipelines/ HTTP/1.1" 401 172
+INFO 2025-10-29 09:25:49,087 basehttp 23340 10956 "OPTIONS /api/auth/jwt/refresh/ HTTP/1.1" 200 0
+WARNING 2025-10-29 09:25:49,087 basehttp 23340 10700 "GET /api/dashboard/stats/ HTTP/1.1" 401 172
+WARNING 2025-10-29 09:25:49,087 basehttp 23340 25396 "GET /api/alerts/active/ HTTP/1.1" 401 172
+INFO 2025-10-29 09:25:49,087 basehttp 23340 10956 "OPTIONS /api/auth/jwt/refresh/ HTTP/1.1" 200 0
+INFO 2025-10-29 09:25:49,139 basehttp 23340 27568 "POST /api/auth/jwt/refresh/ HTTP/1.1" 200 489
+INFO 2025-10-29 09:25:49,157 basehttp 23340 25396 "POST /api/auth/jwt/refresh/ HTTP/1.1" 200 489
+INFO 2025-10-29 09:25:49,157 basehttp 23340 10956 "POST /api/auth/jwt/refresh/ HTTP/1.1" 200 489
+INFO 2025-10-29 09:25:49,157 basehttp 23340 22948 "POST /api/auth/jwt/refresh/ HTTP/1.1" 200 489
+INFO 2025-10-29 09:25:49,158 basehttp 23340 10700 "POST /api/auth/jwt/refresh/ HTTP/1.1" 200 489
+INFO 2025-10-29 09:25:49,159 basehttp 23340 1876 "POST /api/auth/jwt/refresh/ HTTP/1.1" 200 489
+INFO 2025-10-29 09:25:49,204 basehttp 23340 10700 "GET /api/dashboard/stats/ HTTP/1.1" 200 190
+INFO 2025-10-29 09:25:49,232 basehttp 23340 1876 "GET /api/pipelines/ HTTP/1.1" 200 409
+INFO 2025-10-29 09:25:49,251 basehttp 23340 10956 "GET /api/dashboard/stats/ HTTP/1.1" 200 190
+INFO 2025-10-29 09:25:49,254 basehttp 23340 10700 "GET /api/pipelines/ HTTP/1.1" 200 409
+INFO 2025-10-29 09:25:49,286 basehttp 23340 27568 "GET /api/alerts/active/ HTTP/1.1" 200 2
+INFO 2025-10-29 09:25:49,321 basehttp 23340 10700 "GET /api/alerts/active/ HTTP/1.1" 200 2
+INFO 2025-10-29 09:26:07,208 basehttp 23340 28668 "GET /admin/monitoring/pipelinesegment/ HTTP/1.1" 302 0
+INFO 2025-10-29 09:26:07,304 basehttp 23340 28668 "GET /admin/login/?next=/admin/monitoring/pipelinesegment/ HTTP/1.1" 200 4237
+INFO 2025-10-29 09:26:08,914 basehttp 23340 28668 "GET /admin/monitoring/analysisresult/ HTTP/1.1" 302 0
+INFO 2025-10-29 09:26:08,914 basehttp 23340 28668 "GET /admin/login/?next=/admin/monitoring/analysisresult/ HTTP/1.1" 200 4235
+INFO 2025-10-29 09:26:38,120 basehttp 23340 30432 "GET /api/auth/users/me/ HTTP/1.1" 200 207
+INFO 2025-10-29 09:26:38,152 basehttp 23340 30432 "GET /api/auth/users/me/ HTTP/1.1" 200 207
+INFO 2025-10-29 09:26:38,220 basehttp 23340 30432 "GET /api/dashboard/stats/ HTTP/1.1" 200 190
+WARNING 2025-10-29 09:26:38,236 log 23340 30432 Not Found: /api/dashboard/recent-activity/
+WARNING 2025-10-29 09:26:38,236 basehttp 23340 30432 "GET /api/dashboard/recent-activity/ HTTP/1.1" 404 35433
+WARNING 2025-10-29 09:26:38,248 log 23340 30432 Not Found: /api/dashboard/pipeline-health/
+WARNING 2025-10-29 09:26:38,248 basehttp 23340 30432 "GET /api/dashboard/pipeline-health/ HTTP/1.1" 404 35433
+INFO 2025-10-29 09:26:38,270 basehttp 23340 30432 "GET /api/alerts/active/ HTTP/1.1" 200 2
+INFO 2025-10-29 09:26:38,304 basehttp 23340 30432 "GET /api/pipelines/ HTTP/1.1" 200 409
+WARNING 2025-10-29 09:26:39,255 log 23340 30432 Not Found: /api/dashboard/recent-activity/
+WARNING 2025-10-29 09:26:39,270 log 23340 10028 Not Found: /api/dashboard/pipeline-health/
+WARNING 2025-10-29 09:26:39,270 basehttp 23340 30432 "GET /api/dashboard/recent-activity/ HTTP/1.1" 404 35433
+WARNING 2025-10-29 09:26:39,270 basehttp 23340 10028 "GET /api/dashboard/pipeline-health/ HTTP/1.1" 404 35433
+INFO 2025-10-29 09:26:54,663 basehttp 23340 28668 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-10-29 09:26:54,669 basehttp 23340 28668 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4183
+INFO 2025-10-29 09:26:54,689 basehttp 23340 14136 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-10-29 09:26:54,691 basehttp 23340 28668 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-10-29 09:26:54,693 basehttp 23340 15456 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-10-29 09:26:54,695 basehttp 23340 28144 "GET /static/admin/css/login.css HTTP/1.1" 304 0
+INFO 2025-10-29 09:26:54,695 basehttp 23340 22384 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-10-29 09:26:54,697 basehttp 23340 28596 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-10-29 09:26:54,699 basehttp 23340 28596 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+ERROR 2025-10-29 09:27:08,319 log 23340 28596 Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\redis\connection.py", line 855, in connect_check_health
+    sock = self.retry.call_with_retry(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\redis\retry.py", line 116, in call_with_retry
+    return do()
+           ^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\redis\connection.py", line 856, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+            ^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\redis\connection.py", line 1306, in _connect
+    raise err
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\redis\connection.py", line 1290, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\admin\sites.py", line 449, in login
+    return LoginView.as_view(**defaults)(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\views\decorators\debug.py", line 143, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\auth\views.py", line 89, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\views\generic\base.py", line 144, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\views\generic\edit.py", line 151, in post
+    return self.form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\auth\views.py", line 108, in form_valid
+    auth_login(self.request, form.get_user())
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\auth\__init__.py", line 187, in login
+    request.session.cycle_key()
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\sessions\backends\base.py", line 432, in cycle_key
+    self.create()
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\sessions\backends\cache.py", line 55, in create
+    self._session_key = self._get_new_session_key()
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\sessions\backends\base.py", line 196, in _get_new_session_key
+    if not self.exists(session_key):
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\contrib\sessions\backends\cache.py", line 117, in exists
+    bool(session_key) and (self.cache_key_prefix + session_key) in self._cache
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\core\cache\backends\base.py", line 301, in __contains__
+    return self.has_key(key)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\core\cache\backends\redis.py", line 211, in has_key
+    return self._cache.has_key(key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\core\cache\backends\redis.py", line 131, in has_key
+    return bool(client.exists(key))
+                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\redis\commands\core.py", line 1741, in exists
+    return self.execute_command("EXISTS", *names, keys=names)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\redis\client.py", line 657, in execute_command
+    return self._execute_command(*args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\redis\client.py", line 663, in _execute_command
+    conn = self.connection or pool.get_connection()
+                              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\redis\utils.py", line 196, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\redis\connection.py", line 2601, in get_connection
+    connection.connect()
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\redis\connection.py", line 846, in connect
+    self.connect_check_health(check_health=True)
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\redis\connection.py", line 863, in connect_check_health
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+ERROR 2025-10-29 09:27:08,342 basehttp 23340 28596 "POST /admin/login/?next=/admin/ HTTP/1.1" 500 245457
+INFO 2025-10-29 09:30:09,127 basehttp 23340 17748 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-10-29 09:30:09,133 basehttp 23340 17748 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4183
+INFO 2025-10-29 09:30:37,764 basehttp 23340 17748 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4360
+INFO 2025-10-29 09:30:43,265 basehttp 23340 17748 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-10-29 09:30:43,371 basehttp 23340 17748 "GET /admin/ HTTP/1.1" 200 16041
+INFO 2025-10-29 09:30:43,509 basehttp 23340 17748 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2025-10-29 09:30:43,525 basehttp 23340 17748 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-10-29 09:30:43,525 basehttp 23340 22652 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-10-29 09:30:50,147 basehttp 23340 22652 "GET /admin/monitoring/systemsettings/ HTTP/1.1" 200 13645
+INFO 2025-10-29 09:30:50,179 basehttp 23340 22652 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+INFO 2025-10-29 09:30:50,192 basehttp 23340 28748 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2025-10-29 09:30:50,194 basehttp 23340 11412 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+INFO 2025-10-29 09:30:50,196 basehttp 23340 19048 "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2025-10-29 09:30:50,196 basehttp 23340 28052 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-10-29 09:30:50,209 basehttp 23340 22652 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-10-29 09:30:50,210 basehttp 23340 28748 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-10-29 09:30:50,214 basehttp 23340 17748 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2025-10-29 09:30:50,230 basehttp 23340 17748 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2025-10-29 09:30:50,279 basehttp 23340 11412 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2025-10-29 09:30:50,304 basehttp 23340 11412 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2025-10-29 09:30:51,101 basehttp 23340 11412 "GET /admin/monitoring/satelliteimage/ HTTP/1.1" 200 18657
+INFO 2025-10-29 09:30:51,132 basehttp 23340 17748 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2025-10-29 09:30:51,180 basehttp 23340 11412 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-29 09:30:51,201 basehttp 23340 17748 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2025-10-29 09:30:51,201 basehttp 23340 11412 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2025-10-29 09:30:58,881 basehttp 23340 11412 "POST /admin/monitoring/satelliteimage/ HTTP/1.1" 200 14050
+INFO 2025-10-29 09:30:58,890 basehttp 23340 11412 "GET /static/admin/js/cancel.js HTTP/1.1" 304 0
+INFO 2025-10-29 09:31:00,011 basehttp 23340 11412 "POST /admin/monitoring/satelliteimage/ HTTP/1.1" 302 0
+INFO 2025-10-29 09:31:00,082 basehttp 23340 11412 "GET /admin/monitoring/satelliteimage/ HTTP/1.1" 200 16206
+INFO 2025-10-29 09:31:00,223 basehttp 23340 11412 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-29 09:31:00,235 basehttp 23340 11412 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2025-10-29 09:31:02,698 basehttp 23340 11412 "GET /admin/monitoring/pipeline/ HTTP/1.1" 200 18332
+INFO 2025-10-29 09:31:02,742 basehttp 23340 11412 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-29 09:31:08,248 basehttp 23340 11412 "POST /admin/monitoring/pipeline/ HTTP/1.1" 200 14018
+INFO 2025-10-29 09:31:09,259 basehttp 23340 11412 "POST /admin/monitoring/pipeline/ HTTP/1.1" 302 0
+INFO 2025-10-29 09:31:09,317 basehttp 23340 11412 "GET /admin/monitoring/pipeline/ HTTP/1.1" 200 16103
+INFO 2025-10-29 09:31:09,394 basehttp 23340 11412 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-29 09:31:12,898 basehttp 23340 30364 "GET /admin/monitoring/pipelinesegment/ HTTP/1.1" 200 15465
+INFO 2025-10-29 09:31:12,957 basehttp 23340 30364 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-29 09:31:15,033 basehttp 23340 30364 "GET /admin/monitoring/monitoringconfiguration/ HTTP/1.1" 200 15428
+INFO 2025-10-29 09:31:15,090 basehttp 23340 30364 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-29 09:31:16,417 basehttp 23340 30364 "GET /admin/monitoring/monitoringalert/ HTTP/1.1" 200 15928
+INFO 2025-10-29 09:31:16,471 basehttp 23340 30364 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-29 09:31:17,567 basehttp 23340 30364 "GET /admin/monitoring/analysisresult/ HTTP/1.1" 200 16227
+INFO 2025-10-29 09:31:17,622 basehttp 23340 30364 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-29 09:31:18,799 basehttp 23340 30364 "GET /admin/monitoring/activitylog/ HTTP/1.1" 200 16957
+INFO 2025-10-29 09:31:18,863 basehttp 23340 30364 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-29 09:31:25,823 basehttp 23340 19020 "GET /api/auth/users/me/ HTTP/1.1" 200 207
+INFO 2025-10-29 09:31:25,865 basehttp 23340 19020 "GET /api/auth/users/me/ HTTP/1.1" 200 207
+INFO 2025-10-29 09:31:25,918 basehttp 23340 19020 "GET /api/dashboard/stats/ HTTP/1.1" 200 165
+WARNING 2025-10-29 09:31:25,927 log 23340 19020 Not Found: /api/dashboard/recent-activity/
+WARNING 2025-10-29 09:31:25,929 basehttp 23340 19020 "GET /api/dashboard/recent-activity/ HTTP/1.1" 404 35433
+WARNING 2025-10-29 09:31:25,938 log 23340 19020 Not Found: /api/dashboard/pipeline-health/
+WARNING 2025-10-29 09:31:25,938 basehttp 23340 19020 "GET /api/dashboard/pipeline-health/ HTTP/1.1" 404 35433
+INFO 2025-10-29 09:31:25,978 basehttp 23340 19020 "GET /api/alerts/active/ HTTP/1.1" 200 2
+INFO 2025-10-29 09:31:26,015 basehttp 23340 19020 "GET /api/pipelines/ HTTP/1.1" 200 52
+WARNING 2025-10-29 09:31:26,986 log 23340 19020 Not Found: /api/dashboard/recent-activity/
+WARNING 2025-10-29 09:31:26,986 log 23340 13004 Not Found: /api/dashboard/pipeline-health/
+WARNING 2025-10-29 09:31:26,997 basehttp 23340 13004 "GET /api/dashboard/pipeline-health/ HTTP/1.1" 404 35433
+WARNING 2025-10-29 09:31:26,997 basehttp 23340 19020 "GET /api/dashboard/recent-activity/ HTTP/1.1" 404 35433
+WARNING 2025-10-29 09:32:13,078 log 23340 30364 Unauthorized: /api/dashboard/stats/
+WARNING 2025-10-29 09:32:13,078 basehttp 23340 30364 "GET /api/dashboard/stats/ HTTP/1.1" 401 58
+WARNING 2025-10-29 09:33:11,474 log 23340 30364 Not Found: /auth/users
+WARNING 2025-10-29 09:33:11,474 basehttp 23340 30364 "GET /auth/users HTTP/1.1" 404 3677
+INFO 2025-10-29 09:33:28,161 basehttp 23340 30364 "GET /api/auth/users HTTP/1.1" 301 0
+WARNING 2025-10-29 09:33:28,167 log 23340 19824 Unauthorized: /api/auth/users/
+WARNING 2025-10-29 09:33:28,167 basehttp 23340 19824 "GET /api/auth/users/ HTTP/1.1" 401 58
+INFO 2025-10-29 09:34:10,886 autoreload 23340 12036 C:\Users\USER\Desktop\projects\pipeline_monit\server\user\views.py changed, reloading.
+INFO 2025-10-29 09:34:11,630 autoreload 26228 3316 Watching for file changes with StatReloader
+INFO 2025-10-29 09:34:16,207 autoreload 26228 3316 C:\Users\USER\Desktop\projects\pipeline_monit\server\user\urls.py changed, reloading.
+INFO 2025-10-29 09:34:16,763 autoreload 25908 29568 Watching for file changes with StatReloader
+INFO 2025-10-29 09:34:39,977 autoreload 25908 29568 C:\Users\USER\Desktop\projects\pipeline_monit\server\pipeline_monitoring\urls.py changed, reloading.
+INFO 2025-10-29 09:34:40,623 autoreload 28184 11540 Watching for file changes with StatReloader
+INFO 2025-10-29 09:34:57,186 autoreload 28184 11540 C:\Users\USER\Desktop\projects\pipeline_monit\server\pipeline_monitoring\urls.py changed, reloading.
+INFO 2025-10-29 09:34:57,880 autoreload 31140 14932 Watching for file changes with StatReloader
+INFO 2025-10-29 09:44:17,279 autoreload 12132 14348 Watching for file changes with StatReloader
+WARNING 2025-10-29 09:44:22,154 log 12132 31828 Unauthorized: /api/auth/users/
+WARNING 2025-10-29 09:44:22,162 basehttp 12132 31828 "GET /api/auth/users/ HTTP/1.1" 401 58
+WARNING 2025-10-29 09:44:23,937 log 12132 31828 Unauthorized: /api/auth/users/
+WARNING 2025-10-29 09:44:23,937 basehttp 12132 31828 "GET /api/auth/users/ HTTP/1.1" 401 58
+INFO 2025-10-29 09:44:50,726 autoreload 12132 14348 C:\Users\USER\Desktop\projects\pipeline_monit\server\pipeline_monitoring\settings.py changed, reloading.
+INFO 2025-10-29 09:44:51,384 autoreload 13340 12184 Watching for file changes with StatReloader
+WARNING 2025-10-29 09:44:54,344 log 13340 25972 Unauthorized: /api/auth/users/
+WARNING 2025-10-29 09:44:54,344 basehttp 13340 25972 "GET /api/auth/users/ HTTP/1.1" 401 58
+INFO 2025-10-29 09:45:36,910 autoreload 13340 12184 C:\Users\USER\Desktop\projects\pipeline_monit\server\pipeline_monitoring\settings.py changed, reloading.
+INFO 2025-10-29 09:45:37,550 autoreload 9056 32612 Watching for file changes with StatReloader
+INFO 2025-10-29 09:45:39,012 autoreload 9056 32612 C:\Users\USER\Desktop\projects\pipeline_monit\server\pipeline_monitoring\settings.py changed, reloading.
+INFO 2025-10-29 09:45:39,612 autoreload 23280 21780 Watching for file changes with StatReloader
+INFO 2025-10-29 09:45:46,708 basehttp 23280 31840 "GET /api/auth/users/me/ HTTP/1.1" 200 207
+INFO 2025-10-29 09:45:46,738 basehttp 23280 31840 "GET /api/auth/users/me/ HTTP/1.1" 200 207
+INFO 2025-10-29 09:45:46,778 basehttp 23280 31840 "GET /api/dashboard/stats/ HTTP/1.1" 200 165
+WARNING 2025-10-29 09:45:46,780 log 23280 31840 Not Found: /api/dashboard/recent-activity/
+WARNING 2025-10-29 09:45:46,780 basehttp 23280 31840 "GET /api/dashboard/recent-activity/ HTTP/1.1" 404 30063
+WARNING 2025-10-29 09:45:46,790 log 23280 31840 Not Found: /api/dashboard/pipeline-health/
+WARNING 2025-10-29 09:45:46,790 basehttp 23280 31840 "GET /api/dashboard/pipeline-health/ HTTP/1.1" 404 30063
+INFO 2025-10-29 09:45:46,932 basehttp 23280 31840 "GET /api/alerts/active/ HTTP/1.1" 200 2
+INFO 2025-10-29 09:45:46,932 basehttp 23280 28680 "GET /api/pipelines/ HTTP/1.1" 200 52
+WARNING 2025-10-29 09:45:47,846 log 23280 28680 Not Found: /api/dashboard/recent-activity/
+WARNING 2025-10-29 09:45:47,846 basehttp 23280 28680 "GET /api/dashboard/recent-activity/ HTTP/1.1" 404 30063
+WARNING 2025-10-29 09:45:47,846 log 23280 31840 Not Found: /api/dashboard/pipeline-health/
+WARNING 2025-10-29 09:45:47,851 basehttp 23280 31840 "GET /api/dashboard/pipeline-health/ HTTP/1.1" 404 30063
+INFO 2025-10-29 10:59:40,501 autoreload 23280 21780 C:\Users\USER\Desktop\projects\pipeline_monit\server\pipeline_monitoring\settings.py changed, reloading.
+INFO 2025-10-29 10:59:41,272 autoreload 28612 3304 Watching for file changes with StatReloader
+INFO 2025-10-29 11:00:05,734 autoreload 30428 34264 Watching for file changes with StatReloader
+INFO 2025-10-29 11:00:11,393 autoreload 30428 34264 C:\Users\USER\Desktop\projects\pipeline_monit\server\pipeline_monitoring\settings.py changed, reloading.
+INFO 2025-10-29 11:00:12,083 autoreload 26988 35356 Watching for file changes with StatReloader
+WARNING 2025-10-29 11:00:14,737 log 26988 12768 Unauthorized: /api/auth/users/
+WARNING 2025-10-29 11:00:14,738 basehttp 26988 12768 "GET /api/auth/users/ HTTP/1.1" 401 58
+WARNING 2025-10-29 11:00:16,165 log 26988 12768 Unauthorized: /api/auth/users/
+WARNING 2025-10-29 11:00:16,165 basehttp 26988 12768 "GET /api/auth/users/ HTTP/1.1" 401 58
+INFO 2025-10-29 11:00:57,214 autoreload 26988 35356 C:\Users\USER\Desktop\projects\pipeline_monit\server\pipeline_monitoring\settings.py changed, reloading.
+INFO 2025-10-29 11:00:57,886 autoreload 35576 33232 Watching for file changes with StatReloader
+INFO 2025-10-29 11:01:03,528 autoreload 35576 33232 C:\Users\USER\Desktop\projects\pipeline_monit\server\pipeline_monitoring\settings.py changed, reloading.
+INFO 2025-10-29 11:01:04,235 autoreload 17472 34784 Watching for file changes with StatReloader
+INFO 2025-10-29 11:01:21,416 autoreload 17472 34784 C:\Users\USER\Desktop\projects\pipeline_monit\server\pipeline_monitoring\settings.py changed, reloading.
+INFO 2025-10-29 11:01:22,179 autoreload 33796 13476 Watching for file changes with StatReloader
+WARNING 2025-10-29 11:01:26,204 log 33796 34124 Unauthorized: /api/auth/users/
+WARNING 2025-10-29 11:01:26,205 basehttp 33796 34124 "GET /api/auth/users/ HTTP/1.1" 401 58
+INFO 2025-10-29 11:01:45,773 autoreload 3908 36204 Watching for file changes with StatReloader
+WARNING 2025-10-29 11:01:49,487 log 3908 34568 Not Found: /
+WARNING 2025-10-29 11:01:49,487 basehttp 3908 34568 "GET / HTTP/1.1" 404 3482
+WARNING 2025-10-29 11:01:54,889 log 3908 32844 Unauthorized: /api/auth/users/me/
+WARNING 2025-10-29 11:01:54,889 basehttp 3908 32844 "GET /api/auth/users/me/ HTTP/1.1" 401 172
+WARNING 2025-10-29 11:01:54,889 log 3908 32844 Unauthorized: /api/auth/users/me/
+WARNING 2025-10-29 11:01:54,889 basehttp 3908 32844 "GET /api/auth/users/me/ HTTP/1.1" 401 172
+WARNING 2025-10-29 11:01:54,930 log 3908 32844 Unauthorized: /api/auth/jwt/refresh/
+WARNING 2025-10-29 11:01:54,930 basehttp 3908 32844 "POST /api/auth/jwt/refresh/ HTTP/1.1" 401 58
+WARNING 2025-10-29 11:01:54,965 log 3908 32844 Unauthorized: /api/auth/jwt/refresh/
+INFO 2025-10-29 11:01:54,965 basehttp 3908 32844 - Broken pipe from ('127.0.0.1', 56883)
+WARNING 2025-10-29 11:02:02,015 log 3908 34568 Unauthorized: /api/auth/users/
+WARNING 2025-10-29 11:02:02,016 basehttp 3908 34568 "GET /api/auth/users/ HTTP/1.1" 401 58
+WARNING 2025-10-29 11:02:48,429 log 3908 34568 Unauthorized: /api/auth/users/
+WARNING 2025-10-29 11:02:48,429 basehttp 3908 34568 "GET /api/auth/users/ HTTP/1.1" 401 58
+INFO 2025-10-29 11:03:32,338 autoreload 3908 36204 C:\Users\USER\Desktop\projects\pipeline_monit\server\pipeline_monitoring\settings.py changed, reloading.
+INFO 2025-10-29 11:03:33,014 autoreload 27012 32540 Watching for file changes with StatReloader
+INFO 2025-10-29 11:03:34,482 autoreload 27012 32540 C:\Users\USER\Desktop\projects\pipeline_monit\server\pipeline_monitoring\settings.py changed, reloading.
+INFO 2025-10-29 11:03:35,102 autoreload 9784 19328 Watching for file changes with StatReloader
+INFO 2025-10-29 11:03:42,869 autoreload 9784 19328 C:\Users\USER\Desktop\projects\pipeline_monit\server\pipeline_monitoring\settings.py changed, reloading.
+INFO 2025-10-29 11:03:43,578 autoreload 18388 27384 Watching for file changes with StatReloader
+INFO 2025-10-29 11:03:46,064 autoreload 18388 27384 C:\Users\USER\Desktop\projects\pipeline_monit\server\pipeline_monitoring\settings.py changed, reloading.
+INFO 2025-10-29 11:03:46,711 autoreload 35072 22048 Watching for file changes with StatReloader
+INFO 2025-10-29 11:04:18,553 autoreload 30580 33024 Watching for file changes with StatReloader
+WARNING 2025-10-29 11:04:27,030 log 30580 34264 Not Found: /
+WARNING 2025-10-29 11:04:27,035 basehttp 30580 34264 "GET / HTTP/1.1" 404 3482
+INFO 2025-10-29 11:04:32,620 basehttp 30580 34264 "GET /admin/ HTTP/1.1" 200 16692
+INFO 2025-10-29 11:04:32,744 basehttp 30580 34264 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+WARNING 2025-10-29 11:04:42,984 log 30580 34264 Unauthorized: /api/auth/users/
+WARNING 2025-10-29 11:04:42,984 basehttp 30580 34264 "GET /api/auth/users/ HTTP/1.1" 401 58
+WARNING 2025-10-29 11:06:37,526 log 30580 34264 Unauthorized: /api/auth/users/
+WARNING 2025-10-29 11:06:37,527 basehttp 30580 34264 "GET /api/auth/users/ HTTP/1.1" 401 58
+INFO 2025-10-29 11:07:02,142 autoreload 30580 33024 C:\Users\USER\Desktop\projects\pipeline_monit\server\pipeline_monitoring\settings.py changed, reloading.
+INFO 2025-10-29 11:07:02,884 autoreload 5336 36680 Watching for file changes with StatReloader
+INFO 2025-10-29 11:07:04,371 autoreload 5336 36680 C:\Users\USER\Desktop\projects\pipeline_monit\server\pipeline_monitoring\settings.py changed, reloading.
+INFO 2025-10-29 11:07:05,011 autoreload 34024 18848 Watching for file changes with StatReloader
+INFO 2025-10-29 11:07:55,302 autoreload 34024 18848 C:\Users\USER\Desktop\projects\pipeline_monit\server\pipeline_monitoring\settings.py changed, reloading.
+INFO 2025-10-29 11:07:56,014 autoreload 7236 36500 Watching for file changes with StatReloader
+INFO 2025-10-29 11:08:06,014 autoreload 7236 36500 C:\Users\USER\Desktop\projects\pipeline_monit\server\pipeline_monitoring\settings.py changed, reloading.
+INFO 2025-10-29 11:08:06,715 autoreload 8272 29760 Watching for file changes with StatReloader
+INFO 2025-10-29 11:08:08,159 autoreload 8272 29760 C:\Users\USER\Desktop\projects\pipeline_monit\server\pipeline_monitoring\settings.py changed, reloading.
+INFO 2025-10-29 11:08:08,796 autoreload 32688 14540 Watching for file changes with StatReloader
+INFO 2025-10-29 11:08:13,413 autoreload 32688 14540 C:\Users\USER\Desktop\projects\pipeline_monit\server\pipeline_monitoring\settings.py changed, reloading.
+INFO 2025-10-29 11:08:14,063 autoreload 33252 7824 Watching for file changes with StatReloader
+INFO 2025-10-29 11:08:15,551 autoreload 33252 7824 C:\Users\USER\Desktop\projects\pipeline_monit\server\pipeline_monitoring\settings.py changed, reloading.
+INFO 2025-10-29 11:08:16,190 autoreload 14572 35068 Watching for file changes with StatReloader
+INFO 2025-10-29 11:09:23,059 autoreload 14572 35068 C:\Users\USER\Desktop\projects\pipeline_monit\server\pipeline_monitoring\settings.py changed, reloading.
+INFO 2025-10-29 11:09:23,805 autoreload 33704 31552 Watching for file changes with StatReloader
+INFO 2025-10-29 11:09:25,273 autoreload 33704 31552 C:\Users\USER\Desktop\projects\pipeline_monit\server\pipeline_monitoring\settings.py changed, reloading.
+INFO 2025-10-29 11:09:25,882 autoreload 23316 33160 Watching for file changes with StatReloader
+INFO 2025-10-29 11:11:01,600 autoreload 23316 33160 C:\Users\USER\Desktop\projects\pipeline_monit\server\pipeline_monitoring\settings.py changed, reloading.
+INFO 2025-10-29 11:16:52,598 autoreload 36696 19852 Watching for file changes with StatReloader
+WARNING 2025-10-29 11:17:04,252 log 36696 32684 Unauthorized: /api/auth/users/
+WARNING 2025-10-29 11:17:04,252 basehttp 36696 32684 "GET /api/auth/users/ HTTP/1.1" 401 58
+WARNING 2025-10-29 11:17:07,423 log 36696 32684 Not Found: /
+WARNING 2025-10-29 11:17:07,424 basehttp 36696 32684 "GET / HTTP/1.1" 404 3482
+INFO 2025-10-29 11:17:12,955 basehttp 36696 32684 "GET /admin/ HTTP/1.1" 200 16692
+INFO 2025-10-29 11:17:12,984 basehttp 36696 32700 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-10-29 11:17:12,985 basehttp 36696 33504 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-10-29 11:17:12,986 basehttp 36696 32684 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-10-29 11:17:12,986 basehttp 36696 35496 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-10-29 11:17:12,987 basehttp 36696 30716 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-10-29 11:17:12,989 basehttp 36696 35496 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+WARNING 2025-10-29 11:19:10,758 log 36696 35496 Unauthorized: /api/dashboard/stats/
+WARNING 2025-10-29 11:19:10,759 basehttp 36696 35496 "GET /api/dashboard/stats/ HTTP/1.1" 401 58
+INFO 2025-10-29 11:21:25,580 autoreload 36696 19852 C:\Users\USER\Desktop\projects\pipeline_monit\server\pipeline_monitoring\settings.py changed, reloading.
+INFO 2025-10-29 11:21:26,322 autoreload 24316 31124 Watching for file changes with StatReloader
+INFO 2025-10-29 11:21:38,685 autoreload 24316 31124 C:\Users\USER\Desktop\projects\pipeline_monit\server\pipeline_monitoring\settings.py changed, reloading.
+INFO 2025-10-29 11:21:39,397 autoreload 33376 3232 Watching for file changes with StatReloader
+WARNING 2025-10-29 11:21:41,208 log 33376 1572 Unauthorized: /api/dashboard/stats/
+WARNING 2025-10-29 11:21:41,208 basehttp 33376 1572 "GET /api/dashboard/stats/ HTTP/1.1" 401 5168
+INFO 2025-10-29 11:21:41,330 basehttp 33376 1572 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2025-10-29 11:21:41,333 basehttp 33376 35172 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+INFO 2025-10-29 11:21:41,338 basehttp 33376 11984 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2025-10-29 11:21:41,340 basehttp 33376 11940 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2025-10-29 11:21:41,349 basehttp 33376 1572 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+INFO 2025-10-29 11:21:41,350 basehttp 33376 9520 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+INFO 2025-10-29 11:21:41,361 basehttp 33376 11940 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2025-10-29 11:21:41,361 basehttp 33376 1572 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+INFO 2025-10-29 11:21:41,364 basehttp 33376 11984 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2025-10-29 11:21:41,364 basehttp 33376 9520 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2025-10-29 11:21:41,364 basehttp 33376 35172 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2025-10-29 11:21:41,402 basehttp 33376 33056 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+WARNING 2025-10-29 11:21:54,762 log 33376 33056 Unauthorized: /api/dashboard/stats/
+WARNING 2025-10-29 11:21:54,763 basehttp 33376 33056 "GET /api/dashboard/stats/?format=json HTTP/1.1" 401 58
+WARNING 2025-10-29 11:21:57,257 log 33376 33056 Unauthorized: /api/dashboard/stats/
+WARNING 2025-10-29 11:21:57,258 basehttp 33376 33056 "GET /api/dashboard/stats/ HTTP/1.1" 401 5168
+WARNING 2025-10-29 11:21:59,117 log 33376 33056 Unauthorized: /api/dashboard/stats/
+WARNING 2025-10-29 11:21:59,118 basehttp 33376 33056 "GET /api/dashboard/stats/?format=api HTTP/1.1" 401 5212
+WARNING 2025-10-29 11:22:02,412 log 33376 33056 Unauthorized: /api/dashboard/stats/
+WARNING 2025-10-29 11:22:02,413 basehttp 33376 33056 "GET /api/dashboard/stats/?format=json HTTP/1.1" 401 58
+WARNING 2025-10-29 11:22:03,913 log 33376 33056 Unauthorized: /api/dashboard/stats/
+WARNING 2025-10-29 11:22:03,918 basehttp 33376 33056 "GET /api/dashboard/stats/?format=api HTTP/1.1" 401 5212
+WARNING 2025-10-29 11:22:11,098 log 33376 33056 Unauthorized: /api/dashboard/stats/
+WARNING 2025-10-29 11:22:11,098 basehttp 33376 33056 "GET /api/dashboard/stats/?format=api HTTP/1.1" 401 5212
+WARNING 2025-10-29 11:22:32,173 log 33376 33056 Unauthorized: /api/auth/users/
+WARNING 2025-10-29 11:22:32,173 basehttp 33376 33056 "GET /api/auth/users/ HTTP/1.1" 401 9603
+INFO 2025-10-29 11:23:25,668 basehttp 33376 33056 "POST /api/auth/users/ HTTP/1.1" 201 11227
+WARNING 2025-10-29 11:24:22,012 log 33376 33056 Method Not Allowed: /api/auth/jwt/create/
+WARNING 2025-10-29 11:24:22,012 basehttp 33376 33056 "GET /api/auth/jwt/create/ HTTP/1.1" 405 7849
+INFO 2025-10-29 11:24:36,506 basehttp 33376 33056 "POST /api/auth/jwt/create/ HTTP/1.1" 200 8299
+INFO 2025-10-29 11:25:44,084 basehttp 33376 19232 "GET /api/dashboard/stats/ HTTP/1.1" 200 6426
+INFO 2025-10-29 11:26:39,150 basehttp 33376 35884 "OPTIONS /api/auth/jwt/create/ HTTP/1.1" 200 0
+INFO 2025-10-29 11:26:39,510 basehttp 33376 35884 "POST /api/auth/jwt/create/ HTTP/1.1" 200 489
+INFO 2025-10-29 11:26:39,517 basehttp 33376 35884 "OPTIONS /api/auth/users/me/ HTTP/1.1" 200 0
+INFO 2025-10-29 11:26:39,541 basehttp 33376 35884 "GET /api/auth/users/me/ HTTP/1.1" 200 224
+INFO 2025-10-29 11:26:39,581 basehttp 33376 35884 "OPTIONS /api/dashboard/stats/ HTTP/1.1" 200 0
+INFO 2025-10-29 11:26:39,581 basehttp 33376 31844 "OPTIONS /api/dashboard/recent-activity/ HTTP/1.1" 200 0
+INFO 2025-10-29 11:26:39,583 basehttp 33376 31844 "OPTIONS /api/dashboard/pipeline-health/ HTTP/1.1" 200 0
+INFO 2025-10-29 11:26:39,583 basehttp 33376 35884 "OPTIONS /api/alerts/active/ HTTP/1.1" 200 0
+INFO 2025-10-29 11:26:39,584 basehttp 33376 35884 "OPTIONS /api/pipelines/ HTTP/1.1" 200 0
+WARNING 2025-10-29 11:26:39,587 log 33376 31844 Not Found: /api/dashboard/recent-activity/
+WARNING 2025-10-29 11:26:39,587 basehttp 33376 31844 "GET /api/dashboard/recent-activity/ HTTP/1.1" 404 30063
+INFO 2025-10-29 11:26:39,617 basehttp 33376 31844 "GET /api/alerts/active/ HTTP/1.1" 200 2
+WARNING 2025-10-29 11:26:39,623 log 33376 31844 Not Found: /api/dashboard/pipeline-health/
+WARNING 2025-10-29 11:26:39,623 basehttp 33376 31844 "GET /api/dashboard/pipeline-health/ HTTP/1.1" 404 30063
+INFO 2025-10-29 11:26:39,623 basehttp 33376 35884 "GET /api/dashboard/stats/ HTTP/1.1" 200 165
+INFO 2025-10-29 11:26:39,655 basehttp 33376 31844 "GET /api/pipelines/ HTTP/1.1" 200 52
+WARNING 2025-10-29 11:26:40,601 log 33376 31844 Not Found: /api/dashboard/recent-activity/
+WARNING 2025-10-29 11:26:40,601 basehttp 33376 31844 "GET /api/dashboard/recent-activity/ HTTP/1.1" 404 30063
+WARNING 2025-10-29 11:26:40,634 log 33376 31844 Not Found: /api/dashboard/pipeline-health/
+WARNING 2025-10-29 11:26:40,634 basehttp 33376 31844 "GET /api/dashboard/pipeline-health/ HTTP/1.1" 404 30063
+INFO 2025-10-29 11:30:42,172 autoreload 33376 3232 C:\Users\USER\Desktop\projects\pipeline_monit\server\pipeline_monitoring\urls.py changed, reloading.
+INFO 2025-10-29 11:30:42,797 autoreload 23636 2936 Watching for file changes with StatReloader
+INFO 2025-10-29 11:31:50,789 autoreload 23636 2936 C:\Users\USER\Desktop\projects\pipeline_monit\server\pipeline_monitoring\settings.py changed, reloading.
+INFO 2025-10-29 11:31:51,442 autoreload 22512 34892 Watching for file changes with StatReloader
+INFO 2025-10-29 11:31:52,526 basehttp 22512 2760 "GET /api/dashboard/stats/ HTTP/1.1" 200 165
+INFO 2025-10-29 11:32:16,851 autoreload 22512 34892 C:\Users\USER\Desktop\projects\pipeline_monit\server\pipeline_monitoring\settings.py changed, reloading.
+INFO 2025-10-29 11:32:17,466 autoreload 22096 31756 Watching for file changes with StatReloader
+INFO 2025-10-29 11:32:18,916 basehttp 22096 33528 "GET /api/dashboard/stats/ HTTP/1.1" 200 165
+INFO 2025-10-29 11:32:21,571 basehttp 22096 33528 "GET /api/dashboard/stats/ HTTP/1.1" 200 165
+INFO 2025-10-29 11:32:23,893 basehttp 22096 33528 "GET /api/dashboard/stats/ HTTP/1.1" 200 165
+WARNING 2025-10-29 11:32:44,376 log 22096 33528 Not Found: /api/dashboard/recent-activity/
+WARNING 2025-10-29 11:32:44,376 basehttp 22096 33528 "GET /api/dashboard/recent-activity/ HTTP/1.1" 404 35433
+INFO 2025-10-29 11:33:13,018 basehttp 22096 33528 "GET /api/dashboard/stats/ HTTP/1.1" 200 165
+INFO 2025-10-29 11:33:57,593 autoreload 20380 2872 Watching for file changes with StatReloader
+INFO 2025-10-29 11:34:20,109 basehttp 20380 33172 "GET /api/auth/users/me/ HTTP/1.1" 200 224
+INFO 2025-10-29 11:34:20,143 basehttp 20380 33172 "GET /api/auth/users/me/ HTTP/1.1" 200 224
+INFO 2025-10-29 11:34:20,192 basehttp 20380 33172 "GET /api/dashboard/stats/ HTTP/1.1" 200 165
+WARNING 2025-10-29 11:34:20,207 log 20380 33172 Not Found: /api/dashboard/recent-activity/
+WARNING 2025-10-29 11:34:20,207 basehttp 20380 33172 "GET /api/dashboard/recent-activity/ HTTP/1.1" 404 35433
+WARNING 2025-10-29 11:34:20,214 log 20380 33172 Not Found: /api/dashboard/pipeline-health/
+WARNING 2025-10-29 11:34:20,214 basehttp 20380 33172 "GET /api/dashboard/pipeline-health/ HTTP/1.1" 404 35433
+INFO 2025-10-29 11:34:20,249 basehttp 20380 33172 "GET /api/alerts/active/ HTTP/1.1" 200 2
+INFO 2025-10-29 11:34:20,289 basehttp 20380 33172 "GET /api/pipelines/ HTTP/1.1" 200 52
+WARNING 2025-10-29 11:34:21,241 log 20380 33172 Not Found: /api/dashboard/recent-activity/
+WARNING 2025-10-29 11:34:21,256 log 20380 19876 Not Found: /api/dashboard/pipeline-health/
+WARNING 2025-10-29 11:34:21,256 basehttp 20380 33172 "GET /api/dashboard/recent-activity/ HTTP/1.1" 404 35433
+WARNING 2025-10-29 11:34:21,257 basehttp 20380 19876 "GET /api/dashboard/pipeline-health/ HTTP/1.1" 404 35433
+INFO 2025-10-29 11:34:23,090 basehttp 20380 19876 "OPTIONS /api/pipelines/?search=&status=&material=&ordering=-created_at HTTP/1.1" 200 0
+INFO 2025-10-29 11:34:23,129 basehttp 20380 19876 "GET /api/pipelines/?search=&status=&material=&ordering=-created_at HTTP/1.1" 200 52
+INFO 2025-10-29 11:34:24,578 basehttp 20380 19876 "OPTIONS /api/satellite-images/?search=&pipeline=&satellite_name=&processing_status=&source_api=&ordering=-image_date HTTP/1.1" 200 0
+INFO 2025-10-29 11:34:24,612 basehttp 20380 19876 "GET /api/satellite-images/?search=&pipeline=&satellite_name=&processing_status=&source_api=&ordering=-image_date HTTP/1.1" 200 52
+INFO 2025-10-29 11:34:25,623 basehttp 20380 19876 "OPTIONS /api/analysis-results/?confidence_min=0&confidence_max=100&verified=false&ordering=-created_at HTTP/1.1" 200 0
+INFO 2025-10-29 11:34:25,678 basehttp 20380 19876 "GET /api/analysis-results/?confidence_min=0&confidence_max=100&verified=false&ordering=-created_at HTTP/1.1" 200 52
+INFO 2025-10-29 11:34:27,618 basehttp 20380 19876 "OPTIONS /api/alerts/?is_resolved=false&ordering=-created_at HTTP/1.1" 200 0
+INFO 2025-10-29 11:34:27,652 basehttp 20380 19876 "GET /api/alerts/?is_resolved=false&ordering=-created_at HTTP/1.1" 200 52
+INFO 2025-10-29 11:34:30,014 basehttp 20380 19876 "OPTIONS /api/satellite-images/ HTTP/1.1" 200 0
+INFO 2025-10-29 11:34:30,014 basehttp 20380 33180 "OPTIONS /api/alerts/ HTTP/1.1" 200 0
+INFO 2025-10-29 11:34:30,014 basehttp 20380 33172 "OPTIONS /api/analysis-results/ HTTP/1.1" 200 0
+INFO 2025-10-29 11:34:30,058 basehttp 20380 33172 "GET /api/satellite-images/ HTTP/1.1" 200 52
+INFO 2025-10-29 11:34:30,058 basehttp 20380 33180 "GET /api/alerts/ HTTP/1.1" 200 52
+INFO 2025-10-29 11:34:30,058 basehttp 20380 19876 "GET /api/analysis-results/ HTTP/1.1" 200 52
+INFO 2025-10-29 11:34:31,934 basehttp 20380 19876 "OPTIONS /api/activity-logs/?ordering=-timestamp HTTP/1.1" 200 0
+INFO 2025-10-29 11:34:31,969 basehttp 20380 19876 "GET /api/activity-logs/?ordering=-timestamp HTTP/1.1" 200 52
+INFO 2025-10-29 11:34:33,492 basehttp 20380 19876 "OPTIONS /api/users/?ordering=-date_joined HTTP/1.1" 200 0
+WARNING 2025-10-29 11:34:33,524 log 20380 19876 Forbidden: /api/users/
+WARNING 2025-10-29 11:34:33,524 basehttp 20380 19876 "GET /api/users/?ordering=-date_joined HTTP/1.1" 403 63
+WARNING 2025-10-29 11:34:34,571 log 20380 19876 Forbidden: /api/users/
+WARNING 2025-10-29 11:34:34,573 basehttp 20380 19876 "GET /api/users/?ordering=-date_joined HTTP/1.1" 403 63
+INFO 2025-10-29 11:34:40,293 basehttp 20380 19876 "OPTIONS /api/settings/current/ HTTP/1.1" 200 0
+WARNING 2025-10-29 11:34:40,324 log 20380 19876 Forbidden: /api/settings/current/
+WARNING 2025-10-29 11:34:40,325 basehttp 20380 19876 "GET /api/settings/current/ HTTP/1.1" 403 63
+WARNING 2025-10-29 11:34:45,492 log 20380 19876 Forbidden: /api/users/
+WARNING 2025-10-29 11:34:45,492 basehttp 20380 19876 "GET /api/users/?ordering=-date_joined HTTP/1.1" 403 63
+WARNING 2025-10-29 11:34:46,537 log 20380 19876 Forbidden: /api/users/
+WARNING 2025-10-29 11:34:46,537 basehttp 20380 19876 "GET /api/users/?ordering=-date_joined HTTP/1.1" 403 63
+INFO 2025-10-29 11:34:58,975 basehttp 20380 19876 "POST /api/auth/jwt/create/ HTTP/1.1" 200 489
+INFO 2025-10-29 11:34:59,007 basehttp 20380 19876 "GET /api/auth/users/me/ HTTP/1.1" 200 224
+WARNING 2025-10-29 11:34:59,058 log 20380 33180 Not Found: /api/dashboard/pipeline-health/
+WARNING 2025-10-29 11:34:59,073 log 20380 19876 Not Found: /api/dashboard/recent-activity/
+WARNING 2025-10-29 11:34:59,073 basehttp 20380 33180 "GET /api/dashboard/pipeline-health/ HTTP/1.1" 404 35433
+WARNING 2025-10-29 11:34:59,077 basehttp 20380 19876 "GET /api/dashboard/recent-activity/ HTTP/1.1" 404 35433
+WARNING 2025-10-29 11:35:00,116 log 20380 33180 Not Found: /api/dashboard/recent-activity/
+WARNING 2025-10-29 11:35:00,116 log 20380 19876 Not Found: /api/dashboard/pipeline-health/
+WARNING 2025-10-29 11:35:00,116 basehttp 20380 33180 "GET /api/dashboard/recent-activity/ HTTP/1.1" 404 35433
+WARNING 2025-10-29 11:35:00,116 basehttp 20380 19876 "GET /api/dashboard/pipeline-health/ HTTP/1.1" 404 35433
+WARNING 2025-10-29 11:35:00,824 log 20380 19876 Forbidden: /api/users/
+WARNING 2025-10-29 11:35:00,824 basehttp 20380 19876 "GET /api/users/?ordering=-date_joined HTTP/1.1" 403 63
+WARNING 2025-10-29 11:35:01,858 log 20380 19876 Forbidden: /api/users/
+WARNING 2025-10-29 11:35:01,858 basehttp 20380 19876 "GET /api/users/?ordering=-date_joined HTTP/1.1" 403 63
+WARNING 2025-10-29 11:35:06,378 log 20380 19876 Forbidden: /api/users/
+WARNING 2025-10-29 11:35:06,379 basehttp 20380 19876 "GET /api/users/?ordering=-date_joined HTTP/1.1" 403 63
+WARNING 2025-10-29 11:35:07,420 log 20380 19876 Forbidden: /api/users/
+WARNING 2025-10-29 11:35:07,421 basehttp 20380 19876 "GET /api/users/?ordering=-date_joined HTTP/1.1" 403 63
+WARNING 2025-10-29 11:35:07,971 log 20380 19876 Not Found: /api/dashboard/recent-activity/
+WARNING 2025-10-29 11:35:07,981 log 20380 33180 Not Found: /api/dashboard/pipeline-health/
+WARNING 2025-10-29 11:35:07,982 basehttp 20380 33180 "GET /api/dashboard/pipeline-health/ HTTP/1.1" 404 35433
+WARNING 2025-10-29 11:35:07,982 basehttp 20380 19876 "GET /api/dashboard/recent-activity/ HTTP/1.1" 404 35433
+WARNING 2025-10-29 11:35:09,036 log 20380 19876 Not Found: /api/dashboard/pipeline-health/
+WARNING 2025-10-29 11:35:09,039 log 20380 33180 Not Found: /api/dashboard/recent-activity/
+WARNING 2025-10-29 11:35:09,039 basehttp 20380 19876 "GET /api/dashboard/pipeline-health/ HTTP/1.1" 404 35433
+WARNING 2025-10-29 11:35:09,039 basehttp 20380 33180 "GET /api/dashboard/recent-activity/ HTTP/1.1" 404 35433
+WARNING 2025-10-29 11:35:24,784 log 20380 33180 Forbidden: /api/users/
+WARNING 2025-10-29 11:35:24,784 basehttp 20380 33180 "GET /api/users/?ordering=-date_joined HTTP/1.1" 403 63
+WARNING 2025-10-29 11:35:25,824 log 20380 33180 Forbidden: /api/users/
+WARNING 2025-10-29 11:35:25,824 basehttp 20380 33180 "GET /api/users/?ordering=-date_joined HTTP/1.1" 403 63
+INFO 2025-10-29 11:36:02,863 basehttp 20380 4192 "GET /api/dashboard/stats/ HTTP/1.1" 200 165
+WARNING 2025-10-29 11:36:02,958 log 20380 4192 Not Found: /favicon.ico
+WARNING 2025-10-29 11:36:02,958 basehttp 20380 4192 "GET /favicon.ico HTTP/1.1" 404 3680
+WARNING 2025-10-29 11:36:19,711 log 20380 4192 Not Found: /api/dashboard/recent-activity/
+WARNING 2025-10-29 11:36:19,712 basehttp 20380 4192 "GET /api/dashboard/recent-activity/ HTTP/1.1" 404 35433
+WARNING 2025-10-29 11:36:51,741 log 20380 4192 Not Found: /api/dashboard/pipeline-health/
+WARNING 2025-10-29 11:36:51,742 basehttp 20380 4192 "GET /api/dashboard/pipeline-health/ HTTP/1.1" 404 35433
+INFO 2025-10-29 11:37:06,904 basehttp 20380 4192 "GET /api/dashboard/stats/ HTTP/1.1" 200 165
+WARNING 2025-10-29 11:37:25,368 log 20380 33180 Not Found: /api/dashboard/recent-activity/
+WARNING 2025-10-29 11:37:25,377 log 20380 19876 Not Found: /api/dashboard/pipeline-health/
+WARNING 2025-10-29 11:37:25,377 basehttp 20380 33180 "GET /api/dashboard/recent-activity/ HTTP/1.1" 404 35433
+WARNING 2025-10-29 11:37:25,378 basehttp 20380 19876 "GET /api/dashboard/pipeline-health/ HTTP/1.1" 404 35433
+WARNING 2025-10-29 11:37:26,406 log 20380 33180 Not Found: /api/dashboard/pipeline-health/
+WARNING 2025-10-29 11:37:26,421 log 20380 19876 Not Found: /api/dashboard/recent-activity/
+WARNING 2025-10-29 11:37:26,422 basehttp 20380 33180 "GET /api/dashboard/pipeline-health/ HTTP/1.1" 404 35433
+WARNING 2025-10-29 11:37:26,423 basehttp 20380 19876 "GET /api/dashboard/recent-activity/ HTTP/1.1" 404 35433
+INFO 2025-10-29 11:52:07,257 autoreload 26452 35304 Watching for file changes with StatReloader
+ERROR 2025-10-29 11:52:10,987 log 26452 35060 Internal Server Error: /swagger/
+Traceback (most recent call last):
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\rest_framework\response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\drf_yasg\renderers.py", line 93, in render
+    return render_to_string(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\.virtualenvs\server--0qGR1Gj\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: drf-yasg/swagger-ui.html
+ERROR 2025-10-29 11:52:10,988 basehttp 26452 35060 "GET /swagger/ HTTP/1.1" 500 108731
+INFO 2025-10-29 11:56:24,802 autoreload 26452 35304 C:\Users\USER\Desktop\projects\pipeline_monit\server\pipeline_monitoring\settings.py changed, reloading.
+INFO 2025-10-29 11:56:25,562 autoreload 27120 33956 Watching for file changes with StatReloader
+INFO 2025-10-29 11:57:09,702 autoreload 2724 35604 Watching for file changes with StatReloader
+INFO 2025-10-29 11:57:15,218 basehttp 2724 31752 "GET /swagger/ HTTP/1.1" 200 2466
+INFO 2025-10-29 11:57:15,275 basehttp 2724 31752 "GET /static/drf-yasg/style.css HTTP/1.1" 200 1047
+INFO 2025-10-29 11:57:15,289 basehttp 2724 31752 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 145206
+INFO 2025-10-29 11:57:15,323 basehttp 2724 31752 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1046583
+INFO 2025-10-29 11:57:15,402 basehttp 2724 31752 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 322863
+INFO 2025-10-29 11:57:15,416 basehttp 2724 28380 "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 200 2093
+INFO 2025-10-29 11:57:15,445 basehttp 2724 28380 "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 15480
+INFO 2025-10-29 11:57:15,464 basehttp 2724 31752 "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56904
+INFO 2025-10-29 11:57:15,512 basehttp 2724 28380 "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628
+INFO 2025-10-29 11:57:15,573 basehttp 2724 31752 "GET /swagger/?format=openapi HTTP/1.1" 200 61615
+INFO 2025-10-29 12:01:22,466 autoreload 33428 13136 Watching for file changes with StatReloader
+INFO 2025-10-29 12:01:29,197 basehttp 33428 28108 "GET /swagger/ HTTP/1.1" 200 2466
+INFO 2025-10-29 12:01:29,430 basehttp 33428 28108 "GET /swagger/?format=openapi HTTP/1.1" 200 61615

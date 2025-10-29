@@ -42,9 +42,11 @@ class Pipeline(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
 
     # Geographic information
-    start_point = gis_models.PointField()
-    end_point = gis_models.PointField()
-    route = gis_models.LineStringField(help_text="Pipeline route geometry")
+    start_point = gis_models.PointField(null=True, blank=True)
+    end_point = gis_models.PointField(null=True, blank=True)
+    route = gis_models.LineStringField(
+        null=True, blank=True, help_text="Pipeline route geometry"
+    )
 
     class Meta:
         ordering = ["-created_at"]
@@ -68,23 +70,24 @@ class SatelliteImage(models.Model):
     resolution_m = models.FloatField(help_text="Spatial resolution in meters")
 
     # Geographic bounds
-    bounds = gis_models.PolygonField(help_text="Image coverage area")
-    center_point = gis_models.PointField()
+    bounds = gis_models.PolygonField(
+        null=True, blank=True, help_text="Image coverage area"
+    )
+    center_point = gis_models.PointField(null=True, blank=True)
 
     # Image files - TIFF format only
     image_file = models.FileField(
-        upload_to='satellite_images/', 
+        upload_to="satellite_images/",
         validators=[validate_tiff_file],
-        help_text="Satellite image file in TIFF format (.tif, .tiff). Maximum size: 100 MB"
+        help_text="Satellite image file in TIFF format (.tif, .tiff). Maximum size: 100 MB",
     )
     thumbnail = models.ImageField(
-        upload_to='thumbnails/', 
-        blank=True, 
+        upload_to="thumbnails/",
+        blank=True,
         null=True,
         validators=[validate_thumbnail_file],
-        help_text="Thumbnail image (JPG, PNG, or TIFF). Maximum size: 5 MB"
+        help_text="Thumbnail image (JPG, PNG, or TIFF). Maximum size: 5 MB",
     )
-    
 
     # Processing status
     processing_status = models.CharField(
@@ -116,17 +119,16 @@ class SatelliteImage(models.Model):
 class AnalysisResult(models.Model):
     """Model for storing analysis results from satellite imagery"""
 
-
-    # Analysis metadata
+    # Choices constants
     ANALYSIS_TYPE_CHOICES = [
         ("leak_detection", "Leak Detection"),
         ("vegetation_encroachment", "Vegetation Encroachment"),
         ("ground_subsidence", "Ground Subsidence"),
         ("construction_activity", "Construction Activity"),
         ("equipment_damage", "Equipment Damage"),
-        ("corrosion_detection", "Corrosion Detection"),  # NEW
-        ("thermal_anomaly", "Thermal Anomaly"),  # NEW
-        ("weather_damage", "Weather Damage"),  # NEW
+        ("corrosion_detection", "Corrosion Detection"),
+        ("thermal_anomaly", "Thermal Anomaly"),
+        ("weather_damage", "Weather Damage"),
     ]
 
     SEVERITY_CHOICES = [
@@ -141,14 +143,18 @@ class AnalysisResult(models.Model):
         ("verified", "Verified"),
         ("false_positive", "False Positive"),
         ("alert_created", "Alert Created"),
-        ("resolved", "Resolved"),  # NEW
-        ("dismissed", "Dismissed"),  # NEW
+        ("resolved", "Resolved"),
+        ("dismissed", "Dismissed"),
     ]
 
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     satellite_image = models.ForeignKey(
         SatelliteImage, on_delete=models.CASCADE, related_name="analysis_results"
     )
+
+    # Analysis metadata
+    analysis_type = models.CharField(max_length=50, choices=ANALYSIS_TYPE_CHOICES)
+
     # Results
     confidence_score = models.FloatField(
         validators=[MinValueValidator(0.0), MaxValueValidator(1.0)],
@@ -157,7 +163,9 @@ class AnalysisResult(models.Model):
     severity = models.CharField(max_length=20, choices=SEVERITY_CHOICES)
 
     # Geographic information
-    detected_location = gis_models.PointField(help_text="Location of detected anomaly")
+    detected_location = gis_models.PointField(
+        null=True, blank=True, help_text="Location of detected anomaly"
+    )
     affected_area = gis_models.PolygonField(
         blank=True, null=True, help_text="Area affected by the anomaly"
     )
@@ -167,16 +175,7 @@ class AnalysisResult(models.Model):
     raw_data = models.JSONField(blank=True, null=True, help_text="Raw analysis data")
 
     # Status
-    status = models.CharField(
-        max_length=20,
-        choices=[
-            ("pending", "Pending Review"),
-            ("verified", "Verified"),
-            ("false_positive", "False Positive"),
-            ("alert_created", "Alert Created"),
-        ],
-        default="pending",
-    )
+    status = models.CharField(max_length=20, choices=STATUS_CHOICES, default="pending")
 
     # Verification
     verified_by = models.ForeignKey(
@@ -198,22 +197,17 @@ class AnalysisResult(models.Model):
 class MonitoringAlert(models.Model):
     """Model for storing monitoring alerts and notifications"""
 
-    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
-    analysis_result = models.ForeignKey(
-        AnalysisResult, on_delete=models.CASCADE, related_name="alerts"
-    )
-
-    # Alert details
+    # Choices constants
     ALERT_TYPE_CHOICES = [
         ("leak_detected", "Leak Detected"),
         ("vegetation_encroachment", "Vegetation Encroachment"),
         ("ground_subsidence", "Ground Subsidence"),
         ("construction_activity", "Construction Activity"),
         ("equipment_damage", "Equipment Damage"),
-        ("corrosion_detected", "Corrosion Detected"),  # NEW
-        ("thermal_anomaly", "Thermal Anomaly"),  # NEW
+        ("corrosion_detected", "Corrosion Detected"),
+        ("thermal_anomaly", "Thermal Anomaly"),
         ("system_error", "System Error"),
-        ("maintenance_required", "Maintenance Required"),  # NEW
+        ("maintenance_required", "Maintenance Required"),
     ]
 
     PRIORITY_CHOICES = [
@@ -223,15 +217,15 @@ class MonitoringAlert(models.Model):
         ("critical", "Critical"),
     ]
 
-    priority = models.CharField(
-        max_length=20,
-        choices=[
-            ("low", "Low"),
-            ("medium", "Medium"),
-            ("high", "High"),
-            ("critical", "Critical"),
-        ],
+    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+    analysis_result = models.ForeignKey(
+        AnalysisResult, on_delete=models.CASCADE, related_name="alerts"
     )
+
+    # Alert details
+    alert_type = models.CharField(max_length=50, choices=ALERT_TYPE_CHOICES)
+
+    priority = models.CharField(max_length=20, choices=PRIORITY_CHOICES)
 
     message = models.TextField()
     is_resolved = models.BooleanField(default=False)
@@ -264,9 +258,9 @@ class PipelineSegment(models.Model):
     length_km = models.FloatField(validators=[MinValueValidator(0.1)])
 
     # Geographic information
-    start_point = gis_models.PointField()
-    end_point = gis_models.PointField()
-    geometry = gis_models.LineStringField()
+    start_point = gis_models.PointField(null=True, blank=True)
+    end_point = gis_models.PointField(null=True, blank=True)
+    geometry = gis_models.LineStringField(null=True, blank=True)
 
     # Monitoring parameters
     monitoring_frequency_hours = models.PositiveIntegerField(default=24)

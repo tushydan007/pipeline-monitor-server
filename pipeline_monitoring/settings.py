@@ -36,7 +36,7 @@ THIRD_PARTY_APPS = [
     "corsheaders",
     "django_filters",
     "django_extensions",
-    'drf_yasg',
+    "drf_yasg",
 ]
 
 LOCAL_APPS = [

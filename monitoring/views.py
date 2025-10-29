@@ -325,7 +325,7 @@ class DashboardViewSet(viewsets.ViewSet):
         serializer = DashboardStatsSerializer(stats_data)
         return Response(serializer.data)
 
-    @action(detail=False, methods=["get"])
+    @action(detail=False, methods=["get"], url_path="recent-activity")
     def recent_activity(self, request):
         """Get recent activity data"""
         # Recent analysis results
@@ -351,7 +351,7 @@ class DashboardViewSet(viewsets.ViewSet):
 
         return Response(activity_data)
 
-    @action(detail=False, methods=["get"])
+    @action(detail=False, methods=["get"], url_path="pipeline-health")
     def pipeline_health(self, request):
         """Get pipeline health overview"""
         pipelines = Pipeline.objects.all()

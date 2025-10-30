@@ -62,6 +62,23 @@ class SatelliteImage(models.Model):
     pipeline = models.ForeignKey(
         Pipeline, on_delete=models.CASCADE, related_name="satellite_images"
     )
+    # User associations
+    # The end user whose dashboard should display results
+    user = models.ForeignKey(
+        User,
+        on_delete=models.CASCADE,
+        related_name="user_satellite_images",
+        null=True,
+        blank=True,
+    )
+    # The admin/staff who uploaded the image
+    uploaded_by = models.ForeignKey(
+        User,
+        on_delete=models.SET_NULL,
+        related_name="uploaded_satellite_images",
+        null=True,
+        blank=True,
+    )
 
     # Image metadata
     image_date = models.DateTimeField()
@@ -101,8 +118,9 @@ class SatelliteImage(models.Model):
         default="pending",
     )
 
-    # API source information
-    source_api = models.CharField(max_length=50, default="nasa")
+    # Source information
+    # For uploaded images, this will be 'uploaded'.
+    source_api = models.CharField(max_length=50, default="uploaded")
     api_image_id = models.CharField(max_length=200, blank=True)
 
     created_at = models.DateTimeField(auto_now_add=True)
@@ -412,15 +430,6 @@ class SystemSettings(models.Model):
     )
     timezone = models.CharField(max_length=50, default="UTC")
     language = models.CharField(max_length=10, default="en")
-    theme = models.CharField(
-        max_length=10,
-        choices=[
-            ("light", "Light"),
-            ("dark", "Dark"),
-            ("auto", "Auto"),
-        ],
-        default="light",
-    )
 
     # Notification Settings
     email_notifications = models.BooleanField(default=True)

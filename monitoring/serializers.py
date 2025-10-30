@@ -121,6 +121,11 @@ class SatelliteImageSerializer(serializers.ModelSerializer):
     center_lat = serializers.SerializerMethodField()
     center_lon = serializers.SerializerMethodField()
     pipeline_id = serializers.SerializerMethodField()
+    # New fields
+    user_id = serializers.UUIDField(source="user.id", read_only=True)
+    uploaded_by_id = serializers.UUIDField(source="uploaded_by.id", read_only=True)
+    # Read-only overlay bounds for front-end overlays: [[south, west], [north, east]]
+    overlay_bounds = serializers.SerializerMethodField(read_only=True)
 
     class Meta:
         model = SatelliteImage
@@ -128,6 +133,9 @@ class SatelliteImageSerializer(serializers.ModelSerializer):
             "id",
             "pipeline",
             "pipeline_id",
+            "user",
+            "user_id",
+            "uploaded_by_id",
             "image_date",
             "satellite_name",
             "sensor",
@@ -145,6 +153,7 @@ class SatelliteImageSerializer(serializers.ModelSerializer):
             "bounds_lon_max",
             "center_lat",
             "center_lon",
+            "overlay_bounds",
         ]
         read_only_fields = ["id", "created_at", "updated_at"]
 
@@ -157,7 +166,26 @@ class SatelliteImageSerializer(serializers.ModelSerializer):
     def get_pipeline_id(self, obj):
         return str(obj.pipeline.id) if obj.pipeline else None
 
+    def get_overlay_bounds(self, obj):
+        # Return bbox in [[south, west], [north, east]] if bounds exist
+        if obj.bounds:
+            extent = (
+                obj.bounds.extent
+            )  # (minx, miny, maxx, maxy) => (west, south, east, north)
+            return [[extent[1], extent[0]], [extent[3], extent[2]]]
+        # Fallback: approximate from center if available
+        if obj.center_point:
+            lat = obj.center_point.y
+            lon = obj.center_point.x
+            dim = 0.1
+            return [[lat - dim / 2, lon - dim / 2], [lat + dim / 2, lon + dim / 2]]
+        return None
+
     def create(self, validated_data):
+        # Ensure source_api defaults to 'uploaded'
+        if "source_api" not in validated_data or not validated_data.get("source_api"):
+            validated_data["source_api"] = "uploaded"
+
         # Handle bounds creation
         bounds_data = {}
         if all(

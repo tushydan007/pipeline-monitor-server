@@ -7,6 +7,10 @@ from django.db.models import Count, Q, Max
 from django.utils import timezone
 from django.contrib.auth import get_user_model
 from datetime import timedelta
+from django.conf import settings
+from django.core.files.base import ContentFile
+from PIL import Image
+import io
 
 # Use custom User model
 User = get_user_model()
@@ -96,6 +100,20 @@ class PipelineViewSet(viewsets.ModelViewSet):
 
         return Response(summary)
 
+    @action(detail=True, methods=["get"], url_path="latest-image")
+    def latest_image(self, request, pk=None):
+        """Get the most recent completed satellite image for this pipeline"""
+        pipeline = self.get_object()
+        image = (
+            pipeline.satellite_images.filter(processing_status="completed")
+            .order_by("-image_date", "-created_at")
+            .first()
+        )
+        if not image:
+            return Response({}, status=status.HTTP_204_NO_CONTENT)
+        serializer = SatelliteImageSerializer(image)
+        return Response(serializer.data)
+
 
 class SatelliteImageViewSet(viewsets.ModelViewSet):
     """ViewSet for SatelliteImage model"""
@@ -112,6 +130,46 @@ class SatelliteImageViewSet(viewsets.ModelViewSet):
     filterset_fields = ["pipeline", "satellite_name", "processing_status", "source_api"]
     ordering_fields = ["image_date", "created_at"]
     ordering = ["-image_date"]
+
+    def get_permissions(self):
+        # Only admins can create uploads; others can read
+        if self.action in ["create"]:
+            return [IsAdminUser()]
+        return super().get_permissions()
+
+    def perform_create(self, serializer):
+        # Set uploader and default source, save instance
+        instance = serializer.save(uploaded_by=self.request.user, source_api="uploaded")
+
+        # Generate thumbnail from uploaded TIFF (store as JPEG)
+        try:
+            if instance.image_file:
+                instance.image_file.seek(0)
+                with Image.open(instance.image_file) as img:
+                    img = img.convert("RGB")
+                    img.thumbnail((300, 300))
+                    buffer = io.BytesIO()
+                    img.save(buffer, format="JPEG", quality=80)
+                    buffer.seek(0)
+                    thumb_name = f"thumb_{instance.id}.jpg"
+                    instance.thumbnail.save(
+                        thumb_name, ContentFile(buffer.read()), save=False
+                    )
+        except Exception:
+            pass
+
+        # Mark processing completed (file already uploaded by admin)
+        instance.processing_status = "completed"
+        instance.save()
+
+        # Trigger analysis asynchronously if available
+        try:
+            from .tasks import analyze_satellite_image
+
+            analyze_satellite_image.delay(str(instance.id))
+        except Exception:
+            # Fallback: ignore if Celery not running
+            pass
 
     @action(detail=True, methods=["post"])
     def analyze(self, request, pk=None):

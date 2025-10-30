@@ -8,7 +8,6 @@ from celery import shared_task
 from django.conf import settings
 from django.utils import timezone
 from .models import Pipeline, SatelliteImage, AnalysisResult, MonitoringAlert
-from .scripts.satellite_data_fetcher import fetch_pipeline_imagery_task
 from .scripts.image_analyzer import analyze_satellite_image_task
 from .scripts.anomaly_detector import detect_anomalies_task
 
@@ -18,38 +17,11 @@ logger = logging.getLogger(__name__)
 @shared_task
 def fetch_satellite_imagery_periodic():
     """
-    Periodic task to fetch satellite imagery for all active pipelines
+    Images are uploaded via Admin.
     """
-    try:
-        active_pipelines = Pipeline.objects.filter(status="active")
-
-        for pipeline in active_pipelines:
-            # Check if we need to fetch new imagery
-            last_image = (
-                SatelliteImage.objects.filter(pipeline=pipeline)
-                .order_by("-image_date")
-                .first()
-            )
-
-            if last_image:
-                # Only fetch if last image is older than monitoring frequency
-                config = getattr(pipeline, "monitoring_config", None)
-                frequency_hours = config.monitoring_frequency_hours if config else 24
-
-                if last_image.image_date < timezone.now() - timedelta(
-                    hours=frequency_hours
-                ):
-                    fetch_pipeline_imagery.delay(str(pipeline.id))
-            else:
-                # No images yet, fetch recent imagery
-                fetch_pipeline_imagery.delay(str(pipeline.id))
-
-        logger.info(
-            f"Triggered satellite imagery fetch for {active_pipelines.count()} pipelines"
-        )
-
-    except Exception as e:
-        logger.error(f"Error in periodic satellite imagery fetch: {e}")
+    logger.info(
+        "fetch_satellite_imagery_periodic is disabled; using admin uploads only."
+    )
 
 
 @shared_task
@@ -57,23 +29,9 @@ def fetch_pipeline_imagery(
     pipeline_id: str, start_date: str = None, end_date: str = None
 ):
     """
-    Task to fetch satellite imagery for a specific pipeline
+    Disabled: External NASA fetching has been removed. Images are uploaded via Admin.
     """
-    try:
-        if not start_date:
-            start_date = (timezone.now() - timedelta(days=30)).strftime("%Y-%m-%d")
-        if not end_date:
-            end_date = timezone.now().strftime("%Y-%m-%d")
-
-        # Call the satellite data fetcher
-        fetch_pipeline_imagery_task(pipeline_id, start_date, end_date)
-
-        logger.info(f"Completed satellite imagery fetch for pipeline {pipeline_id}")
-
-    except Exception as e:
-        logger.error(
-            f"Error fetching satellite imagery for pipeline {pipeline_id}: {e}"
-        )
+    logger.info("fetch_pipeline_imagery is disabled; using admin uploads only.")
 
 
 @shared_task

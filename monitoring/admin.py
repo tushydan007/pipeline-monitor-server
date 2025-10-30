@@ -20,6 +20,13 @@ class PipelineAdmin(GISModelAdmin):
     search_fields = ["name", "description"]
     readonly_fields = ["id", "created_at", "updated_at"]
 
+    # Map configuration - Port Harcourt, Nigeria (Niger Delta region)
+    default_lat = 4.8156
+    default_lon = 7.0498
+    default_zoom = 11
+    map_width = 900
+    map_height = 600
+
     fieldsets = (
         (
             "Basic Information",
@@ -35,12 +42,23 @@ class PipelineAdmin(GISModelAdmin):
                 )
             },
         ),
-        ("Geographic Information", {"fields": ("start_point", "end_point", "route")}),
+        (
+            "Geographic Information",
+            {
+                "fields": ("start_point", "end_point", "route"),
+                "description": "These fields are optional. You can add geographic data later.",
+                "classes": ("wide",),
+            },
+        ),
         (
             "Timestamps",
             {"fields": ("created_at", "updated_at"), "classes": ("collapse",)},
         ),
     )
+
+    class Media:
+        css = {"all": ("admin/css/pipeline_admin.css",)}
+        js = ("admin/js/pipeline_admin.js",)
 
 
 @admin.register(SatelliteImage)
@@ -49,11 +67,19 @@ class SatelliteImageAdmin(GISModelAdmin):
         "satellite_name",
         "image_date",
         "pipeline",
+        "user",
+        "uploaded_by",
         "processing_status",
         "resolution_m",
     ]
-    list_filter = ["satellite_name", "processing_status", "source_api", "image_date"]
-    search_fields = ["satellite_name", "sensor", "api_image_id"]
+    list_filter = [
+        "satellite_name",
+        "processing_status",
+        "source_api",
+        "image_date",
+        "user",
+    ]
+    search_fields = ["satellite_name", "sensor", "api_image_id", "user__email"]
     readonly_fields = ["id", "created_at", "updated_at", "image_preview"]
 
     fieldsets = (
@@ -63,6 +89,8 @@ class SatelliteImageAdmin(GISModelAdmin):
                 "fields": (
                     "id",
                     "pipeline",
+                    "user",
+                    "uploaded_by",
                     "image_date",
                     "satellite_name",
                     "sensor",
@@ -254,7 +282,6 @@ class SystemSettingsAdmin(admin.ModelAdmin):
                     "site_description",
                     "timezone",
                     "language",
-                    "theme",
                 )
             },
         ),

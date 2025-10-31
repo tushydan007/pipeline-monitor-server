@@ -51,17 +51,14 @@ class PipelineAdmin(GISModelAdmin):
             {
                 "fields": ("geojson_file",),
                 "description": "Upload a GeoJSON file containing a LineString geometry. This will automatically populate the geographic fields below. You can also manually set points on the map instead.",
-                "classes": ("collapse",),
+                "classes": ("collapse",)
             },
         ),
-        (
-            "Geographic Information",
-            {
-                "fields": ("start_point", "end_point", "route"),
-                "description": "These fields are optional. You can either upload a GeoJSON file above OR manually set points on the map below.",
-                "classes": ("wide",),
-            },
-        ),
+        ("Geographic Information", {
+            "fields": ("start_point", "end_point", "route", "default_bounds"),
+            "description": "These fields are optional. You can either upload a GeoJSON file above OR manually set points on the map below. Default bounds are automatically calculated when a GeoJSON is uploaded.",
+            "classes": ("wide",)
+        }),
         (
             "Timestamps",
             {"fields": ("created_at", "updated_at"), "classes": ("collapse",)},
@@ -69,7 +66,9 @@ class PipelineAdmin(GISModelAdmin):
     )
 
     class Media:
-        css = {"all": ("admin/css/pipeline_admin.css",)}
+        css = {
+            "all": ("admin/css/pipeline_admin.css",)
+        }
         js = ("admin/js/pipeline_admin.js",)
 
 
@@ -84,13 +83,7 @@ class SatelliteImageAdmin(GISModelAdmin):
         "processing_status",
         "resolution_m",
     ]
-    list_filter = [
-        "satellite_name",
-        "processing_status",
-        "source_api",
-        "image_date",
-        "user",
-    ]
+    list_filter = ["satellite_name", "processing_status", "source_api", "image_date", "user"]
     search_fields = ["satellite_name", "sensor", "api_image_id", "user__email"]
     readonly_fields = ["id", "created_at", "updated_at", "image_preview"]
 
@@ -179,9 +172,7 @@ class SatelliteImageAdmin(GISModelAdmin):
                     mid_pt = Point((west + east) / 2.0, (south + north) / 2.0)
                 if start_pt is None and img.center_point:
                     # Approximate ~0.01 degrees SW from center
-                    start_pt = Point(
-                        img.center_point.x - 0.01, img.center_point.y - 0.01
-                    )
+                    start_pt = Point(img.center_point.x - 0.01, img.center_point.y - 0.01)
                 if end_pt is None and img.center_point:
                     # Approximate ~0.01 degrees NE from center
                     end_pt = Point(img.center_point.x + 0.01, img.center_point.y + 0.01)
@@ -206,21 +197,11 @@ class SatelliteImageAdmin(GISModelAdmin):
                 continue
 
         if updated:
-            self.message_user(
-                request,
-                f"Updated pipeline geometry for {updated} image(s).",
-                level=messages.SUCCESS,
-            )
+            self.message_user(request, f"Updated pipeline geometry for {updated} image(s).", level=messages.SUCCESS)
         if skipped:
-            self.message_user(
-                request,
-                f"Skipped {skipped} image(s) due to missing bounds/center or pipeline.",
-                level=messages.WARNING,
-            )
+            self.message_user(request, f"Skipped {skipped} image(s) due to missing bounds/center or pipeline.", level=messages.WARNING)
 
-    derive_pipeline_route_from_image.short_description = (
-        "Derive pipeline route from selected image(s)"
-    )
+    derive_pipeline_route_from_image.short_description = "Derive pipeline route from selected image(s)"
 
 
 @admin.register(AnalysisResult)

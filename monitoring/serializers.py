@@ -34,6 +34,7 @@ class PipelineSerializer(serializers.ModelSerializer):
     end_point_lat = serializers.SerializerMethodField()
     end_point_lon = serializers.SerializerMethodField()
     route_coordinates = serializers.SerializerMethodField()
+    default_bounds_overlay = serializers.SerializerMethodField(read_only=True)
 
     class Meta:
         model = Pipeline
@@ -56,6 +57,8 @@ class PipelineSerializer(serializers.ModelSerializer):
             "end_point_lat",
             "end_point_lon",
             "route_coordinates",
+            "default_bounds",
+            "default_bounds_overlay",
         ]
         read_only_fields = ["id", "created_at", "updated_at"]
 
@@ -133,6 +136,13 @@ class PipelineSerializer(serializers.ModelSerializer):
             ]
         return None
 
+    def get_default_bounds_overlay(self, obj):
+        """Return default_bounds in [[south, west], [north, east]] format for Leaflet"""
+        if obj.default_bounds:
+            extent = obj.default_bounds.extent  # (minx, miny, maxx, maxy) => (west, south, east, north)
+            return [[extent[1], extent[0]], [extent[3], extent[2]]]
+        return None
+
     def create(self, validated_data):
         # Extract lat/lon data
         start_lat = validated_data.pop("start_lat")
@@ -147,9 +157,17 @@ class PipelineSerializer(serializers.ModelSerializer):
         # Create LineString for route
         route = LineString([start_point, end_point])
 
+        # Calculate default bounds from route
+        temp_pipeline = Pipeline(route=route)
+        default_bounds = temp_pipeline.calculate_default_bounds(buffer_km=1.0)
+
         # Create pipeline
         pipeline = Pipeline.objects.create(
-            start_point=start_point, end_point=end_point, route=route, **validated_data
+            start_point=start_point, 
+            end_point=end_point, 
+            route=route, 
+            default_bounds=default_bounds,
+            **validated_data
         )
 
         return pipeline
@@ -167,14 +185,26 @@ class PipelineSerializer(serializers.ModelSerializer):
             instance.end_point = Point(end_lon, end_lat)
 
         # Update route if coordinates changed
+        route_updated = False
         if instance.start_point and instance.end_point:
-            instance.route = LineString([instance.start_point, instance.end_point])
+            new_route = LineString([instance.start_point, instance.end_point])
+            if instance.route != new_route:
+                instance.route = new_route
+                route_updated = True
 
         # Update other fields
         for attr, value in validated_data.items():
             setattr(instance, attr, value)
 
         instance.save()
+        
+        # Recalculate default bounds if route was updated
+        if route_updated and instance.route:
+            default_bounds = instance.calculate_default_bounds(buffer_km=1.0)
+            if default_bounds:
+                instance.default_bounds = default_bounds
+                instance.save(update_fields=['default_bounds'])
+        
         return instance
 
 

@@ -2,6 +2,8 @@ from rest_framework import serializers
 from django.contrib.gis.geos import Point, LineString, Polygon
 from django.contrib.auth import get_user_model
 from user.serializers import UserSerializer
+import json
+import logging
 
 # Use custom User model
 User = get_user_model()
@@ -16,6 +18,8 @@ from .models import (
     SystemSettings,
 )
 
+logger = logging.getLogger(__name__)
+
 
 class PipelineSerializer(serializers.ModelSerializer):
     """Serializer for Pipeline model"""
@@ -29,6 +33,7 @@ class PipelineSerializer(serializers.ModelSerializer):
     start_point_lon = serializers.SerializerMethodField()
     end_point_lat = serializers.SerializerMethodField()
     end_point_lon = serializers.SerializerMethodField()
+    route_coordinates = serializers.SerializerMethodField()
 
     class Meta:
         model = Pipeline
@@ -50,6 +55,7 @@ class PipelineSerializer(serializers.ModelSerializer):
             "start_point_lon",
             "end_point_lat",
             "end_point_lon",
+            "route_coordinates",
         ]
         read_only_fields = ["id", "created_at", "updated_at"]
 
@@ -64,6 +70,68 @@ class PipelineSerializer(serializers.ModelSerializer):
 
     def get_end_point_lon(self, obj):
         return obj.end_point.x if obj.end_point else None
+
+    def get_route_coordinates(self, obj):
+        """Return route coordinates as array of [lat, lon] pairs for frontend display"""
+        if obj.route:
+            # Extract all coordinates from the LineString
+            # LineString.coords returns tuples of (x, y) = (longitude, latitude)
+            # We need to convert to [[lat, lon], ...] format for Leaflet (which expects [lat, lon])
+            try:
+                # Method 1: Try using coords property directly
+                # Convert to list first to ensure we get all coordinates
+                if hasattr(obj.route, "coords"):
+                    coords_list = []
+                    # Iterate through all coordinate tuples
+                    coords_iter = obj.route.coords
+                    # Convert generator/iterator to list to get all points
+                    coords_tuples = (
+                        list(coords_iter)
+                        if not isinstance(coords_iter, list)
+                        else coords_iter
+                    )
+
+                    for coord in coords_tuples:
+                        # Handle both tuple and list formats
+                        if isinstance(coord, (tuple, list)) and len(coord) >= 2:
+                            # coord is (longitude, latitude) = (x, y)
+                            lon = float(coord[0])
+                            lat = float(coord[1])
+                            # Convert to [latitude, longitude] for Leaflet
+                            coords_list.append([lat, lon])
+
+                    # Ensure we have at least 2 points
+                    if len(coords_list) >= 2:
+                        return coords_list
+
+                # Method 2: Alternative approach using GeoJSON representation
+                # This ensures we get all coordinates even if coords property has issues
+                if hasattr(obj.route, "json"):
+                    geojson_data = json.loads(obj.route.json)
+                    if geojson_data.get("type") == "LineString":
+                        coordinates = geojson_data.get("coordinates", [])
+                        # GeoJSON coordinates are [longitude, latitude]
+                        # Convert to [latitude, longitude] for Leaflet
+                        coords_list = [
+                            [coord[1], coord[0]]
+                            for coord in coordinates
+                            if len(coord) >= 2
+                        ]
+                        if len(coords_list) >= 2:
+                            return coords_list
+
+            except (AttributeError, IndexError, TypeError, ValueError) as e:
+                # If there's any error extracting coordinates, log and fall back
+                logger.warning(f"Error extracting route coordinates: {str(e)}")
+                pass
+
+        # Fallback to start and end points if no route or if extraction failed
+        if obj.start_point and obj.end_point:
+            return [
+                [obj.start_point.y, obj.start_point.x],
+                [obj.end_point.y, obj.end_point.x],
+            ]
+        return None
 
     def create(self, validated_data):
         # Extract lat/lon data
@@ -371,7 +439,7 @@ class PipelineSegmentSerializer(serializers.ModelSerializer):
             start_point=start_point,
             end_point=end_point,
             geometry=geometry,
-            **validated_data
+            **validated_data,
         )
 
         return segment

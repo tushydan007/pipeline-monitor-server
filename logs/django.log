@@ -5926,3 +5926,704 @@ INFO 2025-10-30 18:01:14,710 basehttp 17124 28092 "GET /api/alerts/ HTTP/1.1" 20
 INFO 2025-10-30 18:01:14,711 basehttp 17124 33284 "GET /api/satellite-images/ HTTP/1.1" 200 883
 INFO 2025-10-30 18:01:14,790 basehttp 17124 11884 "GET /api/pipelines/ HTTP/1.1" 200 502
 INFO 2025-10-30 18:01:14,815 basehttp 17124 25000 "GET /api/pipelines/62841876-84b4-488c-81ea-fbc57029492e/latest-image/ HTTP/1.1" 200 789
+INFO 2025-10-30 18:07:12,569 autoreload 1188 16500 Watching for file changes with StatReloader
+INFO 2025-10-30 18:07:16,250 basehttp 1188 25544 "GET /api/auth/users/me/ HTTP/1.1" 200 220
+INFO 2025-10-30 18:07:16,288 basehttp 1188 25544 "GET /api/auth/users/me/ HTTP/1.1" 200 220
+INFO 2025-10-30 18:07:16,448 basehttp 1188 25544 "GET /api/pipelines/ HTTP/1.1" 200 502
+INFO 2025-10-30 18:07:16,484 basehttp 1188 26192 "GET /api/satellite-images/ HTTP/1.1" 200 883
+INFO 2025-10-30 18:07:16,489 basehttp 1188 25544 "GET /api/analysis-results/ HTTP/1.1" 200 571
+INFO 2025-10-30 18:07:16,529 basehttp 1188 26192 "GET /api/alerts/ HTTP/1.1" 200 896
+INFO 2025-10-30 18:07:16,537 basehttp 1188 25544 "GET /api/pipelines/62841876-84b4-488c-81ea-fbc57029492e/latest-image/ HTTP/1.1" 200 789
+INFO 2025-10-30 18:07:16,842 basehttp 1188 16888 - Broken pipe from ('127.0.0.1', 65422)
+INFO 2025-10-30 18:07:40,332 basehttp 1188 25544 "GET /api/auth/users/me/ HTTP/1.1" 200 220
+INFO 2025-10-30 18:07:40,575 basehttp 1188 29748 "GET /api/analysis-results/ HTTP/1.1" 200 571
+INFO 2025-10-30 18:07:40,576 basehttp 1188 25544 "GET /api/pipelines/ HTTP/1.1" 200 502
+INFO 2025-10-30 18:07:40,576 basehttp 1188 26192 "GET /api/satellite-images/ HTTP/1.1" 200 883
+INFO 2025-10-30 18:07:40,611 basehttp 1188 25940 "GET /api/alerts/ HTTP/1.1" 200 896
+INFO 2025-10-30 18:07:40,719 basehttp 1188 25940 "GET /api/pipelines/62841876-84b4-488c-81ea-fbc57029492e/latest-image/ HTTP/1.1" 200 789
+INFO 2025-10-30 18:07:40,731 basehttp 1188 15180 - Broken pipe from ('127.0.0.1', 57824)
+INFO 2025-10-30 18:07:41,495 basehttp 1188 29912 - Broken pipe from ('127.0.0.1', 52250)
+INFO 2025-10-30 18:07:42,459 autoreload 1188 16500 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\serializers.py changed, reloading.
+INFO 2025-10-30 18:07:43,350 autoreload 5576 34260 Watching for file changes with StatReloader
+INFO 2025-10-30 18:07:44,884 autoreload 5576 34260 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\views.py changed, reloading.
+INFO 2025-10-30 18:07:45,484 autoreload 30348 31592 Watching for file changes with StatReloader
+INFO 2025-10-30 18:07:58,683 basehttp 30348 14304 "GET /api/auth/users/me/ HTTP/1.1" 200 220
+INFO 2025-10-30 18:07:58,826 basehttp 30348 14304 "GET /api/pipelines/ HTTP/1.1" 200 502
+INFO 2025-10-30 18:07:58,873 basehttp 30348 14304 "GET /api/analysis-results/ HTTP/1.1" 200 571
+INFO 2025-10-30 18:07:58,932 basehttp 30348 14304 "GET /api/alerts/ HTTP/1.1" 200 896
+INFO 2025-10-30 18:07:58,950 basehttp 30348 14076 "GET /api/satellite-images/ HTTP/1.1" 200 883
+INFO 2025-10-30 18:07:58,980 basehttp 30348 14304 "GET /api/pipelines/62841876-84b4-488c-81ea-fbc57029492e/latest-image/ HTTP/1.1" 200 789
+INFO 2025-10-30 18:07:59,433 basehttp 30348 27188 - Broken pipe from ('127.0.0.1', 56663)
+INFO 2025-10-30 18:08:53,237 autoreload 30348 31592 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\admin.py changed, reloading.
+INFO 2025-10-30 18:08:54,028 autoreload 30872 17428 Watching for file changes with StatReloader
+INFO 2025-10-30 18:08:58,656 autoreload 30872 17428 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\admin.py changed, reloading.
+INFO 2025-10-30 18:08:59,295 autoreload 13392 13148 Watching for file changes with StatReloader
+INFO 2025-10-30 18:10:03,115 autoreload 34992 35484 Watching for file changes with StatReloader
+INFO 2025-10-30 18:10:11,936 basehttp 34992 34452 "GET /admin/monitoring/pipeline/add/ HTTP/1.1" 200 24772
+WARNING 2025-10-30 18:10:12,004 basehttp 34992 32636 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 404 2011
+INFO 2025-10-30 18:10:12,010 basehttp 34992 34452 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+WARNING 2025-10-30 18:10:12,017 basehttp 34992 34452 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 404 2005
+INFO 2025-10-30 18:10:14,775 basehttp 34992 12532 "GET /admin/monitoring/satelliteimage/ HTTP/1.1" 200 19612
+INFO 2025-10-30 18:10:14,841 basehttp 34992 12532 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-30 18:10:16,875 basehttp 34992 12532 "GET /admin/monitoring/satelliteimage/add/ HTTP/1.1" 200 32840
+INFO 2025-10-30 18:10:17,030 basehttp 34992 12532 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-30 18:10:27,688 basehttp 34992 12532 "GET /admin/monitoring/pipeline/ HTTP/1.1" 200 18354
+WARNING 2025-10-30 18:10:27,722 basehttp 34992 12532 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 404 2005
+INFO 2025-10-30 18:10:27,763 basehttp 34992 32432 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+WARNING 2025-10-30 18:10:27,776 basehttp 34992 32432 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 404 2011
+INFO 2025-10-30 18:10:29,259 basehttp 34992 30260 "GET /admin/monitoring/pipeline/add/ HTTP/1.1" 200 24772
+WARNING 2025-10-30 18:10:29,289 basehttp 34992 30260 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 404 2005
+WARNING 2025-10-30 18:10:29,605 basehttp 34992 28344 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 404 2011
+INFO 2025-10-30 18:10:29,646 basehttp 34992 10020 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-30 18:11:10,820 autoreload 34992 35484 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\admin.py changed, reloading.
+INFO 2025-10-30 18:11:11,676 autoreload 29288 22156 Watching for file changes with StatReloader
+INFO 2025-10-30 18:11:34,181 autoreload 31720 7628 Watching for file changes with StatReloader
+WARNING 2025-10-30 18:11:51,800 log 31720 15132 Not Found: /
+WARNING 2025-10-30 18:11:51,800 basehttp 31720 15132 "GET / HTTP/1.1" 404 3629
+WARNING 2025-10-30 18:11:51,917 log 31720 15132 Not Found: /favicon.ico
+WARNING 2025-10-30 18:11:51,918 basehttp 31720 15132 "GET /favicon.ico HTTP/1.1" 404 3680
+INFO 2025-10-30 18:11:56,940 basehttp 31720 15132 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-10-30 18:11:57,018 basehttp 31720 15132 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4183
+INFO 2025-10-30 18:11:57,055 basehttp 31720 15132 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-10-30 18:11:57,058 basehttp 31720 15320 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-10-30 18:11:57,058 basehttp 31720 12276 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-10-30 18:11:57,060 basehttp 31720 29940 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-10-30 18:11:57,062 basehttp 31720 32252 "GET /static/admin/css/login.css HTTP/1.1" 304 0
+INFO 2025-10-30 18:11:57,062 basehttp 31720 3832 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-10-30 18:11:57,063 basehttp 31720 29940 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-10-30 18:12:07,606 basehttp 31720 29940 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-10-30 18:12:07,676 basehttp 31720 29940 "GET /admin/ HTTP/1.1" 200 18302
+INFO 2025-10-30 18:12:07,700 basehttp 31720 29940 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2025-10-30 18:12:07,709 basehttp 31720 3832 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2025-10-30 18:12:07,709 basehttp 31720 29940 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2025-10-30 18:12:07,793 basehttp 31720 32252 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2025-10-30 18:12:09,952 basehttp 31720 32252 "GET /admin/monitoring/satelliteimage/ HTTP/1.1" 200 19612
+INFO 2025-10-30 18:12:09,981 basehttp 31720 15320 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-10-30 18:12:09,981 basehttp 31720 32252 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2025-10-30 18:12:09,981 basehttp 31720 12276 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-10-30 18:12:09,981 basehttp 31720 3832 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-10-30 18:12:09,981 basehttp 31720 15132 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-10-30 18:12:09,986 basehttp 31720 15320 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-10-30 18:12:09,987 basehttp 31720 32252 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-10-30 18:12:09,988 basehttp 31720 12276 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-10-30 18:12:09,989 basehttp 31720 3832 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-10-30 18:12:09,990 basehttp 31720 15132 "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2025-10-30 18:12:09,994 basehttp 31720 15132 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2025-10-30 18:12:10,121 basehttp 31720 29940 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-30 18:12:10,141 basehttp 31720 29940 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2025-10-30 18:12:10,141 basehttp 31720 3832 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+INFO 2025-10-30 18:12:10,159 basehttp 31720 15132 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2025-10-30 18:12:11,929 basehttp 31720 15132 "GET /admin/monitoring/satelliteimage/add/ HTTP/1.1" 200 32840
+INFO 2025-10-30 18:12:11,965 basehttp 31720 29940 "GET /static/gis/css/ol3.css HTTP/1.1" 200 773
+INFO 2025-10-30 18:12:11,968 basehttp 31720 15132 "GET /static/admin/css/forms.css HTTP/1.1" 200 8525
+INFO 2025-10-30 18:12:11,976 basehttp 31720 12276 "GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+INFO 2025-10-30 18:12:11,976 basehttp 31720 32252 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2025-10-30 18:12:11,977 basehttp 31720 15320 "GET /static/gis/js/OLMapWidget.js HTTP/1.1" 200 9019
+INFO 2025-10-30 18:12:11,981 basehttp 31720 15132 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11973
+INFO 2025-10-30 18:12:11,990 basehttp 31720 29940 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-10-30 18:12:11,998 basehttp 31720 3832 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-30 18:12:12,009 basehttp 31720 29940 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-10-30 18:12:12,168 basehttp 31720 3832 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2025-10-30 18:12:12,168 basehttp 31720 29940 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2025-10-30 18:12:17,860 basehttp 31720 29940 "GET /admin/monitoring/pipeline/ HTTP/1.1" 200 18354
+WARNING 2025-10-30 18:12:17,898 basehttp 31720 15132 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 404 2005
+WARNING 2025-10-30 18:12:17,898 basehttp 31720 3832 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 404 2011
+INFO 2025-10-30 18:12:17,916 basehttp 31720 29940 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-30 18:12:18,156 basehttp 31720 29940 "GET /admin/monitoring/monitoringalert/ HTTP/1.1" 200 17897
+INFO 2025-10-30 18:12:18,187 basehttp 31720 29940 "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2025-10-30 18:12:18,323 basehttp 31720 15320 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-30 18:12:20,375 basehttp 31720 15320 "GET /admin/monitoring/pipeline/ HTTP/1.1" 200 18354
+WARNING 2025-10-30 18:12:20,411 basehttp 31720 32252 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 404 2005
+WARNING 2025-10-30 18:12:20,411 basehttp 31720 15320 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 404 2011
+INFO 2025-10-30 18:12:20,432 basehttp 31720 29940 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-30 18:12:21,807 basehttp 31720 29940 "GET /admin/monitoring/pipeline/add/ HTTP/1.1" 200 24772
+WARNING 2025-10-30 18:12:21,842 basehttp 31720 29940 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 404 2011
+WARNING 2025-10-30 18:12:21,844 basehttp 31720 29368 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 404 2005
+INFO 2025-10-30 18:12:21,874 basehttp 31720 12276 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-30 18:12:58,878 basehttp 31720 12276 "GET /admin/monitoring/satelliteimage/ HTTP/1.1" 200 19612
+INFO 2025-10-30 18:12:58,947 basehttp 31720 12276 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-30 18:14:40,261 basehttp 31720 12276 "POST /admin/monitoring/satelliteimage/ HTTP/1.1" 302 0
+INFO 2025-10-30 18:14:40,331 basehttp 31720 12276 "GET /admin/monitoring/satelliteimage/ HTTP/1.1" 200 19759
+INFO 2025-10-30 18:14:40,398 basehttp 31720 12276 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-30 18:14:40,421 basehttp 31720 12276 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2025-10-30 18:14:50,128 basehttp 31720 12276 "GET /admin/monitoring/satelliteimage/c86c9912-44ff-4538-85f5-2ae9e4d0373f/change/ HTTP/1.1" 200 35122
+INFO 2025-10-30 18:14:50,164 basehttp 31720 22636 - Broken pipe from ('127.0.0.1', 65337)
+INFO 2025-10-30 18:14:50,192 basehttp 31720 12276 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-30 18:15:07,848 basehttp 31720 12276 "GET /admin/monitoring/pipeline/ HTTP/1.1" 200 18354
+WARNING 2025-10-30 18:15:07,888 basehttp 31720 28200 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 404 2011
+WARNING 2025-10-30 18:15:07,888 basehttp 31720 29628 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 404 2005
+INFO 2025-10-30 18:15:07,906 basehttp 31720 12276 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-30 18:15:10,766 basehttp 31720 12276 "GET /admin/monitoring/pipeline/62841876-84b4-488c-81ea-fbc57029492e/change/ HTTP/1.1" 200 25725
+WARNING 2025-10-30 18:15:10,802 basehttp 31720 34144 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 404 2011
+WARNING 2025-10-30 18:15:10,802 basehttp 31720 13136 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 404 2005
+INFO 2025-10-30 18:15:10,822 basehttp 31720 12276 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-30 18:15:30,504 basehttp 31720 12276 "GET /admin/monitoring/pipeline/ HTTP/1.1" 200 18354
+WARNING 2025-10-30 18:15:30,537 basehttp 31720 11180 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 404 2011
+WARNING 2025-10-30 18:15:30,541 basehttp 31720 29196 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 404 2005
+INFO 2025-10-30 18:15:30,559 basehttp 31720 12276 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-30 18:16:19,969 basehttp 31720 5088 "GET /api/auth/users/me/ HTTP/1.1" 200 220
+INFO 2025-10-30 18:16:20,014 basehttp 31720 5088 "GET /api/auth/users/me/ HTTP/1.1" 200 220
+INFO 2025-10-30 18:16:20,070 basehttp 31720 5088 "GET /api/pipelines/ HTTP/1.1" 200 505
+INFO 2025-10-30 18:16:20,128 basehttp 31720 5088 "GET /api/satellite-images/ HTTP/1.1" 200 883
+INFO 2025-10-30 18:16:20,269 basehttp 31720 11424 "GET /api/analysis-results/ HTTP/1.1" 200 571
+INFO 2025-10-30 18:16:20,292 basehttp 31720 5088 "GET /api/alerts/ HTTP/1.1" 200 896
+INFO 2025-10-30 18:16:20,328 basehttp 31720 11424 "GET /api/pipelines/62841876-84b4-488c-81ea-fbc57029492e/latest-image/ HTTP/1.1" 200 789
+INFO 2025-10-30 18:16:20,455 basehttp 31720 32964 - Broken pipe from ('127.0.0.1', 62276)
+INFO 2025-10-30 18:19:05,370 autoreload 31720 7628 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\admin.py changed, reloading.
+INFO 2025-10-30 18:19:06,257 autoreload 27440 18364 Watching for file changes with StatReloader
+INFO 2025-10-30 18:19:08,782 autoreload 27440 18364 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\admin.py changed, reloading.
+INFO 2025-10-30 18:19:09,380 autoreload 22120 24300 Watching for file changes with StatReloader
+INFO 2025-10-30 18:19:12,926 autoreload 22120 24300 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\admin.py changed, reloading.
+INFO 2025-10-30 18:19:13,556 autoreload 5800 27876 Watching for file changes with StatReloader
+INFO 2025-10-30 18:19:15,019 autoreload 5800 27876 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\admin.py changed, reloading.
+INFO 2025-10-30 18:19:15,661 autoreload 13504 32172 Watching for file changes with StatReloader
+INFO 2025-10-30 18:19:23,400 autoreload 13504 32172 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\admin.py changed, reloading.
+INFO 2025-10-30 18:19:24,221 autoreload 36548 2024 Watching for file changes with StatReloader
+INFO 2025-10-30 18:19:32,082 basehttp 36548 33540 "GET /api/auth/users/me/ HTTP/1.1" 200 220
+INFO 2025-10-30 18:19:32,122 basehttp 36548 33540 "GET /api/auth/users/me/ HTTP/1.1" 200 220
+INFO 2025-10-30 18:19:32,187 basehttp 36548 33540 "GET /api/pipelines/ HTTP/1.1" 200 505
+INFO 2025-10-30 18:19:32,260 basehttp 36548 33540 "GET /api/analysis-results/ HTTP/1.1" 200 571
+INFO 2025-10-30 18:19:32,270 basehttp 36548 15816 "GET /api/satellite-images/ HTTP/1.1" 200 883
+INFO 2025-10-30 18:19:32,327 basehttp 36548 33540 "GET /api/alerts/ HTTP/1.1" 200 896
+INFO 2025-10-30 18:19:32,335 basehttp 36548 15816 "GET /api/pipelines/62841876-84b4-488c-81ea-fbc57029492e/latest-image/ HTTP/1.1" 200 789
+INFO 2025-10-30 18:19:32,701 basehttp 36548 32404 - Broken pipe from ('127.0.0.1', 51050)
+INFO 2025-10-30 18:19:50,168 autoreload 36548 2024 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\admin.py changed, reloading.
+INFO 2025-10-30 18:19:50,929 autoreload 30768 32556 Watching for file changes with StatReloader
+INFO 2025-10-30 18:20:17,402 autoreload 30768 32556 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\admin.py changed, reloading.
+INFO 2025-10-30 18:20:18,014 autoreload 12012 24084 Watching for file changes with StatReloader
+INFO 2025-10-30 18:20:20,523 autoreload 12012 24084 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\admin.py changed, reloading.
+INFO 2025-10-30 18:20:21,163 autoreload 27068 2828 Watching for file changes with StatReloader
+INFO 2025-10-30 18:20:24,751 autoreload 27068 2828 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\admin.py changed, reloading.
+INFO 2025-10-30 18:20:25,374 autoreload 36972 17188 Watching for file changes with StatReloader
+INFO 2025-10-30 18:20:26,838 autoreload 36972 17188 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\admin.py changed, reloading.
+INFO 2025-10-30 18:20:27,494 autoreload 18124 31092 Watching for file changes with StatReloader
+INFO 2025-10-30 18:23:21,575 basehttp 18124 17680 "GET /api/auth/users/me/ HTTP/1.1" 200 220
+INFO 2025-10-30 18:23:21,617 basehttp 18124 17680 "GET /api/auth/users/me/ HTTP/1.1" 200 220
+INFO 2025-10-30 18:23:21,661 basehttp 18124 17680 "GET /api/pipelines/ HTTP/1.1" 200 505
+INFO 2025-10-30 18:23:21,710 basehttp 18124 17680 "GET /api/satellite-images/ HTTP/1.1" 200 883
+INFO 2025-10-30 18:23:21,766 basehttp 18124 17680 "GET /api/analysis-results/ HTTP/1.1" 200 571
+INFO 2025-10-30 18:23:21,808 basehttp 18124 7176 "GET /api/pipelines/62841876-84b4-488c-81ea-fbc57029492e/latest-image/ HTTP/1.1" 200 789
+INFO 2025-10-30 18:23:21,923 basehttp 18124 17680 "GET /api/alerts/ HTTP/1.1" 200 896
+INFO 2025-10-30 18:23:22,074 basehttp 18124 3876 - Broken pipe from ('127.0.0.1', 56678)
+INFO 2025-10-30 18:24:05,652 autoreload 18124 31092 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\admin.py changed, reloading.
+INFO 2025-10-30 18:24:06,323 autoreload 22092 10948 Watching for file changes with StatReloader
+INFO 2025-10-30 18:24:09,978 autoreload 22092 10948 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\admin.py changed, reloading.
+INFO 2025-10-30 18:24:10,607 autoreload 35540 37204 Watching for file changes with StatReloader
+INFO 2025-10-30 18:25:32,731 basehttp 35540 3276 - Broken pipe from ('127.0.0.1', 64297)
+INFO 2025-10-30 18:26:15,370 basehttp 35540 30472 - Broken pipe from ('127.0.0.1', 60098)
+INFO 2025-10-30 18:28:17,753 basehttp 35540 17188 - Broken pipe from ('127.0.0.1', 51050)
+INFO 2025-10-30 18:28:24,687 basehttp 35540 15328 "GET /api/pipelines/ HTTP/1.1" 200 505
+INFO 2025-10-30 18:28:24,687 basehttp 35540 33512 "GET /api/analysis-results/ HTTP/1.1" 200 571
+INFO 2025-10-30 18:28:24,698 basehttp 35540 28320 "GET /api/alerts/ HTTP/1.1" 200 896
+INFO 2025-10-30 18:28:24,700 basehttp 35540 17336 "GET /api/pipelines/62841876-84b4-488c-81ea-fbc57029492e/latest-image/ HTTP/1.1" 200 789
+INFO 2025-10-30 18:28:24,700 basehttp 35540 22504 "GET /api/satellite-images/ HTTP/1.1" 200 883
+INFO 2025-10-30 18:30:37,652 basehttp 35540 37200 - Broken pipe from ('127.0.0.1', 49717)
+INFO 2025-10-30 18:30:39,336 basehttp 35540 22504 "GET /api/auth/users/me/ HTTP/1.1" 200 220
+INFO 2025-10-30 18:30:39,369 basehttp 35540 17336 "GET /api/auth/users/me/ HTTP/1.1" 200 220
+INFO 2025-10-30 18:30:39,394 basehttp 35540 36840 - Broken pipe from ('127.0.0.1', 59601)
+INFO 2025-10-30 18:42:35,620 basehttp 35540 27660 "GET /api/pipelines/ HTTP/1.1" 200 505
+INFO 2025-10-30 18:42:35,632 basehttp 35540 26696 "GET /api/analysis-results/ HTTP/1.1" 200 571
+INFO 2025-10-30 18:42:35,639 basehttp 35540 24396 "GET /api/alerts/ HTTP/1.1" 200 896
+INFO 2025-10-30 18:42:35,639 basehttp 35540 3912 "GET /api/satellite-images/ HTTP/1.1" 200 883
+INFO 2025-10-30 18:42:35,731 basehttp 35540 34572 "GET /api/pipelines/62841876-84b4-488c-81ea-fbc57029492e/latest-image/ HTTP/1.1" 200 789
+INFO 2025-10-31 08:30:13,055 autoreload 4056 28236 Watching for file changes with StatReloader
+WARNING 2025-10-31 08:30:16,518 log 4056 2496 Not Found: /
+WARNING 2025-10-31 08:30:16,518 basehttp 4056 2496 "GET / HTTP/1.1" 404 3629
+WARNING 2025-10-31 08:30:16,615 log 4056 2496 Not Found: /favicon.ico
+WARNING 2025-10-31 08:30:16,616 basehttp 4056 2496 "GET /favicon.ico HTTP/1.1" 404 3680
+INFO 2025-10-31 08:31:25,254 basehttp 4056 13500 "OPTIONS /api/auth/jwt/create/ HTTP/1.1" 200 0
+INFO 2025-10-31 08:31:26,313 basehttp 4056 13500 "POST /api/auth/jwt/create/ HTTP/1.1" 200 489
+INFO 2025-10-31 08:31:26,321 basehttp 4056 13500 "OPTIONS /api/auth/users/me/ HTTP/1.1" 200 0
+INFO 2025-10-31 08:31:26,366 basehttp 4056 13500 "GET /api/auth/users/me/ HTTP/1.1" 200 207
+INFO 2025-10-31 08:31:26,417 basehttp 4056 33684 "OPTIONS /api/satellite-images/ HTTP/1.1" 200 0
+INFO 2025-10-31 08:31:26,417 basehttp 4056 13500 "OPTIONS /api/pipelines/ HTTP/1.1" 200 0
+INFO 2025-10-31 08:31:26,419 basehttp 4056 13500 "OPTIONS /api/alerts/ HTTP/1.1" 200 0
+INFO 2025-10-31 08:31:26,419 basehttp 4056 33684 "OPTIONS /api/analysis-results/ HTTP/1.1" 200 0
+INFO 2025-10-31 08:31:26,503 basehttp 4056 33684 "GET /api/pipelines/ HTTP/1.1" 200 505
+INFO 2025-10-31 08:31:26,557 basehttp 4056 33684 "GET /api/alerts/ HTTP/1.1" 200 896
+INFO 2025-10-31 08:31:26,588 basehttp 4056 13500 "GET /api/satellite-images/ HTTP/1.1" 200 883
+INFO 2025-10-31 08:31:26,590 basehttp 4056 13500 "OPTIONS /api/pipelines/62841876-84b4-488c-81ea-fbc57029492e/latest-image/ HTTP/1.1" 200 0
+INFO 2025-10-31 08:31:26,607 basehttp 4056 33684 "GET /api/analysis-results/ HTTP/1.1" 200 571
+INFO 2025-10-31 08:31:26,745 basehttp 4056 13500 "GET /api/pipelines/62841876-84b4-488c-81ea-fbc57029492e/latest-image/ HTTP/1.1" 200 789
+INFO 2025-10-31 08:31:27,006 basehttp 4056 13744 - Broken pipe from ('127.0.0.1', 61390)
+INFO 2025-10-31 08:31:42,584 basehttp 4056 13500 "OPTIONS /api/dashboard/stats/ HTTP/1.1" 200 0
+INFO 2025-10-31 08:31:42,585 basehttp 4056 33684 "OPTIONS /api/dashboard/recent-activity/ HTTP/1.1" 200 0
+INFO 2025-10-31 08:31:42,585 basehttp 4056 8852 "OPTIONS /api/dashboard/pipeline-health/ HTTP/1.1" 200 0
+INFO 2025-10-31 08:31:42,585 basehttp 4056 9200 "OPTIONS /api/alerts/active/ HTTP/1.1" 200 0
+INFO 2025-10-31 08:31:42,643 basehttp 4056 33684 "GET /api/alerts/active/ HTTP/1.1" 200 846
+INFO 2025-10-31 08:31:42,643 basehttp 4056 8852 "GET /api/dashboard/stats/ HTTP/1.1" 200 190
+INFO 2025-10-31 08:31:42,643 basehttp 4056 13500 "GET /api/dashboard/pipeline-health/ HTTP/1.1" 200 217
+INFO 2025-10-31 08:31:42,771 basehttp 4056 9200 "GET /api/dashboard/recent-activity/ HTTP/1.1" 200 2211
+INFO 2025-10-31 08:31:52,211 basehttp 4056 9200 "OPTIONS /api/pipelines/?search=&status=&material=&ordering=-created_at HTTP/1.1" 200 0
+INFO 2025-10-31 08:31:52,361 basehttp 4056 9200 "GET /api/pipelines/?search=&status=&material=&ordering=-created_at HTTP/1.1" 200 505
+INFO 2025-10-31 08:31:57,899 basehttp 4056 9200 "OPTIONS /api/satellite-images/?search=&pipeline=&satellite_name=&processing_status=&source_api=&ordering=-image_date HTTP/1.1" 200 0
+INFO 2025-10-31 08:31:57,959 basehttp 4056 9200 "GET /api/satellite-images/?search=&pipeline=&satellite_name=&processing_status=&source_api=&ordering=-image_date HTTP/1.1" 200 883
+INFO 2025-10-31 08:31:57,983 basehttp 4056 13300 "GET /media/thumbnails/satellites_qsaxRBG.jpg HTTP/1.1" 200 33264
+INFO 2025-10-31 08:31:59,972 basehttp 4056 9200 "OPTIONS /api/analysis-results/?confidence_min=0&confidence_max=100&verified=false&ordering=-created_at HTTP/1.1" 200 0
+INFO 2025-10-31 08:32:00,010 basehttp 4056 9200 "GET /api/analysis-results/?confidence_min=0&confidence_max=100&verified=false&ordering=-created_at HTTP/1.1" 200 52
+INFO 2025-10-31 08:32:06,713 basehttp 4056 9200 "OPTIONS /api/alerts/?is_resolved=false&ordering=-created_at HTTP/1.1" 200 0
+INFO 2025-10-31 08:32:06,766 basehttp 4056 9200 "GET /api/alerts/?is_resolved=false&ordering=-created_at HTTP/1.1" 200 896
+INFO 2025-10-31 08:32:16,764 basehttp 4056 9200 "GET /api/alerts/active/ HTTP/1.1" 200 846
+INFO 2025-10-31 08:32:26,833 basehttp 4056 9200 "GET /api/alerts/active/ HTTP/1.1" 200 846
+INFO 2025-10-31 08:32:36,144 basehttp 4056 2496 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-10-31 08:32:36,233 basehttp 4056 2496 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4183
+INFO 2025-10-31 08:32:36,263 basehttp 4056 2496 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-10-31 08:32:36,263 basehttp 4056 15492 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-10-31 08:32:36,265 basehttp 4056 37860 "GET /static/admin/css/login.css HTTP/1.1" 304 0
+INFO 2025-10-31 08:32:36,266 basehttp 4056 9364 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-10-31 08:32:36,269 basehttp 4056 19932 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-10-31 08:32:36,270 basehttp 4056 5796 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-10-31 08:32:36,272 basehttp 4056 5796 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-10-31 08:32:44,956 basehttp 4056 5796 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-10-31 08:32:45,055 basehttp 4056 5796 "GET /admin/ HTTP/1.1" 200 18282
+INFO 2025-10-31 08:32:45,085 basehttp 4056 5796 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2025-10-31 08:32:45,092 basehttp 4056 9364 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+INFO 2025-10-31 08:32:45,092 basehttp 4056 5796 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2025-10-31 08:32:45,093 basehttp 4056 19932 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2025-10-31 08:32:48,280 basehttp 4056 19932 "GET /admin/monitoring/satelliteimage/ HTTP/1.1" 200 19612
+INFO 2025-10-31 08:32:48,304 basehttp 4056 19932 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2025-10-31 08:32:48,304 basehttp 4056 15492 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-10-31 08:32:48,306 basehttp 4056 2496 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-10-31 08:32:48,307 basehttp 4056 37860 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-10-31 08:32:48,307 basehttp 4056 9364 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-10-31 08:32:48,311 basehttp 4056 15492 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-10-31 08:32:48,312 basehttp 4056 19932 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-10-31 08:32:48,314 basehttp 4056 37860 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-10-31 08:32:48,314 basehttp 4056 2496 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-10-31 08:32:48,315 basehttp 4056 15492 "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2025-10-31 08:32:48,320 basehttp 4056 15492 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2025-10-31 08:32:48,360 basehttp 4056 5796 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-31 08:32:48,379 basehttp 4056 15492 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2025-10-31 08:32:48,379 basehttp 4056 2496 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+INFO 2025-10-31 08:32:48,379 basehttp 4056 5796 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2025-10-31 08:33:06,068 basehttp 4056 2496 "GET /admin/monitoring/pipeline/ HTTP/1.1" 200 18354
+WARNING 2025-10-31 08:33:06,099 basehttp 4056 15492 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 404 2011
+WARNING 2025-10-31 08:33:06,105 basehttp 4056 5796 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 404 2005
+INFO 2025-10-31 08:33:06,126 basehttp 4056 2496 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-31 08:34:18,543 autoreload 18160 13884 Watching for file changes with StatReloader
+INFO 2025-10-31 08:37:30,556 autoreload 34436 16956 Watching for file changes with StatReloader
+WARNING 2025-10-31 08:37:34,455 log 34436 2652 Not Found: /
+WARNING 2025-10-31 08:37:34,456 basehttp 34436 2652 "GET / HTTP/1.1" 404 3629
+INFO 2025-10-31 08:38:34,738 autoreload 34508 12496 Watching for file changes with StatReloader
+INFO 2025-10-31 08:38:41,722 basehttp 34508 23020 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-10-31 08:38:41,742 basehttp 34508 23020 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4183
+INFO 2025-10-31 08:38:51,279 basehttp 34508 23020 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-10-31 08:38:51,335 basehttp 34508 23020 "GET /admin/ HTTP/1.1" 200 14334
+INFO 2025-10-31 08:38:58,323 basehttp 34508 23020 "GET /admin/token_blacklist/blacklistedtoken/ HTTP/1.1" 200 14052
+INFO 2025-10-31 08:38:58,379 basehttp 34508 23020 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-31 08:38:59,837 basehttp 34508 23020 "GET /admin/token_blacklist/outstandingtoken/ HTTP/1.1" 200 13870
+INFO 2025-10-31 08:39:11,367 basehttp 34508 23020 "GET /admin/user/user/ HTTP/1.1" 200 18819
+INFO 2025-10-31 08:39:11,392 basehttp 34508 17940 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2025-10-31 08:39:11,424 basehttp 34508 23020 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-31 08:39:31,228 basehttp 34508 23020 "GET /admin/monitoring/pipeline/ HTTP/1.1" 200 16103
+WARNING 2025-10-31 08:39:31,267 basehttp 34508 23020 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 404 2011
+WARNING 2025-10-31 08:39:31,267 basehttp 34508 33168 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 404 2005
+INFO 2025-10-31 08:39:31,300 basehttp 34508 17940 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-31 08:39:33,233 basehttp 34508 17940 "GET /admin/monitoring/pipeline/add/ HTTP/1.1" 200 24888
+INFO 2025-10-31 08:39:33,257 basehttp 34508 17940 "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2025-10-31 08:39:33,264 basehttp 34508 3880 "GET /static/gis/css/ol3.css HTTP/1.1" 304 0
+INFO 2025-10-31 08:39:33,265 basehttp 34508 17940 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2025-10-31 08:39:33,271 basehttp 34508 30176 "GET /static/gis/js/OLMapWidget.js HTTP/1.1" 304 0
+WARNING 2025-10-31 08:39:33,272 basehttp 34508 27032 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 404 2011
+INFO 2025-10-31 08:39:33,273 basehttp 34508 3880 "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+WARNING 2025-10-31 08:39:33,277 basehttp 34508 28136 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 404 2005
+INFO 2025-10-31 08:39:33,280 basehttp 34508 3880 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2025-10-31 08:39:33,293 basehttp 34508 12052 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-31 08:57:54,469 autoreload 34508 12496 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\admin.py changed, reloading.
+INFO 2025-10-31 08:57:55,425 autoreload 36572 19932 Watching for file changes with StatReloader
+INFO 2025-10-31 08:57:56,973 autoreload 36572 19932 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\admin.py changed, reloading.
+INFO 2025-10-31 08:57:57,710 autoreload 26608 28708 Watching for file changes with StatReloader
+INFO 2025-10-31 08:57:59,224 autoreload 26608 28708 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\admin.py changed, reloading.
+INFO 2025-10-31 08:57:59,853 autoreload 26640 19396 Watching for file changes with StatReloader
+INFO 2025-10-31 09:02:37,121 autoreload 21172 23820 Watching for file changes with StatReloader
+INFO 2025-10-31 09:02:41,273 basehttp 21172 28508 "GET /api/alerts/active/ HTTP/1.1" 200 2
+INFO 2025-10-31 09:02:41,274 basehttp 21172 36600 "GET /api/alerts/?is_resolved=false&ordering=-created_at HTTP/1.1" 200 52
+WARNING 2025-10-31 09:02:56,644 log 21172 8432 Not Found: /
+WARNING 2025-10-31 09:02:56,645 basehttp 21172 8432 "GET / HTTP/1.1" 404 3629
+INFO 2025-10-31 09:03:06,097 basehttp 21172 8432 "GET /admin/ HTTP/1.1" 200 14334
+INFO 2025-10-31 09:03:10,347 basehttp 21172 8432 "GET /admin/monitoring/pipeline/ HTTP/1.1" 200 16103
+WARNING 2025-10-31 09:03:10,384 basehttp 21172 11416 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 404 2011
+WARNING 2025-10-31 09:03:10,389 basehttp 21172 21656 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 404 2005
+INFO 2025-10-31 09:03:10,409 basehttp 21172 8432 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-31 09:03:12,647 basehttp 21172 8432 "GET /admin/monitoring/pipeline/add/ HTTP/1.1" 200 24888
+WARNING 2025-10-31 09:03:12,685 basehttp 21172 11392 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 404 2005
+WARNING 2025-10-31 09:03:12,686 basehttp 21172 6892 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 404 2011
+INFO 2025-10-31 09:03:12,706 basehttp 21172 8432 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-31 09:03:41,321 basehttp 21172 36600 "GET /api/alerts/active/ HTTP/1.1" 200 2
+INFO 2025-10-31 09:03:41,322 basehttp 21172 28508 "GET /api/alerts/?is_resolved=false&ordering=-created_at HTTP/1.1" 200 52
+INFO 2025-10-31 09:03:41,844 basehttp 21172 36600 "GET /api/satellite-images/ HTTP/1.1" 200 52
+INFO 2025-10-31 09:03:41,845 basehttp 21172 28508 "GET /api/pipelines/ HTTP/1.1" 200 52
+INFO 2025-10-31 09:03:41,883 basehttp 21172 28508 "GET /api/alerts/ HTTP/1.1" 200 52
+INFO 2025-10-31 09:03:41,999 basehttp 21172 36600 "GET /api/analysis-results/ HTTP/1.1" 200 52
+INFO 2025-10-31 09:03:55,624 basehttp 21172 36600 "GET /api/auth/users/me/ HTTP/1.1" 200 207
+INFO 2025-10-31 09:03:55,660 basehttp 21172 28508 "GET /api/auth/users/me/ HTTP/1.1" 200 207
+INFO 2025-10-31 09:03:55,735 basehttp 21172 36600 "GET /api/satellite-images/ HTTP/1.1" 200 52
+INFO 2025-10-31 09:03:55,735 basehttp 21172 4072 "GET /api/alerts/ HTTP/1.1" 200 52
+INFO 2025-10-31 09:03:55,735 basehttp 21172 34792 "GET /api/analysis-results/ HTTP/1.1" 200 52
+INFO 2025-10-31 09:03:55,818 basehttp 21172 28508 "GET /api/pipelines/ HTTP/1.1" 200 52
+INFO 2025-10-31 09:08:43,388 basehttp 21172 19864 "POST /admin/monitoring/pipeline/add/ HTTP/1.1" 302 0
+INFO 2025-10-31 09:08:43,585 basehttp 21172 19864 "GET /admin/monitoring/pipeline/ HTTP/1.1" 200 18737
+WARNING 2025-10-31 09:08:43,624 basehttp 21172 19864 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 404 2011
+WARNING 2025-10-31 09:08:43,631 basehttp 21172 14348 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 404 2005
+INFO 2025-10-31 09:08:43,667 basehttp 21172 9280 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-31 09:08:53,281 basehttp 21172 28508 "GET /api/auth/users/me/ HTTP/1.1" 200 207
+INFO 2025-10-31 09:08:53,377 basehttp 21172 36600 "GET /api/analysis-results/ HTTP/1.1" 200 52
+INFO 2025-10-31 09:08:53,377 basehttp 21172 34792 "GET /api/satellite-images/ HTTP/1.1" 200 52
+INFO 2025-10-31 09:08:53,418 basehttp 21172 4072 "GET /api/auth/users/me/ HTTP/1.1" 200 207
+INFO 2025-10-31 09:08:53,418 basehttp 21172 36600 "GET /api/alerts/ HTTP/1.1" 200 52
+INFO 2025-10-31 09:08:53,493 basehttp 21172 28508 "GET /api/pipelines/ HTTP/1.1" 200 459
+INFO 2025-10-31 09:08:53,505 basehttp 21172 28508 "OPTIONS /api/pipelines/2e6bb915-9c9f-432b-ab74-43fb112fa1b6/latest-image/ HTTP/1.1" 200 0
+INFO 2025-10-31 09:08:53,556 basehttp 21172 28508 "GET /api/pipelines/2e6bb915-9c9f-432b-ab74-43fb112fa1b6/latest-image/ HTTP/1.1" 204 2
+INFO 2025-10-31 09:09:04,772 basehttp 21172 36600 "POST /api/auth/jwt/create/ HTTP/1.1" 200 489
+INFO 2025-10-31 09:09:04,806 basehttp 21172 36600 "GET /api/auth/users/me/ HTTP/1.1" 200 207
+INFO 2025-10-31 09:09:57,914 basehttp 21172 9280 "GET /admin/monitoring/satelliteimage/ HTTP/1.1" 200 16356
+INFO 2025-10-31 09:09:57,978 basehttp 21172 9280 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-31 09:10:05,792 basehttp 21172 9280 "GET /admin/monitoring/satelliteimage/add/ HTTP/1.1" 200 32673
+INFO 2025-10-31 09:10:05,825 basehttp 21172 19984 "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+INFO 2025-10-31 09:10:05,825 basehttp 21172 4312 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+INFO 2025-10-31 09:10:05,855 basehttp 21172 9280 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-31 09:10:05,973 basehttp 21172 4312 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+INFO 2025-10-31 09:10:05,974 basehttp 21172 9280 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+INFO 2025-10-31 09:20:46,434 basehttp 21172 23908 "POST /admin/monitoring/satelliteimage/add/ HTTP/1.1" 302 0
+INFO 2025-10-31 09:20:46,489 basehttp 21172 23908 "GET /admin/monitoring/satelliteimage/ HTTP/1.1" 200 19790
+INFO 2025-10-31 09:20:46,557 basehttp 21172 23908 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-31 09:20:53,615 basehttp 21172 2248 "GET /api/auth/users/me/ HTTP/1.1" 200 207
+INFO 2025-10-31 09:20:53,647 basehttp 21172 2248 "GET /api/auth/users/me/ HTTP/1.1" 200 207
+INFO 2025-10-31 09:20:53,707 basehttp 21172 2248 "GET /api/pipelines/ HTTP/1.1" 200 459
+INFO 2025-10-31 09:20:53,760 basehttp 21172 2248 "GET /api/satellite-images/ HTTP/1.1" 200 867
+INFO 2025-10-31 09:20:53,794 basehttp 21172 2248 "GET /api/analysis-results/ HTTP/1.1" 200 52
+INFO 2025-10-31 09:20:53,833 basehttp 21172 2248 "GET /api/alerts/ HTTP/1.1" 200 52
+INFO 2025-10-31 09:20:53,875 basehttp 21172 2248 "GET /api/pipelines/2e6bb915-9c9f-432b-ab74-43fb112fa1b6/latest-image/ HTTP/1.1" 204 2
+INFO 2025-10-31 09:20:54,117 basehttp 21172 27924 - Broken pipe from ('127.0.0.1', 63357)
+INFO 2025-10-31 09:48:23,221 autoreload 21172 23820 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\admin.py changed, reloading.
+INFO 2025-10-31 09:48:24,046 autoreload 34088 29588 Watching for file changes with StatReloader
+INFO 2025-10-31 09:48:44,661 autoreload 1920 33756 Watching for file changes with StatReloader
+INFO 2025-10-31 09:48:50,362 autoreload 1920 33756 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\admin.py changed, reloading.
+INFO 2025-10-31 09:48:51,069 autoreload 32744 27080 Watching for file changes with StatReloader
+INFO 2025-10-31 09:48:58,867 autoreload 32744 27080 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\admin.py changed, reloading.
+INFO 2025-10-31 09:48:59,634 autoreload 22804 2728 Watching for file changes with StatReloader
+INFO 2025-10-31 09:54:49,547 autoreload 34208 24716 Watching for file changes with StatReloader
+INFO 2025-10-31 09:55:16,587 autoreload 32776 37500 Watching for file changes with StatReloader
+WARNING 2025-10-31 09:55:31,439 log 32776 20156 Not Found: /
+WARNING 2025-10-31 09:55:31,439 basehttp 32776 20156 "GET / HTTP/1.1" 404 3629
+INFO 2025-10-31 09:55:37,745 basehttp 32776 20156 "GET /admin/ HTTP/1.1" 200 15199
+INFO 2025-10-31 09:55:40,274 basehttp 32776 20156 "GET /admin/monitoring/pipeline/ HTTP/1.1" 200 18476
+WARNING 2025-10-31 09:55:40,315 basehttp 32776 35924 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 404 2005
+WARNING 2025-10-31 09:55:40,315 basehttp 32776 32032 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 404 2011
+INFO 2025-10-31 09:55:40,337 basehttp 32776 20156 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-31 09:55:41,941 basehttp 32776 20156 "GET /admin/monitoring/pipeline/add/ HTTP/1.1" 200 26557
+WARNING 2025-10-31 09:55:41,974 basehttp 32776 20156 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 404 2011
+WARNING 2025-10-31 09:55:41,979 basehttp 32776 35076 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 404 2005
+INFO 2025-10-31 09:55:42,012 basehttp 32776 14844 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-31 10:02:20,627 basehttp 32776 24656 "POST /admin/monitoring/pipeline/add/ HTTP/1.1" 302 0
+INFO 2025-10-31 10:02:20,692 basehttp 32776 24656 "GET /admin/monitoring/pipeline/ HTTP/1.1" 200 19269
+WARNING 2025-10-31 10:02:20,742 basehttp 32776 32416 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 404 2011
+WARNING 2025-10-31 10:02:20,743 basehttp 32776 12928 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 404 2005
+INFO 2025-10-31 10:02:20,765 basehttp 32776 24656 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-31 10:02:28,719 basehttp 32776 24656 "GET /admin/monitoring/pipeline/b0468a63-70b8-4012-b702-c6d3e7f97b3b/change/ HTTP/1.1" 200 28034
+WARNING 2025-10-31 10:02:28,767 basehttp 32776 24108 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 404 2011
+WARNING 2025-10-31 10:02:28,767 basehttp 32776 5112 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 404 2005
+INFO 2025-10-31 10:02:28,787 basehttp 32776 24656 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-31 10:06:01,391 autoreload 2428 24296 Watching for file changes with StatReloader
+INFO 2025-10-31 10:06:07,693 basehttp 2428 13816 "GET /admin/monitoring/pipeline/b0468a63-70b8-4012-b702-c6d3e7f97b3b/change/ HTTP/1.1" 302 0
+INFO 2025-10-31 10:06:07,727 basehttp 2428 13816 "GET /admin/login/?next=/admin/monitoring/pipeline/b0468a63-70b8-4012-b702-c6d3e7f97b3b/change/ HTTP/1.1" 200 4311
+INFO 2025-10-31 10:06:15,569 basehttp 2428 13816 "POST /admin/login/?next=/admin/monitoring/pipeline/b0468a63-70b8-4012-b702-c6d3e7f97b3b/change/ HTTP/1.1" 302 0
+INFO 2025-10-31 10:06:15,611 basehttp 2428 13816 "GET /admin/monitoring/pipeline/b0468a63-70b8-4012-b702-c6d3e7f97b3b/change/ HTTP/1.1" 302 0
+INFO 2025-10-31 10:06:15,660 basehttp 2428 13816 "GET /admin/ HTTP/1.1" 200 14540
+INFO 2025-10-31 10:06:15,776 basehttp 2428 13816 "GET /static/admin/img/icon-alert.svg HTTP/1.1" 200 504
+INFO 2025-10-31 10:06:27,006 basehttp 2428 13816 "GET /admin/monitoring/pipeline/ HTTP/1.1" 200 16103
+WARNING 2025-10-31 10:06:27,039 basehttp 2428 30464 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 404 2011
+WARNING 2025-10-31 10:06:27,039 basehttp 2428 2540 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 404 2005
+INFO 2025-10-31 10:06:27,170 basehttp 2428 13816 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-31 10:06:29,046 basehttp 2428 13816 "GET /admin/monitoring/pipeline/add/ HTTP/1.1" 200 26557
+WARNING 2025-10-31 10:06:29,087 basehttp 2428 18196 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 404 2011
+WARNING 2025-10-31 10:06:29,087 basehttp 2428 17148 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 404 2005
+INFO 2025-10-31 10:06:29,110 basehttp 2428 13816 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-31 10:09:57,838 basehttp 2428 13816 "POST /admin/monitoring/pipeline/add/ HTTP/1.1" 302 0
+INFO 2025-10-31 10:09:57,999 basehttp 2428 13816 "GET /admin/monitoring/pipeline/ HTTP/1.1" 200 18728
+WARNING 2025-10-31 10:09:58,049 basehttp 2428 37128 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 404 2011
+WARNING 2025-10-31 10:09:58,054 basehttp 2428 34852 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 404 2005
+INFO 2025-10-31 10:09:58,078 basehttp 2428 13816 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-31 10:10:00,166 basehttp 2428 13816 "GET /admin/monitoring/pipeline/42f5131c-0507-45ca-a722-3f57cbc94ae9/change/ HTTP/1.1" 200 28530
+WARNING 2025-10-31 10:10:00,201 basehttp 2428 34652 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 404 2011
+WARNING 2025-10-31 10:10:00,201 basehttp 2428 13616 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 404 2005
+INFO 2025-10-31 10:10:00,318 basehttp 2428 13816 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-31 10:10:09,426 basehttp 2428 13816 "GET /admin/monitoring/satelliteimage/ HTTP/1.1" 200 16356
+INFO 2025-10-31 10:10:09,489 basehttp 2428 13816 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-31 10:10:11,243 basehttp 2428 13816 "GET /admin/monitoring/satelliteimage/add/ HTTP/1.1" 200 32670
+INFO 2025-10-31 10:10:11,303 basehttp 2428 13816 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-31 10:11:07,235 basehttp 2428 13816 "POST /admin/monitoring/satelliteimage/add/ HTTP/1.1" 302 0
+INFO 2025-10-31 10:11:07,297 basehttp 2428 13816 "GET /admin/monitoring/satelliteimage/ HTTP/1.1" 200 19788
+INFO 2025-10-31 10:11:07,373 basehttp 2428 13816 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+WARNING 2025-10-31 10:11:16,487 log 2428 5408 Unauthorized: /api/auth/users/me/
+WARNING 2025-10-31 10:11:16,487 basehttp 2428 5408 "GET /api/auth/users/me/ HTTP/1.1" 401 172
+WARNING 2025-10-31 10:11:16,496 log 2428 5408 Unauthorized: /api/auth/users/me/
+WARNING 2025-10-31 10:11:16,496 basehttp 2428 5408 "GET /api/auth/users/me/ HTTP/1.1" 401 172
+INFO 2025-10-31 10:11:16,503 basehttp 2428 5408 "OPTIONS /api/auth/jwt/refresh/ HTTP/1.1" 200 0
+INFO 2025-10-31 10:11:16,543 basehttp 2428 5408 "POST /api/auth/jwt/refresh/ HTTP/1.1" 200 489
+WARNING 2025-10-31 10:11:16,574 log 2428 5408 Unauthorized: /api/auth/jwt/refresh/
+WARNING 2025-10-31 10:11:16,574 basehttp 2428 5408 "POST /api/auth/jwt/refresh/ HTTP/1.1" 401 58
+INFO 2025-10-31 10:11:16,619 basehttp 2428 5408 - Broken pipe from ('127.0.0.1', 55795)
+INFO 2025-10-31 10:11:23,552 basehttp 2428 12408 "POST /api/auth/jwt/create/ HTTP/1.1" 200 489
+INFO 2025-10-31 10:11:23,589 basehttp 2428 12408 "GET /api/auth/users/me/ HTTP/1.1" 200 207
+INFO 2025-10-31 10:11:23,692 basehttp 2428 21796 "GET /api/alerts/ HTTP/1.1" 200 52
+INFO 2025-10-31 10:11:23,693 basehttp 2428 32444 "GET /api/analysis-results/ HTTP/1.1" 200 52
+INFO 2025-10-31 10:11:23,696 basehttp 2428 12408 "GET /api/pipelines/ HTTP/1.1" 200 949
+INFO 2025-10-31 10:11:23,700 basehttp 2428 8564 "GET /api/satellite-images/ HTTP/1.1" 200 681
+INFO 2025-10-31 10:11:23,711 basehttp 2428 8564 "OPTIONS /api/pipelines/42f5131c-0507-45ca-a722-3f57cbc94ae9/latest-image/ HTTP/1.1" 200 0
+INFO 2025-10-31 10:11:23,760 basehttp 2428 8564 "GET /api/pipelines/42f5131c-0507-45ca-a722-3f57cbc94ae9/latest-image/ HTTP/1.1" 204 2
+INFO 2025-10-31 10:13:19,499 basehttp 2428 13816 "GET /admin/monitoring/satelliteimage/7e06eef4-2388-4f6f-a9c4-183aa977c298/change/ HTTP/1.1" 200 33418
+INFO 2025-10-31 10:13:19,556 basehttp 2428 5560 - Broken pipe from ('127.0.0.1', 62785)
+INFO 2025-10-31 10:13:19,573 basehttp 2428 13816 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-31 10:15:18,268 basehttp 2428 13816 "GET /admin/monitoring/pipeline/ HTTP/1.1" 200 18470
+WARNING 2025-10-31 10:15:18,321 basehttp 2428 35464 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 404 2011
+WARNING 2025-10-31 10:15:18,322 basehttp 2428 30532 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 404 2005
+INFO 2025-10-31 10:15:18,344 basehttp 2428 13816 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-31 10:15:25,762 basehttp 2428 13816 "POST /admin/monitoring/pipeline/ HTTP/1.1" 200 14158
+WARNING 2025-10-31 10:15:25,796 basehttp 2428 13816 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 404 2011
+WARNING 2025-10-31 10:15:25,801 basehttp 2428 30444 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 404 2005
+INFO 2025-10-31 10:15:25,819 basehttp 2428 27240 "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+INFO 2025-10-31 10:15:26,966 basehttp 2428 27240 "POST /admin/monitoring/pipeline/ HTTP/1.1" 302 0
+INFO 2025-10-31 10:15:27,120 basehttp 2428 27240 "GET /admin/monitoring/pipeline/ HTTP/1.1" 200 16241
+WARNING 2025-10-31 10:15:27,158 basehttp 2428 32336 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 404 2011
+WARNING 2025-10-31 10:15:27,164 basehttp 2428 34260 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 404 2005
+INFO 2025-10-31 10:15:27,184 basehttp 2428 27240 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-31 10:15:30,893 basehttp 2428 12408 "GET /api/auth/users/me/ HTTP/1.1" 200 207
+INFO 2025-10-31 10:15:30,930 basehttp 2428 32444 "GET /api/auth/users/me/ HTTP/1.1" 200 207
+INFO 2025-10-31 10:15:31,005 basehttp 2428 21796 "GET /api/analysis-results/ HTTP/1.1" 200 52
+INFO 2025-10-31 10:15:31,005 basehttp 2428 32444 "GET /api/pipelines/ HTTP/1.1" 200 52
+INFO 2025-10-31 10:15:31,012 basehttp 2428 12408 "GET /api/satellite-images/ HTTP/1.1" 200 52
+INFO 2025-10-31 10:15:31,048 basehttp 2428 21796 "GET /api/alerts/ HTTP/1.1" 200 52
+INFO 2025-10-31 10:15:42,471 basehttp 2428 27240 "GET /admin/monitoring/pipeline/ HTTP/1.1" 200 16103
+WARNING 2025-10-31 10:15:42,504 basehttp 2428 27240 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 404 2011
+WARNING 2025-10-31 10:15:42,514 basehttp 2428 25752 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 404 2005
+INFO 2025-10-31 10:15:42,544 basehttp 2428 27140 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-31 10:15:44,261 basehttp 2428 27140 "GET /admin/monitoring/pipeline/add/ HTTP/1.1" 200 26557
+WARNING 2025-10-31 10:15:44,295 basehttp 2428 10472 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 404 2011
+WARNING 2025-10-31 10:15:44,296 basehttp 2428 16996 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 404 2005
+INFO 2025-10-31 10:15:44,318 basehttp 2428 27140 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-31 10:16:16,175 basehttp 2428 7656 "POST /admin/monitoring/pipeline/add/ HTTP/1.1" 302 0
+INFO 2025-10-31 10:16:16,234 basehttp 2428 7656 "GET /admin/monitoring/pipeline/ HTTP/1.1" 200 18728
+WARNING 2025-10-31 10:16:16,274 basehttp 2428 7656 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 404 2011
+WARNING 2025-10-31 10:16:16,280 basehttp 2428 13884 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 404 2005
+INFO 2025-10-31 10:16:16,315 basehttp 2428 8800 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-31 10:16:17,696 basehttp 2428 8800 "GET /admin/monitoring/pipeline/c72d1014-a2e9-460b-b1db-2d1dbd77e0e7/change/ HTTP/1.1" 200 28063
+WARNING 2025-10-31 10:16:17,740 basehttp 2428 11856 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 404 2011
+WARNING 2025-10-31 10:16:17,741 basehttp 2428 24108 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 404 2005
+INFO 2025-10-31 10:16:17,763 basehttp 2428 8800 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-31 10:16:27,900 basehttp 2428 3928 "GET /api/auth/users/me/ HTTP/1.1" 200 207
+INFO 2025-10-31 10:16:27,947 basehttp 2428 3928 "GET /api/auth/users/me/ HTTP/1.1" 200 207
+INFO 2025-10-31 10:16:27,996 basehttp 2428 3928 "GET /api/pipelines/ HTTP/1.1" 200 482
+INFO 2025-10-31 10:16:28,045 basehttp 2428 3928 "GET /api/satellite-images/ HTTP/1.1" 200 52
+INFO 2025-10-31 10:16:28,085 basehttp 2428 3928 "GET /api/analysis-results/ HTTP/1.1" 200 52
+INFO 2025-10-31 10:16:28,129 basehttp 2428 3928 "GET /api/alerts/ HTTP/1.1" 200 52
+INFO 2025-10-31 10:16:28,131 basehttp 2428 1600 "OPTIONS /api/pipelines/c72d1014-a2e9-460b-b1db-2d1dbd77e0e7/latest-image/ HTTP/1.1" 200 0
+INFO 2025-10-31 10:16:28,177 basehttp 2428 1600 "GET /api/pipelines/c72d1014-a2e9-460b-b1db-2d1dbd77e0e7/latest-image/ HTTP/1.1" 204 2
+INFO 2025-10-31 10:20:29,503 autoreload 2428 24296 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\forms.py changed, reloading.
+INFO 2025-10-31 10:20:30,265 autoreload 11144 3324 Watching for file changes with StatReloader
+INFO 2025-10-31 10:20:32,824 autoreload 11144 3324 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\forms.py changed, reloading.
+INFO 2025-10-31 10:20:33,516 autoreload 21796 11108 Watching for file changes with StatReloader
+INFO 2025-10-31 10:20:54,185 autoreload 34844 16160 Watching for file changes with StatReloader
+INFO 2025-10-31 10:21:04,111 basehttp 34844 35196 "GET /admin/monitoring/pipeline/ HTTP/1.1" 200 18470
+WARNING 2025-10-31 10:21:04,163 basehttp 34844 7516 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 404 2005
+WARNING 2025-10-31 10:21:04,163 basehttp 34844 31668 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 404 2011
+INFO 2025-10-31 10:21:04,183 basehttp 34844 35196 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-31 10:21:11,212 basehttp 34844 35196 "POST /admin/monitoring/pipeline/ HTTP/1.1" 200 13953
+WARNING 2025-10-31 10:21:11,245 basehttp 34844 35196 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 404 2011
+WARNING 2025-10-31 10:21:11,250 basehttp 34844 34588 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 404 2005
+INFO 2025-10-31 10:21:12,244 basehttp 34844 35744 "POST /admin/monitoring/pipeline/ HTTP/1.1" 302 0
+INFO 2025-10-31 10:21:12,300 basehttp 34844 35744 "GET /admin/monitoring/pipeline/ HTTP/1.1" 200 16241
+WARNING 2025-10-31 10:21:12,331 basehttp 34844 35744 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 404 2011
+WARNING 2025-10-31 10:21:12,338 basehttp 34844 3560 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 404 2005
+INFO 2025-10-31 10:21:12,370 basehttp 34844 33212 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-31 10:21:15,395 basehttp 34844 33212 "GET /admin/monitoring/pipeline/add/ HTTP/1.1" 200 26557
+WARNING 2025-10-31 10:21:15,431 basehttp 34844 25756 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 404 2011
+WARNING 2025-10-31 10:21:15,435 basehttp 34844 24984 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 404 2005
+INFO 2025-10-31 10:21:15,453 basehttp 34844 33212 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-31 10:21:55,139 basehttp 34844 33212 "POST /admin/monitoring/pipeline/add/ HTTP/1.1" 302 0
+INFO 2025-10-31 10:21:55,189 basehttp 34844 33212 "GET /admin/monitoring/pipeline/ HTTP/1.1" 200 18728
+WARNING 2025-10-31 10:21:55,247 basehttp 34844 31976 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 404 2005
+WARNING 2025-10-31 10:21:55,248 basehttp 34844 31092 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 404 2011
+INFO 2025-10-31 10:21:55,268 basehttp 34844 33212 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-31 10:21:56,801 basehttp 34844 33212 "GET /admin/monitoring/pipeline/97dc922a-712c-4761-918e-89f607e8f4ab/change/ HTTP/1.1" 200 28064
+WARNING 2025-10-31 10:21:56,841 basehttp 34844 31148 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 404 2011
+WARNING 2025-10-31 10:21:56,847 basehttp 34844 15640 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 404 2005
+INFO 2025-10-31 10:21:56,866 basehttp 34844 33212 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-31 10:22:12,740 basehttp 34844 1628 "GET /api/auth/users/me/ HTTP/1.1" 200 207
+INFO 2025-10-31 10:22:12,785 basehttp 34844 1628 "GET /api/auth/users/me/ HTTP/1.1" 200 207
+INFO 2025-10-31 10:22:12,827 basehttp 34844 1628 "GET /api/pipelines/ HTTP/1.1" 200 483
+INFO 2025-10-31 10:22:12,864 basehttp 34844 1628 "GET /api/satellite-images/ HTTP/1.1" 200 52
+INFO 2025-10-31 10:22:12,902 basehttp 34844 1628 "GET /api/analysis-results/ HTTP/1.1" 200 52
+INFO 2025-10-31 10:22:12,904 basehttp 34844 1628 "OPTIONS /api/pipelines/97dc922a-712c-4761-918e-89f607e8f4ab/latest-image/ HTTP/1.1" 200 0
+INFO 2025-10-31 10:22:12,929 basehttp 34844 16968 "GET /api/alerts/ HTTP/1.1" 200 52
+INFO 2025-10-31 10:22:12,958 basehttp 34844 1628 "GET /api/pipelines/97dc922a-712c-4761-918e-89f607e8f4ab/latest-image/ HTTP/1.1" 204 2
+INFO 2025-10-31 10:22:33,214 basehttp 34844 10716 "GET /api/alerts/active/ HTTP/1.1" 200 2
+INFO 2025-10-31 10:22:33,225 basehttp 34844 22620 "GET /api/dashboard/recent-activity/ HTTP/1.1" 200 59
+INFO 2025-10-31 10:22:33,226 basehttp 34844 16968 "GET /api/dashboard/stats/ HTTP/1.1" 200 165
+INFO 2025-10-31 10:22:33,231 basehttp 34844 18208 "GET /api/dashboard/pipeline-health/ HTTP/1.1" 200 191
+INFO 2025-10-31 10:22:36,757 basehttp 34844 18208 "GET /api/satellite-images/?search=&pipeline=&satellite_name=&processing_status=&source_api=&ordering=-image_date HTTP/1.1" 200 52
+INFO 2025-10-31 10:23:15,008 autoreload 34844 16160 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\forms.py changed, reloading.
+INFO 2025-10-31 10:23:15,810 autoreload 12996 32328 Watching for file changes with StatReloader
+INFO 2025-10-31 10:23:33,612 autoreload 12996 32328 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\admin.py changed, reloading.
+INFO 2025-10-31 10:23:34,302 autoreload 24516 18300 Watching for file changes with StatReloader
+INFO 2025-10-31 10:23:37,898 autoreload 24516 18300 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\admin.py changed, reloading.
+INFO 2025-10-31 10:23:38,527 autoreload 15656 31652 Watching for file changes with StatReloader
+INFO 2025-10-31 10:28:58,050 autoreload 15656 31652 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\serializers.py changed, reloading.
+INFO 2025-10-31 10:29:00,279 autoreload 4724 34428 Watching for file changes with StatReloader
+INFO 2025-10-31 10:29:14,382 autoreload 4724 34428 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\serializers.py changed, reloading.
+INFO 2025-10-31 10:29:15,069 autoreload 17692 15624 Watching for file changes with StatReloader
+INFO 2025-10-31 10:35:31,355 autoreload 9928 26692 Watching for file changes with StatReloader
+INFO 2025-10-31 10:35:35,471 basehttp 9928 34828 "OPTIONS /api/auth/jwt/create/ HTTP/1.1" 200 0
+INFO 2025-10-31 10:35:36,603 basehttp 9928 34828 "POST /api/auth/jwt/create/ HTTP/1.1" 200 489
+INFO 2025-10-31 10:35:36,610 basehttp 9928 34828 "OPTIONS /api/auth/users/me/ HTTP/1.1" 200 0
+INFO 2025-10-31 10:35:36,651 basehttp 9928 34828 "GET /api/auth/users/me/ HTTP/1.1" 200 207
+INFO 2025-10-31 10:35:36,692 basehttp 9928 34828 "OPTIONS /api/pipelines/ HTTP/1.1" 200 0
+INFO 2025-10-31 10:35:36,694 basehttp 9928 27896 "OPTIONS /api/satellite-images/ HTTP/1.1" 200 0
+INFO 2025-10-31 10:35:36,696 basehttp 9928 34828 "OPTIONS /api/analysis-results/ HTTP/1.1" 200 0
+INFO 2025-10-31 10:35:36,696 basehttp 9928 27896 "OPTIONS /api/alerts/ HTTP/1.1" 200 0
+INFO 2025-10-31 10:35:36,733 basehttp 9928 27896 "GET /api/satellite-images/ HTTP/1.1" 200 52
+INFO 2025-10-31 10:35:36,771 basehttp 9928 27896 "GET /api/analysis-results/ HTTP/1.1" 200 52
+INFO 2025-10-31 10:35:36,849 basehttp 9928 34828 "GET /api/pipelines/ HTTP/1.1" 200 1036
+INFO 2025-10-31 10:35:36,902 basehttp 9928 34828 "GET /api/pipelines/97dc922a-712c-4761-918e-89f607e8f4ab/latest-image/ HTTP/1.1" 204 2
+INFO 2025-10-31 10:35:36,911 basehttp 9928 27896 "GET /api/alerts/ HTTP/1.1" 200 52
+INFO 2025-10-31 10:56:34,079 autoreload 9928 26692 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\serializers.py changed, reloading.
+INFO 2025-10-31 10:56:36,339 autoreload 17860 5096 Watching for file changes with StatReloader
+INFO 2025-10-31 10:56:42,145 autoreload 17860 5096 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\serializers.py changed, reloading.
+INFO 2025-10-31 10:56:42,768 autoreload 30052 20556 Watching for file changes with StatReloader
+INFO 2025-10-31 10:56:44,288 autoreload 30052 20556 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\serializers.py changed, reloading.
+INFO 2025-10-31 10:56:45,057 autoreload 33708 11112 Watching for file changes with StatReloader
+INFO 2025-10-31 11:07:42,825 autoreload 6572 35296 Watching for file changes with StatReloader
+INFO 2025-10-31 11:07:45,589 basehttp 6572 20168 "GET /admin/monitoring/pipeline/ HTTP/1.1" 200 18470
+WARNING 2025-10-31 11:07:45,641 basehttp 6572 17808 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 404 2011
+WARNING 2025-10-31 11:07:45,641 basehttp 6572 22884 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 404 2005
+INFO 2025-10-31 11:07:45,672 basehttp 6572 20168 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-31 11:07:52,255 basehttp 6572 20168 "POST /admin/monitoring/pipeline/ HTTP/1.1" 200 13953
+WARNING 2025-10-31 11:07:52,295 basehttp 6572 20168 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 404 2011
+WARNING 2025-10-31 11:07:52,300 basehttp 6572 23308 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 404 2005
+INFO 2025-10-31 11:07:53,160 basehttp 6572 11392 "POST /admin/monitoring/pipeline/ HTTP/1.1" 302 0
+INFO 2025-10-31 11:07:53,215 basehttp 6572 11392 "GET /admin/monitoring/pipeline/ HTTP/1.1" 200 16241
+WARNING 2025-10-31 11:07:53,261 basehttp 6572 10696 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 404 2011
+WARNING 2025-10-31 11:07:53,267 basehttp 6572 8144 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 404 2005
+INFO 2025-10-31 11:07:53,282 basehttp 6572 11392 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-31 11:07:55,454 basehttp 6572 11392 "GET /admin/monitoring/satelliteimage/ HTTP/1.1" 200 16356
+INFO 2025-10-31 11:07:55,515 basehttp 6572 11392 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-31 11:07:56,826 basehttp 6572 11392 "GET /admin/monitoring/pipeline/ HTTP/1.1" 200 16103
+WARNING 2025-10-31 11:07:56,861 basehttp 6572 11392 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 404 2011
+WARNING 2025-10-31 11:07:56,868 basehttp 6572 10676 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 404 2005
+INFO 2025-10-31 11:07:56,901 basehttp 6572 5500 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-31 11:07:59,518 basehttp 6572 5500 "GET /admin/monitoring/pipeline/add/ HTTP/1.1" 200 26557
+WARNING 2025-10-31 11:07:59,567 basehttp 6572 34004 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 404 2005
+WARNING 2025-10-31 11:07:59,567 basehttp 6572 19892 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 404 2011
+INFO 2025-10-31 11:07:59,590 basehttp 6572 5500 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+WARNING 2025-10-31 11:08:27,035 forms 6572 5500 Error processing GeoJSON file: argument 4: TypeError: wrong type
+INFO 2025-10-31 11:08:27,048 basehttp 6572 5500 "POST /admin/monitoring/pipeline/add/ HTTP/1.1" 302 0
+INFO 2025-10-31 11:08:27,116 basehttp 6572 5500 "GET /admin/monitoring/pipeline/ HTTP/1.1" 200 18729
+WARNING 2025-10-31 11:08:27,166 basehttp 6572 28612 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 404 2011
+WARNING 2025-10-31 11:08:27,171 basehttp 6572 37328 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 404 2005
+INFO 2025-10-31 11:08:27,193 basehttp 6572 5500 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-31 11:08:29,509 basehttp 6572 5500 "GET /admin/monitoring/pipeline/1ca58471-1706-480d-b3cb-e4ad2c6828d7/change/ HTTP/1.1" 200 27033
+WARNING 2025-10-31 11:08:29,553 basehttp 6572 5500 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 404 2011
+WARNING 2025-10-31 11:08:29,558 basehttp 6572 11112 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 404 2005
+INFO 2025-10-31 11:08:29,596 basehttp 6572 36612 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+WARNING 2025-10-31 11:09:05,767 forms 6572 36612 Error processing GeoJSON file: argument 4: TypeError: wrong type
+INFO 2025-10-31 11:09:05,784 basehttp 6572 36612 "POST /admin/monitoring/pipeline/1ca58471-1706-480d-b3cb-e4ad2c6828d7/change/ HTTP/1.1" 302 0
+INFO 2025-10-31 11:09:05,848 basehttp 6572 36612 "GET /admin/monitoring/pipeline/ HTTP/1.1" 200 18731
+WARNING 2025-10-31 11:09:05,892 basehttp 6572 36612 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 404 2011
+WARNING 2025-10-31 11:09:05,899 basehttp 6572 25456 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 404 2005
+INFO 2025-10-31 11:09:05,934 basehttp 6572 24432 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-31 11:09:07,287 basehttp 6572 24432 "GET /admin/monitoring/pipeline/1ca58471-1706-480d-b3cb-e4ad2c6828d7/change/ HTTP/1.1" 200 27033
+WARNING 2025-10-31 11:09:07,331 basehttp 6572 24432 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 404 2011
+WARNING 2025-10-31 11:09:07,337 basehttp 6572 13352 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 404 2005
+INFO 2025-10-31 11:09:07,371 basehttp 6572 33460 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-31 11:09:24,880 basehttp 6572 9904 "POST /api/auth/jwt/create/ HTTP/1.1" 200 489
+INFO 2025-10-31 11:09:24,922 basehttp 6572 9904 "GET /api/auth/users/me/ HTTP/1.1" 200 207
+INFO 2025-10-31 11:09:25,015 basehttp 6572 24904 "GET /api/satellite-images/ HTTP/1.1" 200 52
+INFO 2025-10-31 11:09:25,021 basehttp 6572 9904 "GET /api/pipelines/ HTTP/1.1" 200 455
+INFO 2025-10-31 11:09:25,058 basehttp 6572 24904 "GET /api/analysis-results/ HTTP/1.1" 200 52
+INFO 2025-10-31 11:09:25,061 basehttp 6572 9904 "GET /api/alerts/ HTTP/1.1" 200 52
+INFO 2025-10-31 11:10:39,397 basehttp 6572 33460 "GET /admin/monitoring/pipeline/ HTTP/1.1" 200 18471
+WARNING 2025-10-31 11:10:39,449 basehttp 6572 24708 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 404 2005
+WARNING 2025-10-31 11:10:39,455 basehttp 6572 31616 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 404 2011
+INFO 2025-10-31 11:10:39,476 basehttp 6572 33460 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-31 11:10:45,652 basehttp 6572 33460 "POST /admin/monitoring/pipeline/ HTTP/1.1" 200 13953
+WARNING 2025-10-31 11:10:45,693 basehttp 6572 33460 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 404 2011
+WARNING 2025-10-31 11:10:45,698 basehttp 6572 35988 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 404 2005
+INFO 2025-10-31 11:10:46,597 basehttp 6572 21236 "POST /admin/monitoring/pipeline/ HTTP/1.1" 302 0
+INFO 2025-10-31 11:10:46,652 basehttp 6572 21236 "GET /admin/monitoring/pipeline/ HTTP/1.1" 200 16241
+WARNING 2025-10-31 11:10:46,702 basehttp 6572 27368 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 404 2011
+WARNING 2025-10-31 11:10:46,702 basehttp 6572 23400 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 404 2005
+INFO 2025-10-31 11:10:46,717 basehttp 6572 21236 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-31 11:10:51,233 basehttp 6572 21236 "GET /admin/monitoring/pipeline/add/ HTTP/1.1" 200 26557
+WARNING 2025-10-31 11:10:51,280 basehttp 6572 21356 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 404 2005
+WARNING 2025-10-31 11:10:51,280 basehttp 6572 22344 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 404 2011
+INFO 2025-10-31 11:10:51,304 basehttp 6572 21236 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-31 11:11:15,587 basehttp 6572 21236 "POST /admin/monitoring/pipeline/add/ HTTP/1.1" 302 0
+INFO 2025-10-31 11:11:15,660 basehttp 6572 21236 "GET /admin/monitoring/pipeline/ HTTP/1.1" 200 18729
+WARNING 2025-10-31 11:11:15,698 basehttp 6572 29112 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 404 2005
+WARNING 2025-10-31 11:11:15,699 basehttp 6572 12992 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 404 2011
+INFO 2025-10-31 11:11:15,719 basehttp 6572 21236 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-31 11:11:17,896 basehttp 6572 21236 "GET /admin/monitoring/pipeline/ebea4129-2d0a-418f-86d8-e039d9a117e8/change/ HTTP/1.1" 200 28036
+WARNING 2025-10-31 11:11:17,947 basehttp 6572 8800 "GET /static/admin/css/pipeline_admin.css HTTP/1.1" 404 2011
+WARNING 2025-10-31 11:11:17,947 basehttp 6572 25420 "GET /static/admin/js/pipeline_admin.js HTTP/1.1" 404 2005
+INFO 2025-10-31 11:11:17,967 basehttp 6572 21236 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-31 11:11:44,194 basehttp 6572 9904 "GET /api/auth/users/me/ HTTP/1.1" 200 207
+INFO 2025-10-31 11:11:44,238 basehttp 6572 24904 "GET /api/auth/users/me/ HTTP/1.1" 200 207
+INFO 2025-10-31 11:11:44,312 basehttp 6572 9904 "GET /api/satellite-images/ HTTP/1.1" 200 52
+INFO 2025-10-31 11:11:44,318 basehttp 6572 24904 "GET /api/pipelines/ HTTP/1.1" 200 1006
+INFO 2025-10-31 11:11:44,356 basehttp 6572 9904 "GET /api/analysis-results/ HTTP/1.1" 200 52
+INFO 2025-10-31 11:11:44,358 basehttp 6572 9904 "OPTIONS /api/pipelines/ebea4129-2d0a-418f-86d8-e039d9a117e8/latest-image/ HTTP/1.1" 200 0
+INFO 2025-10-31 11:11:44,408 basehttp 6572 9904 "GET /api/pipelines/ebea4129-2d0a-418f-86d8-e039d9a117e8/latest-image/ HTTP/1.1" 204 2
+INFO 2025-10-31 11:11:44,463 basehttp 6572 24904 "GET /api/alerts/ HTTP/1.1" 200 52
+INFO 2025-10-31 11:12:56,349 basehttp 6572 24904 "GET /api/auth/users/me/ HTTP/1.1" 200 207
+INFO 2025-10-31 11:12:56,492 basehttp 6572 24904 "GET /api/auth/users/me/ HTTP/1.1" 200 207
+INFO 2025-10-31 11:12:56,534 basehttp 6572 24904 "GET /api/pipelines/ HTTP/1.1" 200 1006
+INFO 2025-10-31 11:12:56,586 basehttp 6572 24904 "GET /api/satellite-images/ HTTP/1.1" 200 52
+INFO 2025-10-31 11:12:56,700 basehttp 6572 17064 "GET /api/alerts/ HTTP/1.1" 200 52
+INFO 2025-10-31 11:12:56,741 basehttp 6572 24904 "GET /api/analysis-results/ HTTP/1.1" 200 52
+INFO 2025-10-31 11:12:56,751 basehttp 6572 30848 "GET /api/pipelines/ebea4129-2d0a-418f-86d8-e039d9a117e8/latest-image/ HTTP/1.1" 204 2
+INFO 2025-10-31 11:56:22,727 autoreload 6572 35296 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\serializers.py changed, reloading.
+INFO 2025-10-31 11:56:23,525 autoreload 28796 20452 Watching for file changes with StatReloader
+INFO 2025-10-31 12:00:05,622 autoreload 26660 8800 Watching for file changes with StatReloader
+INFO 2025-10-31 12:00:18,728 basehttp 26660 27368 "GET /api/auth/users/me/ HTTP/1.1" 200 207
+INFO 2025-10-31 12:00:18,761 basehttp 26660 37604 "GET /api/auth/users/me/ HTTP/1.1" 200 207
+INFO 2025-10-31 12:00:18,816 basehttp 26660 6976 "GET /api/alerts/ HTTP/1.1" 200 52
+INFO 2025-10-31 12:00:18,819 basehttp 26660 27368 "GET /api/satellite-images/ HTTP/1.1" 200 52
+INFO 2025-10-31 12:00:18,820 basehttp 26660 22924 "GET /api/analysis-results/ HTTP/1.1" 200 52
+INFO 2025-10-31 12:00:18,832 basehttp 26660 37604 "GET /api/pipelines/ HTTP/1.1" 200 987
+INFO 2025-10-31 12:00:18,982 basehttp 26660 37604 "GET /api/pipelines/ebea4129-2d0a-418f-86d8-e039d9a117e8/latest-image/ HTTP/1.1" 204 2
+INFO 2025-10-31 12:01:16,512 autoreload 26660 8800 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\serializers.py changed, reloading.
+INFO 2025-10-31 12:01:17,202 autoreload 23804 28596 Watching for file changes with StatReloader
+INFO 2025-10-31 12:01:18,533 autoreload 23804 28596 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\serializers.py changed, reloading.
+INFO 2025-10-31 12:01:19,190 autoreload 26548 6700 Watching for file changes with StatReloader
+INFO 2025-10-31 12:01:21,714 autoreload 26548 6700 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\serializers.py changed, reloading.
+INFO 2025-10-31 12:01:22,349 autoreload 23580 9064 Watching for file changes with StatReloader
+INFO 2025-10-31 12:18:51,838 autoreload 23580 9064 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\forms.py changed, reloading.
+INFO 2025-10-31 12:18:52,572 autoreload 14620 19280 Watching for file changes with StatReloader
+INFO 2025-10-31 12:19:02,493 autoreload 14620 19280 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\forms.py changed, reloading.
+INFO 2025-10-31 12:19:03,206 autoreload 20236 17900 Watching for file changes with StatReloader
+INFO 2025-10-31 12:19:26,609 autoreload 20236 17900 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\forms.py changed, reloading.
+INFO 2025-10-31 12:19:27,297 autoreload 17332 12832 Watching for file changes with StatReloader
+INFO 2025-10-31 12:20:04,916 autoreload 17332 12832 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\forms.py changed, reloading.
+INFO 2025-10-31 12:20:05,682 autoreload 34580 33228 Watching for file changes with StatReloader
+INFO 2025-10-31 12:22:17,182 autoreload 34580 33228 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\serializers.py changed, reloading.
+INFO 2025-10-31 12:22:17,964 autoreload 30808 5356 Watching for file changes with StatReloader
+INFO 2025-10-31 12:22:23,506 autoreload 30808 5356 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\serializers.py changed, reloading.
+INFO 2025-10-31 12:22:24,144 autoreload 11144 33988 Watching for file changes with StatReloader
+INFO 2025-10-31 12:22:25,486 autoreload 11144 33988 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\serializers.py changed, reloading.
+INFO 2025-10-31 12:22:26,121 autoreload 26364 17632 Watching for file changes with StatReloader
+INFO 2025-10-31 12:23:25,538 autoreload 26364 17632 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\serializers.py changed, reloading.
+INFO 2025-10-31 12:23:26,211 autoreload 36668 11628 Watching for file changes with StatReloader
+INFO 2025-10-31 12:27:15,217 autoreload 36668 11628 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\forms.py changed, reloading.
+INFO 2025-10-31 12:27:15,942 autoreload 31284 6308 Watching for file changes with StatReloader
+INFO 2025-10-31 12:35:45,189 autoreload 31284 6308 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\models.py changed, reloading.
+INFO 2025-10-31 12:35:45,945 autoreload 17792 5580 Watching for file changes with StatReloader
+INFO 2025-10-31 12:35:49,536 autoreload 17792 5580 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\models.py changed, reloading.
+INFO 2025-10-31 12:35:50,187 autoreload 35200 2540 Watching for file changes with StatReloader
+INFO 2025-10-31 12:36:39,833 autoreload 35200 2540 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\models.py changed, reloading.
+INFO 2025-10-31 12:36:40,645 autoreload 22100 10904 Watching for file changes with StatReloader
+INFO 2025-10-31 12:37:22,878 autoreload 22100 10904 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\serializers.py changed, reloading.
+INFO 2025-10-31 12:37:23,576 autoreload 7820 30308 Watching for file changes with StatReloader
+INFO 2025-10-31 12:48:30,435 autoreload 7820 30308 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\models.py changed, reloading.
+INFO 2025-10-31 12:48:31,200 autoreload 26256 15484 Watching for file changes with StatReloader
+INFO 2025-10-31 12:48:32,718 autoreload 26256 15484 C:\Users\USER\Desktop\projects\pipeline_monit\server\monitoring\models.py changed, reloading.
+INFO 2025-10-31 12:48:33,329 autoreload 9112 20624 Watching for file changes with StatReloader

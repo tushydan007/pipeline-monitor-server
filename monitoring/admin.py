@@ -1,6 +1,8 @@
 from django.contrib import admin
 from django.contrib.gis.admin import GISModelAdmin
 from django.utils.html import format_html
+from django.contrib import messages
+from django.contrib.gis.geos import Point, LineString
 from .models import (
     Pipeline,
     SatelliteImage,
@@ -11,19 +13,21 @@ from .models import (
     ActivityLog,
     SystemSettings,
 )
+from .forms import PipelineGeoJSONUploadForm
 
 
 @admin.register(Pipeline)
 class PipelineAdmin(GISModelAdmin):
+    form = PipelineGeoJSONUploadForm
     list_display = ["name", "length_km", "material", "status", "created_at"]
     list_filter = ["status", "material", "created_at"]
     search_fields = ["name", "description"]
     readonly_fields = ["id", "created_at", "updated_at"]
 
-    # Map configuration - Port Harcourt, Nigeria (Niger Delta region)
-    default_lat = 4.8156
-    default_lon = 7.0498
-    default_zoom = 11
+    # Map configuration - Nigeria center
+    default_lat = 9.0820
+    default_lon = 8.6753
+    default_zoom = 7
     map_width = 900
     map_height = 600
 
@@ -43,10 +47,18 @@ class PipelineAdmin(GISModelAdmin):
             },
         ),
         (
+            "GeoJSON Upload (Alternative to Manual Entry)",
+            {
+                "fields": ("geojson_file",),
+                "description": "Upload a GeoJSON file containing a LineString geometry. This will automatically populate the geographic fields below. You can also manually set points on the map instead.",
+                "classes": ("collapse",),
+            },
+        ),
+        (
             "Geographic Information",
             {
                 "fields": ("start_point", "end_point", "route"),
-                "description": "These fields are optional. You can add geographic data later.",
+                "description": "These fields are optional. You can either upload a GeoJSON file above OR manually set points on the map below.",
                 "classes": ("wide",),
             },
         ),
@@ -81,6 +93,13 @@ class SatelliteImageAdmin(GISModelAdmin):
     ]
     search_fields = ["satellite_name", "sensor", "api_image_id", "user__email"]
     readonly_fields = ["id", "created_at", "updated_at", "image_preview"]
+
+    # Map configuration - Nigeria center
+    default_lat = 9.0820
+    default_lon = 8.6753
+    default_zoom = 7
+    map_width = 900
+    map_height = 600
 
     fieldsets = (
         (
@@ -117,6 +136,92 @@ class SatelliteImageAdmin(GISModelAdmin):
 
     image_preview.short_description = "Preview"
 
+    actions = ["derive_pipeline_route_from_image"]
+
+    def derive_pipeline_route_from_image(self, request, queryset):
+        """Admin action to derive a pipeline route (start, mid, end) from a TIFF's geo-bounds/center.
+
+        Heuristic:
+        - start: SW corner of image bounds
+        - mid: image center (center_point)
+        - end: NE corner of image bounds
+        Updates the related Pipeline's start_point, end_point and route.
+        """
+        updated = 0
+        skipped = 0
+        for img in queryset:
+            try:
+                pipeline = getattr(img, "pipeline", None)
+                if pipeline is None:
+                    skipped += 1
+                    continue
+                # Require at least bounds or center to exist
+                if not img.bounds and not img.center_point:
+                    skipped += 1
+                    continue
+
+                # Derive corners from bounds when available
+                start_pt = None
+                end_pt = None
+                mid_pt = None
+
+                if img.bounds:
+                    # bounds.extent: (minx, miny, maxx, maxy) => (west, south, east, north)
+                    west, south, east, north = img.bounds.extent
+                    start_pt = Point(west, south)
+                    end_pt = Point(east, north)
+
+                if img.center_point:
+                    mid_pt = Point(img.center_point.x, img.center_point.y)
+
+                # Fallbacks if some pieces missing
+                if mid_pt is None and img.bounds:
+                    mid_pt = Point((west + east) / 2.0, (south + north) / 2.0)
+                if start_pt is None and img.center_point:
+                    # Approximate ~0.01 degrees SW from center
+                    start_pt = Point(
+                        img.center_point.x - 0.01, img.center_point.y - 0.01
+                    )
+                if end_pt is None and img.center_point:
+                    # Approximate ~0.01 degrees NE from center
+                    end_pt = Point(img.center_point.x + 0.01, img.center_point.y + 0.01)
+
+                if not (start_pt and end_pt):
+                    skipped += 1
+                    continue
+
+                # Update pipeline geometry
+                pipeline.start_point = start_pt
+                pipeline.end_point = end_pt
+
+                if mid_pt:
+                    pipeline.route = LineString([start_pt, mid_pt, end_pt])
+                else:
+                    pipeline.route = LineString([start_pt, end_pt])
+
+                pipeline.save()
+                updated += 1
+            except Exception:
+                skipped += 1
+                continue
+
+        if updated:
+            self.message_user(
+                request,
+                f"Updated pipeline geometry for {updated} image(s).",
+                level=messages.SUCCESS,
+            )
+        if skipped:
+            self.message_user(
+                request,
+                f"Skipped {skipped} image(s) due to missing bounds/center or pipeline.",
+                level=messages.WARNING,
+            )
+
+    derive_pipeline_route_from_image.short_description = (
+        "Derive pipeline route from selected image(s)"
+    )
+
 
 @admin.register(AnalysisResult)
 class AnalysisResultAdmin(GISModelAdmin):
@@ -124,6 +229,13 @@ class AnalysisResultAdmin(GISModelAdmin):
     list_filter = ["severity", "status", "created_at"]
     search_fields = ["description"]
     readonly_fields = ["id", "created_at", "updated_at"]
+
+    # Map configuration - Nigeria center
+    default_lat = 9.0820
+    default_lon = 8.6753
+    default_zoom = 7
+    map_width = 900
+    map_height = 600
 
     fieldsets = (
         (
@@ -182,6 +294,13 @@ class PipelineSegmentAdmin(GISModelAdmin):
     list_filter = ["risk_level", "terrain_type", "pipeline"]
     search_fields = ["segment_name", "pipeline__name"]
     readonly_fields = ["id", "created_at", "updated_at"]
+
+    # Map configuration - Nigeria center
+    default_lat = 9.0820
+    default_lon = 8.6753
+    default_zoom = 7
+    map_width = 900
+    map_height = 600
 
     fieldsets = (
         (
@@ -282,6 +401,7 @@ class SystemSettingsAdmin(admin.ModelAdmin):
                     "site_description",
                     "timezone",
                     "language",
+                    "theme",
                 )
             },
         ),
@@ -347,4 +467,4 @@ class SystemSettingsAdmin(admin.ModelAdmin):
 # Customize admin site
 admin.site.site_header = "Pipeline Monitoring System"
 admin.site.site_title = "Pipeline Monitoring Admin"
-admin.site.index_title = "Welcome to Pipeline Monitoring Administration"
+admin.site.index_title = "Welcome to Flow Safe Administration"
